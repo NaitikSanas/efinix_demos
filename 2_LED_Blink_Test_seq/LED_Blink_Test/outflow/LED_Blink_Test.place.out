@@ -1,0 +1,172 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Compiled: Jun 25 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/LED_Blink_Test.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.000878 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 14.328 MB, end = 14.328 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 77.968 MB
+VDB Netlist Checker resident set memory usage: begin = 22.672 MB, end = 22.856 MB, delta = 0.184 MB
+	VDB Netlist Checker peak resident set memory usage = 61.316 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv'.
+Successfully processed interface constraints file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/LED_Blink_Test.vdb".
+Netlist pre-processing took 0.0385259 seconds.
+	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 14.3 MB, end = 15.488 MB, delta = 1.188 MB
+	Netlist pre-processing peak virtual memory usage = 77.968 MB
+Netlist pre-processing resident set memory usage: begin = 22.424 MB, end = 24.028 MB, delta = 1.604 MB
+	Netlist pre-processing peak resident set memory usage = 61.316 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.net_proto" took 0.002 seconds
+Creating IO constraints file 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.io_place'
+Packing took 0.0065464 seconds.
+	Packing took 0.015625 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 30.552 MB, end = 30.552 MB, delta = 0 MB
+	Packing peak virtual memory usage = 77.968 MB
+Packing resident set memory usage: begin = 38.976 MB, end = 39.22 MB, delta = 0.244 MB
+	Packing peak resident set memory usage = 61.316 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.net_proto
+Read proto netlist for file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.002 seconds
+Packed netlist loading took 0.018463 seconds.
+	Packed netlist loading took 0.015625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 30.552 MB, end = 31.116 MB, delta = 0.564 MB
+	Packed netlist loading peak virtual memory usage = 77.968 MB
+Packed netlist loading resident set memory usage: begin = 39.228 MB, end = 39.912 MB, delta = 0.684 MB
+	Packed netlist loading peak resident set memory usage = 78.948 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv'.
+Successfully processed interface constraints file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv".
+Writing IO placement constraints to 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow\LED_Blink_Test.interface.io'.
+
+Reading placement constraints from 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow\LED_Blink_Test.interface.io'.
+
+Reading placement constraints from 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.io_place'.
+WARNING(1): Clock driver clk should use the dedicated clock pad.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+NumRegions 1
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1          63            -976        61.6%
+          2          54            -976        71.0%
+          3          46            -976        83.1%
+          4          43            -976        87.8%
+          5          42            -976        90.0%
+          6          40            -976        92.1%
+          7          38            -976        94.6%
+          8          39            -976        95.0%
+          9          38            -976        97.0%
+         10          38            -976        98.1%
+         11          39            -976        98.1%
+         12          39            -976        99.3%
+         13          39           -1418        99.5%
+         14          39           -1418        99.5%
+         15          39           -1418       100.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0          38            2460        30.0
+          1          53            2268        30.0
+          2          88            2268        30.0
+          3          91            2268        30.0
+          4          56            2268        30.0
+          5          55            2268        30.0
+          6          71            2268        30.0
+          7          76            2268        30.0
+          8          64            2268        30.0
+          9          66            2268        30.0
+         10          56            2268        30.0
+         11          60            2268        30.0
+         12          47            2268        30.0
+         13          53            2268        30.0
+         14          56            2268        30.0
+         15          49            2268        30.0
+         16          56            2268        30.0
+         17          50            2268        30.0
+         18          53            2268        30.0
+         19          50            2268        30.0
+         20          57            2268        30.0
+         21          51            2268        30.0
+         22          48            2268        30.0
+         23          47            2268        30.0
+         24          50            2268        30.0
+         25          48            2268        30.0
+         26          45            2268        30.0
+         27          51            2268        30.0
+         28          54            2268        30.0
+         29          50            2268        30.0
+         30          42            2268        30.0
+         31          47            2268        30.0
+         32          48            2268        30.0
+         33          46            2268        30.0
+         34          48            2268        30.0
+         35          43            2268        30.0
+         36          48            2268        30.0
+         37          42            2268        30.0
+         38          42            2268        30.0
+         39          41            2268        30.0
+         40          43            2268        30.0
+         41          42            2268        30.0
+         42          41            2268        30.0
+         43          41            2268        30.0
+         44          44            2268        30.0
+         45          46            2268        30.0
+         46          41            2268        30.0
+         47          40            2268        30.0
+Placement successful: 37 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.000552379 at 338,643
+Congestion-weighted HPWL per net: 0.603941
+
+Reading placement constraints from 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.qplace'.
+Finished Realigning Types (7 blocks needed type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 2.1456 ns
+Successfully created FPGA place file 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.place'
+Placement took 20.8623 seconds.
+	Placement took 15.3281 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 31.116 MB, end = 47.928 MB, delta = 16.812 MB
+	Placement peak virtual memory usage = 632.1 MB
+Placement resident set memory usage: begin = 39.92 MB, end = 54.004 MB, delta = 14.084 MB
+	Placement peak resident set memory usage = 624.908 MB
+***** Ending stage placement *****

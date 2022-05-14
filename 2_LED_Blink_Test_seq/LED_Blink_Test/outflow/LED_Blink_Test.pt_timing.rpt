@@ -1,0 +1,39 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.1.165
+Date: 2022-05-13 13:54
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T85F324
+Project: LED_Blink_Test
+Timing Model: C4 (final)
+
+---------- 1. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|   sys_clk_in  |   clk    |  GPIO_IN  |  1.476   |  0.738   |
++---------------+----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 2. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|     led[0]    |  led[0]  |  GPIO_OUT |  3.542   |  1.771   |
+|     led[1]    |  led[1]  |  GPIO_OUT |  3.542   |  1.771   |
+|     led[2]    |  led[2]  |  GPIO_OUT |  3.542   |  1.771   |
+|     led[3]    |  led[3]  |  GPIO_OUT |  3.542   |  1.771   |
++---------------+----------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------

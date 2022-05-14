@@ -1,0 +1,729 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:31:56
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 24 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 74.64
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 24 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	20
+[EFX-0000 INFO] EFX_FF          : 	21
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:51:12
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 24 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 74.64
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 24 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	20
+[EFX-0000 INFO] EFX_FF          : 	21
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:14:46
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0010 VERI-ERROR] index 24 is out of range [23:0] for 'cnt' (VERI-1216) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:8)
+[EFX-0012 VERI-INFO] module 'top' remains a black box due to errors in its contents (VERI-1073) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0021 ERROR] Verific elaboration of module '' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:15:02
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 25 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 77.95
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	24
+[EFX-0000 INFO] EFX_FF          : 	25
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 14:45:18
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 25 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 77.95
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	24
+[EFX-0000 INFO] EFX_FF          : 	25
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:46:58
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 25 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 2s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 77.37
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 1s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	22
+[EFX-0000 INFO] EFX_FF          : 	23
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:48:50
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/EFFINIX/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:1)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (D:/EFFINIX/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 25 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 77.37
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	22
+[EFX-0000 INFO] EFX_FF          : 	23
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 13:53:03
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v:1) compiling module 'top' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 WARNING] (G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 25 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 3 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 7, ed: 20, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	22
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	26
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 13:53:48
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v:1) compiling module 'top' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Efinity/2021.1/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 WARNING] (G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clk with 25 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 3 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 7, ed: 20, lv: 2
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	22
+[EFX-0000 INFO] EFX_LUT4        : 	11
+[EFX-0000 INFO] EFX_FF          : 	26
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

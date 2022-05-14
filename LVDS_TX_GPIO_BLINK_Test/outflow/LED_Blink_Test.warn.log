@@ -1,0 +1,203 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:31:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:51:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:14:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:15:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 14:45:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:46:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:48:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 09:56:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 09:57:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 09:59:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 10:06:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 10:36:52
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:6) literal value 'hFFF000FFF truncated to fit in 24 bits (VERI-1208)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:46:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:46:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:8) literal value 'hFFF000FFF truncated to fit in 24 bits (VERI-1208)
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:29) literal value 'b100 truncated to fit in 2 bits (VERI-1208)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:47:19
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:27) literal value 'b100 truncated to fit in 2 bits (VERI-1208)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:47:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:27) literal value 'b100 truncated to fit in 2 bits (VERI-1208)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:48:14
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:27) literal value 'b100 truncated to fit in 2 bits (VERI-1208)
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_29' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:48:48
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:27) literal value 'b100 truncated to fit in 2 bits (VERI-1208)
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_29' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:51:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:27) literal value 'b100 truncated to fit in 2 bits (VERI-1208)
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:57:05
+///////////////////////////////////
+
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 08:37:23
+///////////////////////////////////
+
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 14:57:36
+///////////////////////////////////
+
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 15:38:14
+///////////////////////////////////
+
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 16:16:03
+///////////////////////////////////
+
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 15:53:54
+///////////////////////////////////
+
+[EFX-0031 WARNING] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:26:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:53:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:55:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:56:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 17:02:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 17:02:33
+///////////////////////////////////
+

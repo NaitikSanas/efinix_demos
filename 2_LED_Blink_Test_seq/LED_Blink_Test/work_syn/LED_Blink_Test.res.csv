@@ -1,0 +1,7 @@
+Module Resource Usage Distribution Estimates
+Generated at: May 13, 2022 13:53:48
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+top:top 	     26(26)	     22(22)	     11(11)	     0(0)	     0(0)	

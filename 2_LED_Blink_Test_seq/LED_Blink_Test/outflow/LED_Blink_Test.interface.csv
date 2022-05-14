@@ -1,0 +1,13 @@
+
+# Efinity Interface Configuration
+# Version: 2021.1.165
+# Date: 2022-05-13 13:54
+
+# Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+input, 338, 9, 1, __bypass__, clk
+output, 323, 643, 0, __bypass__, led[0]
+output, 322, 643, 0, __bypass__, led[1]
+output, 308, 643, 0, __bypass__, led[2]
+output, 307, 643, 0, __bypass__, led[3]

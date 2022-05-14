@@ -1,0 +1,203 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:31:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:51:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:14:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 24 is out of range [23:0] for 'cnt' (VERI-1216) (D:/EFFINIX\project\LED_Blink_Test\led_blink_top.v:8)
+[EFX-0021 ERROR] Verific elaboration of module '' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:15:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 14:45:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:46:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:48:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 09:56:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 09:57:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 09:59:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 10:06:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 10:36:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:46:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:2) syntax error near ';' (VERI-1137)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:46:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:9) 'cnt' is not a constant (VERI-1188)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:33) module 'top' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:47:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:7) 'cnt' is not a constant (VERI-1188)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:31) module 'top' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:47:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:7) 'cnt' is not a constant (VERI-1188)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:31) module 'top' ignored due to previous errors (VERI-1072)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:48:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:48:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:51:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2022 11:57:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 08:37:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 14:57:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 15:38:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 11, 2022 16:16:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 15:53:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:26:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:53:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) syntax error near 'output' (VERI-1137)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) Verilog 2000 keyword output used in incorrect context (VERI-2344)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:55:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) syntax error near 'output' (VERI-1137)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) Verilog 2000 keyword output used in incorrect context (VERI-2344)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 16:56:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) syntax error near 'output' (VERI-1137)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) Verilog 2000 keyword output used in incorrect context (VERI-2344)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 17:02:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) syntax error near 'output' (VERI-1137)
+[EFX-0010 VERI-ERROR] (K:/1_VAAMAN\New folder\LED_Blink_Test\LED_Blink_Test\led_blink_top.v:4) Verilog 2000 keyword output used in incorrect context (VERI-2344)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 17:02:33
+///////////////////////////////////
+

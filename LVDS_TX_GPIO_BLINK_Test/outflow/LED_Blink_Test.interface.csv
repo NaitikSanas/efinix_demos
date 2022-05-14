@@ -1,0 +1,53 @@
+
+# Efinity Interface Configuration
+# Version: 2021.1.165
+# Date: 2022-05-12 17:03
+
+# Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+output, 307, 643, 0, __bypass__, blink[0]
+output, 322, 643, 0, __bypass__, blink[1]
+output, 323, 643, 0, __bypass__, blink[2]
+output, 308, 643, 0, __bypass__, blink[3]
+input, 338, 9, 1, __bypass__, clk
+output, 8, 0, 0, __bypass__, led[0]
+output, 14, 0, 0, __bypass__, led[1]
+output, 20, 0, 0, __bypass__, led[2]
+output, 26, 0, 0, __bypass__, led[3]
+output, 32, 0, 0, __bypass__, led[4]
+output, 38, 0, 0, __bypass__, led[5]
+output, 44, 0, 0, __bypass__, led[6]
+output, 62, 0, 0, __bypass__, led[7]
+output, 50, 0, 0, __bypass__, led[8]
+output, 56, 0, 0, __bypass__, led[9]
+output, 68, 0, 0, __bypass__, led[10]
+output, 74, 0, 0, __bypass__, led[11]
+output, 80, 0, 0, __bypass__, led[12]
+output, 86, 0, 0, __bypass__, led[13]
+output, 92, 0, 0, __bypass__, led[14]
+output, 98, 0, 0, __bypass__, led[15]
+output, 104, 0, 0, __bypass__, led[16]
+output, 110, 0, 0, __bypass__, led[17]
+output, 116, 0, 0, __bypass__, led[18]
+output, 122, 0, 0, __bypass__, led[19]
+output, 7, 0, 0, __bypass__, led[20]
+output, 13, 0, 0, __bypass__, led[21]
+output, 19, 0, 0, __bypass__, led[22]
+output, 25, 0, 0, __bypass__, led[23]
+output, 31, 0, 0, __bypass__, led[24]
+output, 37, 0, 0, __bypass__, led[25]
+output, 43, 0, 0, __bypass__, led[26]
+output, 49, 0, 0, __bypass__, led[27]
+output, 55, 0, 0, __bypass__, led[28]
+output, 61, 0, 0, __bypass__, led[29]
+output, 67, 0, 0, __bypass__, led[30]
+output, 73, 0, 0, __bypass__, led[31]
+output, 79, 0, 0, __bypass__, led[32]
+output, 85, 0, 0, __bypass__, led[33]
+output, 91, 0, 0, __bypass__, led[34]
+output, 97, 0, 0, __bypass__, led[35]
+output, 103, 0, 0, __bypass__, led[36]
+output, 109, 0, 0, __bypass__, led[37]
+output, 115, 0, 0, __bypass__, led[38]
+output, 121, 0, 0, __bypass__, led[39]

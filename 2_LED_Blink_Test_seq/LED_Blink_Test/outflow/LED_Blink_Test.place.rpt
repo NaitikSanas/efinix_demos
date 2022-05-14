@@ -1,0 +1,24 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Date: Fri May 13 13:54:16 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T85F324
+Top-level Entity Name: LED_Blink_Test
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 1 / 1108 (0.09%)
+Outputs: 4 / 1263 (0.32%)
+Clocks: 2 / 16 (12.50%)
+Logic Elements: 37 / 84096 (0.04%)
+	LE: LUTs/Adders: 35 / 84096 (0.04%)
+	LE: Registers: 26 / 84096 (0.03%)
+Memory Blocks: 0 / 792 (0.00%)
+Multipliers: 0 / 240 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 20 seconds

@@ -1,0 +1,49 @@
+Netlist file: G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.net   Architecture file: C:/Efinity/2021.1/arch/./arch_oph_337x642_b33_d10.xml
+Array size: 337 x 642 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+led_cnt[1]~FF	322	639	0	#0
+led_cnt[0]~FF	328	639	0	#1
+cnt[0]~FF	2	297	0	#2
+led_cnt[2]~FF	330	639	0	#3
+cnt[1]~FF	2	298	0	#4
+cnt[2]~FF	2	299	0	#5
+cnt[3]~FF	2	300	0	#6
+cnt[4]~FF	2	301	0	#7
+cnt[5]~FF	2	302	0	#8
+cnt[6]~FF	2	303	0	#9
+cnt[7]~FF	2	304	0	#10
+cnt[8]~FF	2	305	0	#11
+cnt[9]~FF	2	306	0	#12
+cnt[10]~FF	2	307	0	#13
+cnt[11]~FF	2	308	0	#14
+cnt[12]~FF	2	309	0	#15
+cnt[13]~FF	2	310	0	#16
+cnt[14]~FF	2	311	0	#17
+cnt[15]~FF	2	312	0	#18
+cnt[16]~FF	2	313	0	#19
+cnt[17]~FF	2	314	0	#20
+cnt[18]~FF	2	315	0	#21
+cnt[19]~FF	2	316	0	#22
+cnt[20]~FF	2	317	0	#23
+cnt[21]~FF	2	318	0	#24
+cnt[22]~FF	2	319	0	#25
+clk		338	9	1	#26
+led[3]		307	643	0	#27
+led[2]		308	643	0	#28
+led[1]		322	643	0	#29
+led[0]		323	643	0	#30
+VCC		148	369	0	#31
+GND		314	28	0	#32
+dlatchrs_32/i3	318	639	0	#33
+dlatchrs_32/i4	320	640	0	#34
+LUT__249	325	639	0	#35
+LUT__250	323	639	0	#36
+LUT__252	324	638	0	#37
+LUT__253	323	638	0	#38
+LUT__254	324	637	0	#39
+dlatchrs_32/i1	323	640	0	#40
+dlatchrs_32/i2	322	640	0	#41
+CLKBUF__1	1	318	0	#42
+CLKBUF__0	1	319	0	#43

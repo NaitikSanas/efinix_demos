@@ -1,0 +1,86 @@
+Synthesis report for project LED_Blink_Test
+Generated at: May 13, 2022 13:53:48
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : top
+### ### File List (begin) ### ### ###
+G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 1
+Enable signal <vcc>, number of controlling flip flops: 26
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF instance: cnt[23]~FF(unreachable)
+FF instance: cnt[24]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module           FFs        ADDs        LUTs      RAMs DSP/MULTs
+--------         ---        ----        ----      ---- ---------
+top:top       26(26)      22(22)      11(11)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+   Clock     Flip-Flops   Memory Ports    Multipliers
+   -----     ----------   ------------    -----------
+ cnt[22]              3              0              0
+     clk             23              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T85F324
+project : LED_Blink_Test
+project-xml : G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/LED_Blink_Test.xml
+root : top
+I : G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test
+output-dir : G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow
+work-dir : G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_syn
+write-efx-verilog : G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.map.v
+binary-db : G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/LED_Blink_Test.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	1
+OUTPUT PORTS    : 	4
+
+EFX_ADD         : 	22
+EFX_LUT4        : 	11
+   1-2  Inputs  : 	1
+   3    Inputs  : 	10
+   4    Inputs  : 	0
+EFX_FF          : 	26
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 0s

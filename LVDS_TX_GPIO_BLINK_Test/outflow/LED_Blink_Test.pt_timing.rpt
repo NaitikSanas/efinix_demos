@@ -1,0 +1,91 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.1.165
+Date: 2022-05-12 17:03
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T85F324
+Project: LED_Blink_Test
+Timing Model: C4 (final)
+
+---------- 1. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|   sys_clk_in  |   clk    |  GPIO_IN  |  1.476   |  0.738   |
++---------------+----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 2. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|    blink[0]   | blink[0] |  GPIO_OUT |  3.542   |  1.771   |
+|    blink[1]   | blink[1] |  GPIO_OUT |  3.542   |  1.771   |
+|    blink[2]   | blink[2] |  GPIO_OUT |  3.542   |  1.771   |
+|    blink[3]   | blink[3] |  GPIO_OUT |  3.542   |  1.771   |
++---------------+----------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 3. LVDS Tx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|     led[0]    |  led[0]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[1]    |  led[1]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[2]    |  led[2]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[3]    |  led[3]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[4]    |  led[4]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[5]    |  led[5]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[6]    |  led[6]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[7]    |  led[7]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[8]    |  led[8]  |  GPIO_OUT |  3.658   |  1.829   |
+|     led[9]    |  led[9]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[10]    | led[10]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[11]    | led[11]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[12]    | led[12]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[13]    | led[13]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[14]    | led[14]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[15]    | led[15]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[16]    | led[16]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[17]    | led[17]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[18]    | led[18]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[19]    | led[19]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[20]    | led[20]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[21]    | led[21]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[22]    | led[22]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[23]    | led[23]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[24]    | led[24]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[25]    | led[25]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[26]    | led[26]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[27]    | led[27]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[28]    | led[28]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[29]    | led[29]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[30]    | led[30]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[31]    | led[31]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[32]    | led[32]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[33]    | led[33]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[34]    | led[34]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[35]    | led[35]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[36]    | led[36]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[37]    | led[37]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[38]    | led[38]  |  GPIO_OUT |  3.658   |  1.829   |
+|    led[39]    | led[39]  |  GPIO_OUT |  3.658   |  1.829   |
++---------------+----------+-----------+----------+----------+
+
+---------- LVDS Tx Timing Report (end) ----------

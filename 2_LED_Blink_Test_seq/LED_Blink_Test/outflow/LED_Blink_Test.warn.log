@@ -1,0 +1,56 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:31:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 09:51:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:14:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 10:15:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 14:45:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:46:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2022 18:48:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 13:53:03
+///////////////////////////////////
+
+[EFX-0031 WARNING] (G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 13:53:48
+///////////////////////////////////
+
+[EFX-0031 WARNING] (G:/Harit\Harit\1_Project Resources\Sparrow\Project documents\HARDWARE\FPGA\Programming\fpga codes\2_LED_Blink_Test_seq\LED_Blink_Test\led_blink_top.v:28) 'mux_31' instance is encountered with don't-care(1'bx) input, rewiring to GND.

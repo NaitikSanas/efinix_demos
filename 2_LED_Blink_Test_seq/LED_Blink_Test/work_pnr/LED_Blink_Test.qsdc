@@ -1,0 +1,32 @@
+clock {
+  name: "cnt[22]"
+  period: 1000
+  target_pin {
+    cell: "cnt[22]~FF"
+    port: "O_seq"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "clk"
+  period: 1000
+  target_pin {
+    cell: "clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "virtual_io_clock"
+  period: 1000
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}

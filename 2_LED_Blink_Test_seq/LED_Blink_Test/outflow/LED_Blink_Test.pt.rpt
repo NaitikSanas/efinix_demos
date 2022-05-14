@@ -1,0 +1,206 @@
+
+Efinity Interface Designer Report
+Version: 2021.1.165
+Date: 2022-05-13 13:54
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T85F324
+Project: LED_Blink_Test
+
+Package: 324-ball FBGA (final)
+Timing Model: C4 (final)
+Configuration Mode: active (x1)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. MIPI Rx Usage Summary
+   12. MIPI Tx Usage Summary
+   13. Clock Mux Usage Summary
+   14. Configuration Control Usage Summary
+   15. JTAG Usage Summary
+   16. DDR Usage Summary
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 0 / 1 (0.0%)
+ddr: 0 / 1 (0.0%)
+gpio: 1 / 38 (2.63%)
+jtag: 0 / 4 (0.0%)
+lvds_bg: 0 / 2 (0.0%)
+lvds_rx: 2.0 / 26 (7.69%)
+	gpio: 4
+lvds_tx: 0 / 20 (0.0%)
+mipi_rx: 0 / 2 (0.0%)
+mipi_tx: 0 / 2 (0.0%)
+pll: 0 / 7 (0.0%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: LED_Blink_Test.interface.csv
+Peripheral Block Configuration: LED_Blink_Test.lpf
+Pinout Report: LED_Blink_Test.pinout.rpt
+Pinout CSV: LED_Blink_Test.pinout.csv
+Timing Report: LED_Blink_Test.pt_timing.rpt
+Timing SDC Template: LED_Blink_Test.pt.sdc
+Verilog Template: LED_Blink_Test_template.v
+Option Register File: LED_Blink_Test_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++-------------+-------------+
+|   I/O Bank  | I/O Voltage |
++-------------+-------------+
+|      1A     |    3.3 V    |
+|    1B_1C    |    3.3 V    |
+| 1D_1E_1F_1G |    3.3 V    |
+|      2D     |    3.3 V    |
+|      2E     |    3.3 V    |
+|      2F     |    3.3 V    |
+|      3A     |    1.2 V    |
+|      3B     |    1.2 V    |
+|   3D_TR_BR  |    3.3 V    |
+|      3E     |    1.5 V    |
+|      4E     |    3.3 V    |
+|      4F     |    3.3 V    |
+|      BL     |    1.2 V    |
+|      TL     |    1.2 V    |
++-------------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
+No global connection was found in project.
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      0/16      |
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      L3      |      0/4       |
+|      L7      |      0/4       |
+|      R0      |      0/4       |
+|      R2      |      0/4       |
+|      R3      |      0/4       |
+|      R4      |      0/4       |
+|      R6      |      0/4       |
+|      R7      |      0/4       |
+|      T       |      0/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
+No instance using dual-function configuration pin.
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+-------------+--------+----------+--------------+----------+----------------------+------------------+-------------+
+| Instance Name |   Resource  |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |     Pad Name     | Package Pin |
++---------------+-------------+--------+----------+--------------+----------+----------------------+------------------+-------------+
+|     led[0]    | GPIOT_RXN27 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |   GPIOT_RXN27    |     B11     |
+|     led[1]    | GPIOT_RXP27 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |   GPIOT_RXP27    |     A11     |
+|     led[2]    | GPIOT_RXN24 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |   GPIOT_RXN24    |     B12     |
+|     led[3]    | GPIOT_RXP24 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |   GPIOT_RXP24    |     A12     |
+|   sys_clk_in  |  GPIOR_186  | input  |          |              | 3D_TR_BR | 3.3 V LVTTL / LVCMOS | GPIOR_186_PLLIN0 |      U8     |
++---------------+-------------+--------+----------+--------------+----------+----------------------+------------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name | Input Pin | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
+|   sys_clk_in  |    clk    |                     |                 |     none     |     Disable     | none |
++---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+------------+------------------+----------------+-----------+------+
+| Instance Name | Output Pin | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++---------------+------------+------------------+----------------+-----------+------+
+|     led[0]    |   led[0]   |                  |       1        |  Disable  |      |
+|     led[1]    |   led[1]   |                  |       1        |  Disable  |      |
+|     led[2]    |   led[2]   |                  |       1        |  Disable  |      |
+|     led[3]    |   led[3]   |                  |       1        |  Disable  |      |
++---------------+------------+------------------+----------------+-----------+------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
+No PLL was configured
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. MIPI Rx Usage Summary (begin) ----------
+
+No MIPI Rx was configured
+
+---------- MIPI Rx Usage Summary (end) ----------
+
+---------- 12. MIPI Tx Usage Summary (begin) ----------
+
+No MIPI Tx was configured
+
+---------- MIPI Tx Usage Summary (end) ----------
+
+---------- 13. Clock Mux Usage Summary (begin) ----------
+
+No Clock Mux was configured
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 14. Configuration Control Usage Summary (begin) ----------
+
+No Configuration Control was configured
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 15. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
+
+---------- 16. DDR Usage Summary (begin) ----------
+
+No DDR was configured
+
+---------- DDR Usage Summary (end) ----------

@@ -1,0 +1,364 @@
+
+Efinity Interface Designer Report
+Version: 2021.1.165
+Date: 2022-05-12 17:02
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T85F324
+Project: LED_Blink_Test
+
+Package: 324-ball FBGA (final)
+Timing Model: C4 (final)
+Configuration Mode: active (x1)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. MIPI Rx Usage Summary
+   12. MIPI Tx Usage Summary
+   13. Clock Mux Usage Summary
+   14. Configuration Control Usage Summary
+   15. JTAG Usage Summary
+   16. DDR Usage Summary
+   17. Design Issues
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 0 / 1 (0.0%)
+ddr: 0 / 1 (0.0%)
+gpio: 1 / 38 (2.63%)
+jtag: 0 / 4 (0.0%)
+lvds_bg: 0 / 2 (0.0%)
+lvds_rx: 2.0 / 26 (7.69%)
+	gpio: 4
+lvds_tx: 20.0 / 20 (100.0%)
+	gpio: 40
+mipi_rx: 0 / 2 (0.0%)
+mipi_tx: 0 / 2 (0.0%)
+pll: 0 / 7 (0.0%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: LED_Blink_Test.interface.csv
+Peripheral Block Configuration: LED_Blink_Test.lpf
+Pinout Report: LED_Blink_Test.pinout.rpt
+Pinout CSV: LED_Blink_Test.pinout.csv
+Timing Report: LED_Blink_Test.pt_timing.rpt
+Timing SDC Template: LED_Blink_Test.pt.sdc
+Verilog Template: LED_Blink_Test_template.v
+Option Register File: LED_Blink_Test_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++-------------+-------------+
+|   I/O Bank  | I/O Voltage |
++-------------+-------------+
+|      1A     |    3.3 V    |
+|    1B_1C    |    3.3 V    |
+| 1D_1E_1F_1G |    3.3 V    |
+|      2D     |    3.3 V    |
+|      2E     |    3.3 V    |
+|      2F     |    3.3 V    |
+|      3A     |    1.2 V    |
+|      3B     |    1.2 V    |
+|   3D_TR_BR  |    3.3 V    |
+|      3E     |    1.5 V    |
+|      4E     |    3.3 V    |
+|      4F     |    3.3 V    |
+|      BL     |    1.2 V    |
+|      TL     |    1.2 V    |
++-------------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
+No global connection was found in project.
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      0/16      |
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      L3      |      0/4       |
+|      L7      |      0/4       |
+|      R0      |      0/4       |
+|      R2      |      0/4       |
+|      R3      |      0/4       |
+|      R4      |      0/4       |
+|      R6      |      0/4       |
+|      R7      |      0/4       |
+|      T       |      0/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
++---------------+----------+
+| Instance Name | Function |
++---------------+----------+
+|     led[3]    |  CDI30   |
+|     led[4]    |  CDI28   |
+|     led[5]    |  CDI26   |
+|     led[6]    |  CDI24   |
+|     led[8]    |  CDI22   |
+|     led[9]    |  CDI20   |
+|    led[13]    |  CDI18   |
+|    led[14]    |  CDI16   |
+|    led[15]    |  CDI14   |
+|    led[16]    |  CDI12   |
+|    led[17]    |  CDI10   |
+|    led[18]    |   CDI8   |
+|    led[23]    |  CDI31   |
+|    led[24]    |  CDI29   |
+|    led[25]    |  CDI27   |
+|    led[26]    |  CDI25   |
+|    led[27]    |  CDI23   |
+|    led[28]    |  CDI21   |
+|    led[33]    |  CDI19   |
+|    led[34]    |  CDI17   |
+|    led[35]    |  CDI15   |
+|    led[36]    |  CDI13   |
+|    led[37]    |  CDI11   |
+|    led[38]    |   CDI9   |
++---------------+----------+
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+-------------+--------+----------+--------------+----------+----------------------+-------------------+-------------+
+| Instance Name |   Resource  |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |      Pad Name     | Package Pin |
++---------------+-------------+--------+----------+--------------+----------+----------------------+-------------------+-------------+
+|    blink[0]   | GPIOT_RXP24 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXP24    |     A12     |
+|    blink[1]   | GPIOT_RXP27 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXP27    |     A11     |
+|    blink[2]   | GPIOT_RXN27 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN27    |     B11     |
+|    blink[3]   | GPIOT_RXN24 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN24    |     B12     |
+|     led[0]    | GPIOB_TXN00 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN00    |     R17     |
+|     led[1]    | GPIOB_TXN01 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN01    |     T18     |
+|     led[2]    | GPIOB_TXN02 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN02    |     P18     |
+|     led[3]    | GPIOB_TXN03 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN03_CDI30 |     V16     |
+|     led[4]    | GPIOB_TXN04 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN04_CDI28 |     V15     |
+|     led[5]    | GPIOB_TXN05 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN05_CDI26 |     R15     |
+|     led[6]    | GPIOB_TXN06 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN06_CDI24 |     U14     |
+|     led[7]    | GPIOB_TXN09 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN09    |     R13     |
+|     led[8]    | GPIOB_TXN07 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN07_CDI22 |     R14     |
+|     led[9]    | GPIOB_TXN08 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN08_CDI20 |     U13     |
+|    led[10]    | GPIOB_TXN10 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN10    |     U12     |
+|    led[11]    | GPIOB_TXN11 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN11    |     T12     |
+|    led[12]    | GPIOB_TXN12 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN12    |     N12     |
+|    led[13]    | GPIOB_TXN13 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN13_CDI18 |     P11     |
+|    led[14]    | GPIOB_TXN14 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN14_CDI16 |     P10     |
+|    led[15]    | GPIOB_TXN15 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN15_CDI14 |     V10     |
+|    led[16]    | GPIOB_TXN16 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN16_CDI12 |      P9     |
+|    led[17]    | GPIOB_TXN17 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXN17_CDI10 |      U9     |
+|    led[18]    | GPIOB_TXN18 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |  GPIOB_TXN18_CDI8 |     T11     |
+|    led[19]    | GPIOB_TXN19 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN19    |      R9     |
+|    led[20]    | GPIOB_TXP00 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP00    |     T17     |
+|    led[21]    | GPIOB_TXP01 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP01    |     U18     |
+|    led[22]    | GPIOB_TXP02 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP02    |     R18     |
+|    led[23]    | GPIOB_TXP03 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP03_CDI31 |     U16     |
+|    led[24]    | GPIOB_TXP04 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP04_CDI29 |     U15     |
+|    led[25]    | GPIOB_TXP05 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP05_CDI27 |     T15     |
+|    led[26]    | GPIOB_TXP06 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP06_CDI25 |     V14     |
+|    led[27]    | GPIOB_TXP07 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP07_CDI23 |     P14     |
+|    led[28]    | GPIOB_TXP08 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP08_CDI21 |     V13     |
+|    led[29]    | GPIOB_TXP09 | output |          |              |    4F    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP09    |     P13     |
+|    led[30]    | GPIOB_TXP10 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP10    |     V12     |
+|    led[31]    | GPIOB_TXP11 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP11    |     R12     |
+|    led[32]    | GPIOB_TXP12 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP12    |     P12     |
+|    led[33]    | GPIOB_TXP13 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP13_CDI19 |     N11     |
+|    led[34]    | GPIOB_TXP14 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP14_CDI17 |     N10     |
+|    led[35]    | GPIOB_TXP15 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP15_CDI15 |     U10     |
+|    led[36]    | GPIOB_TXP16 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP16_CDI13 |      N9     |
+|    led[37]    | GPIOB_TXP17 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP17_CDI11 |      V9     |
+|    led[38]    | GPIOB_TXP18 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |  GPIOB_TXP18_CDI9 |     U11     |
+|    led[39]    | GPIOB_TXP19 | output |          |              |    4E    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP19    |      T9     |
+|   sys_clk_in  |  GPIOR_186  | input  |          |              | 3D_TR_BR | 3.3 V LVTTL / LVCMOS |  GPIOR_186_PLLIN0 |      U8     |
++---------------+-------------+--------+----------+--------------+----------+----------------------+-------------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name | Input Pin | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
+|   sys_clk_in  |    clk    |                     |                 |     none     |     Disable     | none |
++---------------+-----------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+------------+------------------+----------------+-----------+------+
+| Instance Name | Output Pin | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++---------------+------------+------------------+----------------+-----------+------+
+|    blink[0]   |  blink[0]  |                  |       1        |  Disable  |      |
+|    blink[1]   |  blink[1]  |                  |       1        |  Disable  |      |
+|    blink[2]   |  blink[2]  |                  |       1        |  Disable  |      |
+|    blink[3]   |  blink[3]  |                  |       1        |  Disable  |      |
+|     led[0]    |   led[0]   |                  |       1        |  Disable  |      |
+|     led[1]    |   led[1]   |                  |       1        |  Disable  |      |
+|     led[2]    |   led[2]   |                  |       1        |  Disable  |      |
+|     led[3]    |   led[3]   |                  |       1        |  Disable  |      |
+|     led[4]    |   led[4]   |                  |       1        |  Disable  |      |
+|     led[5]    |   led[5]   |                  |       1        |  Disable  |      |
+|     led[6]    |   led[6]   |                  |       1        |  Disable  |      |
+|     led[7]    |   led[7]   |                  |       1        |  Disable  |      |
+|     led[8]    |   led[8]   |                  |       1        |  Disable  |      |
+|     led[9]    |   led[9]   |                  |       1        |  Disable  |      |
+|    led[10]    |  led[10]   |                  |       1        |  Disable  |      |
+|    led[11]    |  led[11]   |                  |       1        |  Disable  |      |
+|    led[12]    |  led[12]   |                  |       1        |  Disable  |      |
+|    led[13]    |  led[13]   |                  |       1        |  Disable  |      |
+|    led[14]    |  led[14]   |                  |       1        |  Disable  |      |
+|    led[15]    |  led[15]   |                  |       1        |  Disable  |      |
+|    led[16]    |  led[16]   |                  |       1        |  Disable  |      |
+|    led[17]    |  led[17]   |                  |       1        |  Disable  |      |
+|    led[18]    |  led[18]   |                  |       1        |  Disable  |      |
+|    led[19]    |  led[19]   |                  |       1        |  Disable  |      |
+|    led[20]    |  led[20]   |                  |       1        |  Disable  |      |
+|    led[21]    |  led[21]   |                  |       1        |  Disable  |      |
+|    led[22]    |  led[22]   |                  |       1        |  Disable  |      |
+|    led[23]    |  led[23]   |                  |       1        |  Disable  |      |
+|    led[24]    |  led[24]   |                  |       1        |  Disable  |      |
+|    led[25]    |  led[25]   |                  |       1        |  Disable  |      |
+|    led[26]    |  led[26]   |                  |       1        |  Disable  |      |
+|    led[27]    |  led[27]   |                  |       1        |  Disable  |      |
+|    led[28]    |  led[28]   |                  |       1        |  Disable  |      |
+|    led[29]    |  led[29]   |                  |       1        |  Disable  |      |
+|    led[30]    |  led[30]   |                  |       1        |  Disable  |      |
+|    led[31]    |  led[31]   |                  |       1        |  Disable  |      |
+|    led[32]    |  led[32]   |                  |       1        |  Disable  |      |
+|    led[33]    |  led[33]   |                  |       1        |  Disable  |      |
+|    led[34]    |  led[34]   |                  |       1        |  Disable  |      |
+|    led[35]    |  led[35]   |                  |       1        |  Disable  |      |
+|    led[36]    |  led[36]   |                  |       1        |  Disable  |      |
+|    led[37]    |  led[37]   |                  |       1        |  Disable  |      |
+|    led[38]    |  led[38]   |                  |       1        |  Disable  |      |
+|    led[39]    |  led[39]   |                  |       1        |  Disable  |      |
++---------------+------------+------------------+----------------+-----------+------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
+No PLL was configured
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. MIPI Rx Usage Summary (begin) ----------
+
+No MIPI Rx was configured
+
+---------- MIPI Rx Usage Summary (end) ----------
+
+---------- 12. MIPI Tx Usage Summary (begin) ----------
+
+No MIPI Tx was configured
+
+---------- MIPI Tx Usage Summary (end) ----------
+
+---------- 13. Clock Mux Usage Summary (begin) ----------
+
+No Clock Mux was configured
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 14. Configuration Control Usage Summary (begin) ----------
+
+No Configuration Control was configured
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 15. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
+
+---------- 16. DDR Usage Summary (begin) ----------
+
+No DDR was configured
+
+---------- DDR Usage Summary (end) ----------
+
+---------- 17. Design Issues (begin) ----------
+
++---------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Instance Name | Instance Type | Severity |             Rule            |                                                           Description                                                            |
++---------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|     led[0]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[10]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[11]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[12]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[13]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[14]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[15]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[16]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[17]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[18]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[19]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[1]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[20]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[21]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[22]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[23]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[24]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[25]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[26]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[27]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[28]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[29]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[2]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[30]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[31]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[32]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[33]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[34]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[35]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[36]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[37]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[38]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    led[39]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4E has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[3]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[4]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[5]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[6]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[7]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[8]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     led[9]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4F has 20 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
++---------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+
+---------- Design Issues (end) ----------

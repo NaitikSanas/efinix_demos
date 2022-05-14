@@ -1,0 +1,100 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Compiled: Jun 25 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2021.1/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.1/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.1/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 37.9451 seconds.
+	BuildGraph process took 37.3594 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 51.112 MB, end = 2200.5 MB, delta = 2149.38 MB
+	BuildGraph process peak virtual memory usage = 2226.52 MB
+BuildGraph process resident set memory usage: begin = 53.496 MB, end = 2142.03 MB, delta = 2088.54 MB
+	BuildGraph process peak resident set memory usage = 2167.95 MB
+check rr_graph process took 0.82563 seconds.
+	check rr_graph process took 0.796875 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2414.84 MB, end = 2414.84 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2473.37 MB
+check rr_graph process resident set memory usage: begin = 2355.96 MB, end = 2356.02 MB, delta = 0.064 MB
+	check rr_graph process peak resident set memory usage = 2414.38 MB
+Generated 6637939 RR nodes and 25226230 RR edges
+This design has 0 global control net(s). See K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow\LED_Blink_Test.route.rpt for details.
+Routing graph took 39.4417 seconds.
+	Routing graph took 38.7188 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 49.616 MB, end = 2152.98 MB, delta = 2103.36 MB
+	Routing graph peak virtual memory usage = 2473.37 MB
+Routing graph resident set memory usage: begin = 52.644 MB, end = 2097.83 MB, delta = 2045.19 MB
+	Routing graph peak resident set memory usage = 2414.38 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1           23              2.239              0.286
+         2            0              2.239              0.209
+
+Successfully routed netlist after 2 routing iterations and 64964 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 666225486
+Netlist fully routed.
+
+Successfully created FPGA route file 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.route'
+Routing took 1.62843 seconds.
+	Routing took 1.54688 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2178.4 MB, end = 2178.4 MB, delta = 0 MB
+	Routing peak virtual memory usage = 2698.03 MB
+Routing resident set memory usage: begin = 2123.65 MB, end = 2124.09 MB, delta = 0.436 MB
+	Routing peak resident set memory usage = 2512.7 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+clk                 2.359         423.839     (R-R)
+
+Geomean max period: 2.359
+
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+clk              clk                   1.000        -1.359     (R-R)
+
+
+final timing analysis took 0.0606997 seconds.
+	final timing analysis took 0 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2152.98 MB, end = 2152.98 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 2698.03 MB
+final timing analysis resident set memory usage: begin = 2098.72 MB, end = 2099.05 MB, delta = 0.332 MB
+	final timing analysis peak resident set memory usage = 2512.7 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv'.
+Successfully processed interface constraints file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv".
+Finished writing bitstream file K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr\LED_Blink_Test.lbf.
+Bitstream generation took 2.54085 seconds.
+	Bitstream generation took 2.34375 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2152.98 MB, end = 2251.14 MB, delta = 98.156 MB
+	Bitstream generation peak virtual memory usage = 2698.03 MB
+Bitstream generation resident set memory usage: begin = 2099.07 MB, end = 2196.48 MB, delta = 97.416 MB
+	Bitstream generation peak resident set memory usage = 2512.7 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 66.7043 seconds.
+	The entire flow of EFX_PNR took 57.0312 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 8.724 MB, end = 255.432 MB, delta = 246.708 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2698.03 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 13.884 MB, end = 248.6 MB, delta = 234.716 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2512.7 MB

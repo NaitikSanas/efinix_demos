@@ -1,0 +1,158 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Compiled: Jun 25 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/LED_Blink_Test.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0007858 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 14.86 MB, end = 14.86 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 77.964 MB
+VDB Netlist Checker resident set memory usage: begin = 23.084 MB, end = 23.256 MB, delta = 0.172 MB
+	VDB Netlist Checker peak resident set memory usage = 61.752 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv'.
+Successfully processed interface constraints file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/LED_Blink_Test.vdb".
+Netlist pre-processing took 0.0351152 seconds.
+	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 14.84 MB, end = 16 MB, delta = 1.16 MB
+	Netlist pre-processing peak virtual memory usage = 77.964 MB
+Netlist pre-processing resident set memory usage: begin = 22.836 MB, end = 24.292 MB, delta = 1.456 MB
+	Netlist pre-processing peak resident set memory usage = 61.752 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr\LED_Blink_Test.net_proto" took 0.003 seconds
+Creating IO constraints file 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr\LED_Blink_Test.io_place'
+Packing took 0.0063512 seconds.
+	Packing took 0.015625 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 30.78 MB, end = 30.784 MB, delta = 0.004 MB
+	Packing peak virtual memory usage = 77.964 MB
+Packing resident set memory usage: begin = 39.168 MB, end = 39.412 MB, delta = 0.244 MB
+	Packing peak resident set memory usage = 61.752 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr\LED_Blink_Test.net_proto
+Read proto netlist for file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr\LED_Blink_Test.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.001 seconds
+Packed netlist loading took 0.0164697 seconds.
+	Packed netlist loading took 0.015625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 30.784 MB, end = 31.288 MB, delta = 0.504 MB
+	Packed netlist loading peak virtual memory usage = 77.964 MB
+Packed netlist loading resident set memory usage: begin = 39.42 MB, end = 40.112 MB, delta = 0.692 MB
+	Packed netlist loading peak resident set memory usage = 79.148 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv'.
+Successfully processed interface constraints file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv".
+Writing IO placement constraints to 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow\LED_Blink_Test.interface.io'.
+
+Reading placement constraints from 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow\LED_Blink_Test.interface.io'.
+
+Reading placement constraints from 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr\LED_Blink_Test.io_place'.
+WARNING(1): Clock driver clk should use the dedicated clock pad.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+NumRegions 1
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1         165           -1026        84.0%
+          2         158           -1026        90.9%
+          3         151           -1026        96.7%
+          4         149           -1026        98.9%
+          5         149           -1026        98.9%
+          6         149           -1026        98.9%
+          7         148           -1026        99.4%
+          8         147           -1026        99.9%
+          9         147           -1026        99.9%
+         10         147           -1026        99.9%
+         11         147           -1026        99.9%
+         12         147           -1026        99.9%
+         13         147           -1026       100.0%
+         14         147           -1318       100.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         147            2318        30.0
+          1         147            2318        30.0
+          2         147            2318        30.0
+          3         147            2318        30.0
+          4         147            2318        30.0
+          5         147            2318        30.0
+          6         147            2318        30.0
+          7         147            2318        30.0
+          8         147            2318        30.0
+          9         147            2318        30.0
+         10         147            2318        30.0
+         11         147            2318        30.0
+         12         147            2318        30.0
+         13         147            2318        30.0
+         14         147            2318        30.0
+         15         147            2318        30.0
+         16         147            2318        30.0
+         17         147            2318        30.0
+         18         147            2318        30.0
+         19         147            2318        30.0
+         20         147            2318        30.0
+         21         147            2318        30.0
+         22         147            2318        30.0
+         23         147            2318        30.0
+         24         147            2318        30.0
+         25         147            2318        30.0
+         26         147            2318        30.0
+         27         148            2318        30.0
+         28         148            2318        30.0
+         29         148            2318        30.0
+         30         148            2318        30.0
+         31         148            2318        30.0
+         32         148            2318        30.0
+         33         148            2318        30.0
+         34         148            2318        30.0
+Placement successful: 26 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.000995412 at 85,181
+Congestion-weighted HPWL per net: 2.94092
+
+Reading placement constraints from 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.qplace'.
+Finished Realigning Types (2 blocks needed type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 2.19546 ns
+Successfully created FPGA place file 'K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.place'
+Placement took 16.4066 seconds.
+	Placement took 10.8438 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 31.288 MB, end = 49.616 MB, delta = 18.328 MB
+	Placement peak virtual memory usage = 632.232 MB
+Placement resident set memory usage: begin = 40.12 MB, end = 52.64 MB, delta = 12.52 MB
+	Placement peak resident set memory usage = 621.312 MB
+***** Ending stage placement *****

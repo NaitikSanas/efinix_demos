@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2021.1.165 
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+Compiled: Jun 25 2021.
+
+Using source file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/work_pnr/LED_Blink_Test.lbf"
+Generating HEX programming file for device "T85F324", family "Trion"
+Using periphery source file "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.lpf"
+Generating bit file: "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+	enable_crc_check                         = on
+Finished generating "K:/1_VAAMAN/New folder/LED_Blink_Test/LED_Blink_Test/outflow/LED_Blink_Test.hex"
+Efinity Bitstream Generator took 11.0964 seconds.
+	Efinity Bitstream Generator took 7.25 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 4.92 MB, end = 7.644 MB, delta = 2.724 MB
+	Efinity Bitstream Generator peak virtual memory usage = 225.248 MB
+Efinity Bitstream Generator resident set memory usage: begin = 9.136 MB, end = 13.84 MB, delta = 4.704 MB
+	Efinity Bitstream Generator peak resident set memory usage = 198.364 MB

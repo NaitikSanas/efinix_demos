@@ -1,0 +1,121 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Compiled: Jun 25 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2021.1/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.1/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.1/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 39.3632 seconds.
+	BuildGraph process took 38.8594 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 49.38 MB, end = 2183.6 MB, delta = 2134.22 MB
+	BuildGraph process peak virtual memory usage = 2222.69 MB
+BuildGraph process resident set memory usage: begin = 54.788 MB, end = 2129.51 MB, delta = 2074.72 MB
+	BuildGraph process peak resident set memory usage = 2166.28 MB
+check rr_graph process took 1.01798 seconds.
+	check rr_graph process took 0.984375 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2397.94 MB, end = 2397.94 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2456.42 MB
+check rr_graph process resident set memory usage: begin = 2343.44 MB, end = 2343.03 MB, delta = -0.408 MB
+	check rr_graph process peak resident set memory usage = 2401.82 MB
+Generated 6637936 RR nodes and 25226223 RR edges
+This design has 0 global control net(s). See G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow\LED_Blink_Test.route.rpt for details.
+Routing graph took 41.1054 seconds.
+	Routing graph took 40.5 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 47.928 MB, end = 2133.62 MB, delta = 2085.69 MB
+	Routing graph peak virtual memory usage = 2456.42 MB
+Routing graph resident set memory usage: begin = 54.008 MB, end = 2082.54 MB, delta = 2028.53 MB
+	Routing graph peak resident set memory usage = 2401.82 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1           25              2.146              0.283
+         2            6              2.146              0.214
+         3            3              2.146              0.212
+         4            3              2.146              0.211
+         5            3              2.146              0.216
+         6            3              2.146               0.21
+         7            3              2.146               0.21
+         8            3              2.445              0.208
+         9            1              2.405              0.209
+        10            1               2.33              0.208
+        11            0              2.401              0.209
+
+Successfully routed netlist after 11 routing iterations and 15463 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 950535555
+Netlist fully routed.
+
+Successfully created FPGA route file 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.route'
+Routing took 3.64973 seconds.
+	Routing took 3.4375 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2159.04 MB, end = 2159.04 MB, delta = 0 MB
+	Routing peak virtual memory usage = 2678.72 MB
+Routing resident set memory usage: begin = 2108.34 MB, end = 2108.86 MB, delta = 0.52 MB
+	Routing peak resident set memory usage = 2497.36 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+WARNING(1): Found combinational cycle from timing node 749 to 751
+WARNING(2): 	Cutting timing edge on block pin dlatchrs_32/i1.in[1]
+WARNING(3): Found combinational cycle from timing node 665 to 667
+WARNING(4): 	Cutting timing edge on block pin dlatchrs_32/i3.in[1]
+WARNING(5): Found combinational cycle from timing node 677 to 679
+WARNING(6): 	Cutting timing edge on block pin dlatchrs_32/i4.in[1]
+WARNING(7): Found combinational cycle from timing node 762 to 763
+WARNING(8): 	Cutting timing edge on block pin dlatchrs_32/i2.in[3]
+
+Cross clock domain timing relationship was detected. Refer to the clocks section of the timing report for more details. You can use set_clock_groups to control how clocks are analyzed.
+
+Maximum possible analyzed clocks frequency
+Clock Name          Period (ns)   Frequency (MHz)   Edge
+cnt[22]                   2.521         396.654     (R-R)
+clk                       2.450         408.234     (R-R)
+
+Geomean max period: 2.485
+
+Launch Clock      Capture Clock     Constraint (ns)   Slack (ns)    Edge
+cnt[22]            cnt[22]                 1.000        -1.521     (R-R)
+clk                clk                     1.000        -1.450     (R-R)
+
+
+final timing analysis took 0.127022 seconds.
+	final timing analysis took 0.015625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2126.86 MB, end = 2126.86 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 2678.72 MB
+final timing analysis resident set memory usage: begin = 2076.88 MB, end = 2077.21 MB, delta = 0.332 MB
+	final timing analysis peak resident set memory usage = 2497.36 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv'.
+Successfully processed interface constraints file "G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/outflow/LED_Blink_Test.interface.csv".
+Finished writing bitstream file G:/Harit/Harit/1_Project Resources/Sparrow/Project documents/HARDWARE/FPGA/Programming/fpga codes/2_LED_Blink_Test_seq/LED_Blink_Test/work_pnr\LED_Blink_Test.lbf.
+Bitstream generation took 2.6327 seconds.
+	Bitstream generation took 2.35938 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2126.86 MB, end = 2242.72 MB, delta = 115.86 MB
+	Bitstream generation peak virtual memory usage = 2678.72 MB
+Bitstream generation resident set memory usage: begin = 2077.23 MB, end = 2191.43 MB, delta = 114.2 MB
+	Bitstream generation peak resident set memory usage = 2497.36 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 76.1646 seconds.
+	The entire flow of EFX_PNR took 65.6094 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 8.732 MB, end = 261.284 MB, delta = 252.552 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2678.72 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 13.872 MB, end = 249.024 MB, delta = 235.152 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2497.36 MB

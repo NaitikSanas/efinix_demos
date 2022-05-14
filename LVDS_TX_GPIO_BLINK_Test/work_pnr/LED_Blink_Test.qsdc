@@ -1,0 +1,12 @@
+clock {
+  name: "clk"
+  period: 1000
+  target_pin {
+    cell: "clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}

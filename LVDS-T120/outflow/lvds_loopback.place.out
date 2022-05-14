@@ -1,0 +1,202 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Compiled: Dec 15 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/lvds_loopback.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0019364 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 13.232 MB, end = 13.232 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 78.584 MB
+VDB Netlist Checker resident set memory usage: begin = 21.96 MB, end = 22.172 MB, delta = 0.212 MB
+	VDB Netlist Checker peak resident set memory usage = 59.848 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.interface.csv".
+Creating interface clock pin rx_fastclk.
+Creating interface clock buffer rx_fastclk~CLKBUF.
+Creating interface clock pin tx_fastclk.
+Creating interface clock buffer tx_fastclk~CLKBUF.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #3(txpll_locked) has no fanout.
+Removing input.
+Pass 0: Swept away 1 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 1 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 1 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/lvds_loopback.vdb".
+Netlist pre-processing took 0.0165165 seconds.
+	Netlist pre-processing took 0.015625 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.18 MB, end = 14.644 MB, delta = 2.464 MB
+	Netlist pre-processing peak virtual memory usage = 78.584 MB
+Netlist pre-processing resident set memory usage: begin = 20.924 MB, end = 23.652 MB, delta = 2.728 MB
+	Netlist pre-processing peak resident set memory usage = 59.848 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_pnr\lvds_loopback.net_proto" took 0 seconds
+Creating IO constraints file 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_pnr\lvds_loopback.io_place'
+Packing took 0.0049448 seconds.
+	Packing took 0 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 30.944 MB, end = 30.944 MB, delta = 0 MB
+	Packing peak virtual memory usage = 78.584 MB
+Packing resident set memory usage: begin = 40.112 MB, end = 40.348 MB, delta = 0.236 MB
+	Packing peak resident set memory usage = 59.848 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_pnr\lvds_loopback.net_proto
+Read proto netlist for file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_pnr\lvds_loopback.net_proto" took 0 seconds
+Setup net and block data structure took 0.008 seconds
+Packed netlist loading took 0.0204324 seconds.
+	Packed netlist loading took 0.015625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 30.944 MB, end = 33.592 MB, delta = 2.648 MB
+	Packed netlist loading peak virtual memory usage = 78.584 MB
+Packed netlist loading resident set memory usage: begin = 40.36 MB, end = 43.076 MB, delta = 2.716 MB
+	Packed netlist loading peak resident set memory usage = 82.128 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+SDC file 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/lvds_loopback.sdc' parsed successfully.
+2 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.interface.csv".
+Writing IO placement constraints to 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow\lvds_loopback.interface.io'.
+
+Reading placement constraints from 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow\lvds_loopback.interface.io'.
+
+Reading placement constraints from 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_pnr\lvds_loopback.io_place'.
+WARNING(1): fa_lock has no assigned placement; it will be placed randomly.
+1 IOs will have random placement.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+NumRegions 1
+Timer::BuildGraph: ============ Cutting edge BACK edge from fa0/cstates[1]~FF:O to fa0/cstates[1]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from fa0/cstates[0]~FF:O to fa0/cstates[0]~FF:I[1]
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1        1997            5503         9.4%
+          2        1585            5888        13.6%
+          3        1363            6129        18.0%
+          4        1330            5888        20.9%
+          5        1009            5702        31.0%
+          6        1060            5700        34.5%
+          7        1195            5731        39.2%
+          8        1355            5525        47.5%
+          9        1371            5342        55.7%
+         10        1360            5196        66.6%
+         11        1409            5242        71.8%
+         12        1330            5229        73.8%
+         13        1458            4898        74.7%
+         14        1329            4828        76.3%
+         15        1362            4452        79.2%
+         16        1372            4828        79.9%
+         17        1335            4468        80.2%
+         18        1074            4772        84.1%
+         19        1072            4688        85.4%
+         20        1074            4460        85.4%
+         21        1065            4560        85.4%
+         22        1042            4641        86.0%
+         23        1000            3919        86.8%
+         24         984            4055        88.8%
+         25        1038            3903        89.3%
+         26        1008            4091        90.1%
+         27        1033            4181        91.8%
+         28        1032            3928        92.2%
+         29        1046            4578        92.7%
+         30        1032            4578        93.4%
+         31        1034            4214        95.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         984           12064        30.0
+          1        1102           11926        30.0
+          2        1563           11401        30.0
+          3        1498           10918        30.0
+          4        1477           10906        30.0
+          5        1357           10847        30.0
+          6        1297           11002        30.0
+          7        1352           11002        30.0
+          8        1286           11002        30.0
+          9        1246           10847        30.0
+         10        1272           10847        30.0
+         11        1159           10847        30.0
+         12        1202           10573        30.0
+         13        1283           10573        30.0
+         14        1208           10573        30.0
+         15        1047           10573        30.0
+         16        1038           10574        30.0
+         17        1046           10574        30.0
+         18        1017           10574        30.0
+         19         986           10574        30.0
+         20         907           10574        30.0
+         21         962           10573        30.0
+         22         955           10573        30.0
+         23         909           10573        30.0
+         24         904           10573        30.0
+         25         887           10573        30.0
+         26         834           10574        30.0
+         27         869           10574        30.0
+         28         840           10574        30.0
+         29         895           10574        30.0
+         30         819           10574        29.7
+         31         799           10574        28.9
+         32         792           10574        28.2
+         33         765           10574        27.4
+         34         744           10574        26.4
+         35         737           10574        25.3
+         36         727           10574        24.6
+         37         710           10574        23.6
+         38         713           10574        22.7
+         39         713           10574        21.4
+         40         688           10574        20.6
+         41         688           10573        19.5
+         42         668           10662        18.6
+         43         686           10449        17.4
+         44         659           10496        16.9
+         45         667           10539        16.0
+         46         630           10542        15.4
+         47         637           10843        14.0
+Placement successful: 252 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.00710183 at 272,643
+Congestion-weighted HPWL per net: 1.15604
+
+Reading placement constraints from 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.qplace'.
+[TimingCost::InitializeTimingData]
+Finished Realigning Types (56 blocks needed type change)
+[TimingCost::InitializeTimingData]
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 2.72294 ns
+Successfully created FPGA place file 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.place'
+Placement took 13.9769 seconds.
+	Placement took 12.0312 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 33.592 MB, end = 57.8 MB, delta = 24.208 MB
+	Placement peak virtual memory usage = 920.028 MB
+Placement resident set memory usage: begin = 43.092 MB, end = 65.716 MB, delta = 22.624 MB
+	Placement peak resident set memory usage = 908.38 MB
+***** Ending stage placement *****

@@ -1,0 +1,119 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Compiled: Dec 15 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2021.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 30.0648 seconds.
+	BuildGraph process took 29.7344 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 58.352 MB, end = 2205.49 MB, delta = 2147.14 MB
+	BuildGraph process peak virtual memory usage = 2234.95 MB
+BuildGraph process resident set memory usage: begin = 65.592 MB, end = 2149.22 MB, delta = 2083.63 MB
+	BuildGraph process peak resident set memory usage = 2176.9 MB
+check rr_graph process took 0.657707 seconds.
+	check rr_graph process took 0.65625 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2419.83 MB, end = 2419.83 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2478.3 MB
+check rr_graph process resident set memory usage: begin = 2363.15 MB, end = 2363.21 MB, delta = 0.06 MB
+	check rr_graph process peak resident set memory usage = 2421.56 MB
+Generated 6637990 RR nodes and 25226076 RR edges
+This design has 0 global control net(s). See C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow\lvds_loopback.route.rpt for details.
+Routing graph took 31.1943 seconds.
+	Routing graph took 30.8438 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 57.8 MB, end = 2184.76 MB, delta = 2126.96 MB
+	Routing graph peak virtual memory usage = 2478.3 MB
+Routing graph resident set memory usage: begin = 65.716 MB, end = 2129.9 MB, delta = 2064.19 MB
+	Routing graph peak resident set memory usage = 2421.56 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1          556              2.972              0.206
+         2           61              3.012              0.155
+         3           10              3.012              0.127
+         4            1              3.242              0.114
+         5            0              3.242              0.106
+
+Successfully routed netlist after 5 routing iterations and 756263 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 811314231
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.route'
+Routing took 1.38349 seconds.
+	Routing took 1.32812 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2210.19 MB, end = 2210.19 MB, delta = 0 MB
+	Routing peak virtual memory usage = 2729.84 MB
+Routing resident set memory usage: begin = 2155.92 MB, end = 2157.72 MB, delta = 1.8 MB
+	Routing peak resident set memory usage = 2545.09 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+WARNING(1): Found combinational cycle from timing node 530 to 532
+WARNING(2): 	Cutting timing edge on block pin fa0/cstates[1]~FF.in[1]
+WARNING(3): Found combinational cycle from timing node 159 to 160
+WARNING(4): 	Cutting timing edge on block pin fa0/cstates[0]~FF.in[3]
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+tx_slowclk         10.123          98.787     (R-R)
+rx_slowclk          8.509         117.518     (R-R)
+
+Geomean max period: 9.281
+
+Setup (Max) Clock Relationship
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+tx_slowclk       tx_slowclk           16.000         5.877     (R-R)
+rx_slowclk       rx_slowclk           16.000         7.491     (R-R)
+rx_slowclk       rx_slowclk            8.000         4.638     (R-F)
+rx_slowclk       rx_slowclk            8.000         5.447     (F-R)
+
+Hold (Min) Clock Relationship
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+tx_slowclk       tx_slowclk            0.000         0.307     (R-R)
+rx_slowclk       rx_slowclk            0.000         0.307     (R-R)
+rx_slowclk       rx_slowclk           -8.000         8.558     (R-F)
+rx_slowclk       rx_slowclk           -8.000         8.411     (F-R)
+
+
+final timing analysis took 0.0337399 seconds.
+	final timing analysis took 0.015625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2181.85 MB, end = 2181.85 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 2729.84 MB
+final timing analysis resident set memory usage: begin = 2129.58 MB, end = 2129.9 MB, delta = 0.32 MB
+	final timing analysis peak resident set memory usage = 2545.09 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.interface.csv".
+Finished writing bitstream file C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_pnr\lvds_loopback.lbf.
+Bitstream generation took 3.8112 seconds.
+	Bitstream generation took 3.76562 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2181.85 MB, end = 2287.62 MB, delta = 105.776 MB
+	Bitstream generation peak virtual memory usage = 2729.84 MB
+Bitstream generation resident set memory usage: begin = 2129.92 MB, end = 2236.56 MB, delta = 106.64 MB
+	Bitstream generation peak resident set memory usage = 2545.09 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 54.5085 seconds.
+	The entire flow of EFX_PNR took 51.2812 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 6.372 MB, end = 617.492 MB, delta = 611.12 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2729.84 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.156 MB, end = 604.096 MB, delta = 591.94 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2545.09 MB

@@ -1,0 +1,45 @@
+{
+    "debug_cores": [
+        {
+            "type": "vio",
+            "name": "VIO_0",
+            "probes": [
+                {
+                    "init": null,
+                    "name": "mipi_rx_error",
+                    "width": 18
+                },
+                {
+                    "init": null,
+                    "name": "mipi_rx_type",
+                    "width": 6
+                },
+                {
+                    "init": null,
+                    "name": "video_pattern",
+                    "width": 2
+                },
+                {
+                    "init": null,
+                    "name": "mipi_bypass",
+                    "width": 1
+                },
+                {
+                    "init": null,
+                    "name": "compare_cnt",
+                    "width": 20
+                },
+                {
+                    "init": null,
+                    "name": "compare_max",
+                    "width": 20
+                },
+                {
+                    "init": null,
+                    "name": "compare_pass",
+                    "width": 1
+                }
+            ]
+        }
+    ]
+}

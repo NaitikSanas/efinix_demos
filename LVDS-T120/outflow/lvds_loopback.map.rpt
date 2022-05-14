@@ -1,0 +1,99 @@
+Synthesis report for project lvds_loopback
+Generated at: May 14, 2022 09:38:59
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : lvds_loopback_top
+### ### File List (begin) ### ### ###
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_gen.v (verilog_2k)
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 5
+Enable signal <ceg_net1>, number of controlling flip flops: 1
+Enable signal <equal_50/n19>, number of controlling flip flops: 1
+Enable signal <ceg_net27>, number of controlling flip flops: 8
+Enable signal <fa0/n448>, number of controlling flip flops: 1
+Enable signal <det0/n72>, number of controlling flip flops: 8
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of enable signals: 4
+SR signal <det0/testen_sync>, number of controlling flip flops: 36
+SR signal <txpll_rstn>, number of controlling flip flops: 80
+SR signal <gen/rstn_sync_2>, number of controlling flip flops: 7
+SR signal <rstn_sync_2>, number of controlling flip flops: 21
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                       FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------         ---        ----        ----      ---- ---------
+lvds_loopback_top:lvds_loopback_top      144(78)      50(50)     162(34)      0(0)      0(0)
++gen:prbs_gen                               9(9)        0(0)        8(8)      0(0)      0(0)
++fa0:frame_aligner                        38(38)        0(0)    106(106)      0(0)      0(0)
++det0:prbs_det                            19(19)        0(0)      14(14)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+      Clock     Flip-Flops   Memory Ports    Multipliers
+      -----     ----------   ------------    -----------
+ rx_slowclk            108              0              0
+ tx_slowclk             36              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : lvds_loopback
+project-xml : C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/lvds_loopback.xml
+root : lvds_loopback_top
+I : C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120
+output-dir : C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow
+work-dir : C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/work_syn
+write-efx-verilog : C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.map.v
+binary-db : C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/lvds_loopback.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	13
+OUTPUT PORTS    : 	15
+
+EFX_ADD         : 	50
+EFX_LUT4        : 	162
+   1-2  Inputs  : 	51
+   3    Inputs  : 	25
+   4    Inputs  : 	86
+EFX_FF          : 	144
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 1s
+Elapsed synthesis time : 1s

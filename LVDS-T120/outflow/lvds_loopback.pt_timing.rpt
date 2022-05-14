@@ -1,0 +1,75 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.2.323
+Date: 2022-05-14 09:39
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: lvds_loopback
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++------------+-------------+-----------------------+
+|   Clock    | Period (ns) | Phase Shift (degrees) |
++------------+-------------+-----------------------+
+| rx_slowclk |    16.00    |           0           |
+| rx_fastclk |     4.00    |           90          |
+| tx_fastclk |     4.00    |           90          |
+| tx_slowclk |    16.00    |           0           |
++------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-----------+-----------+----------+----------+
+| Instance Name |  Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+-----------+-----------+----------+----------+
+|   tx_refclk   | tx_refclk |  GPIO_IN  |  1.476   |  0.738   |
++---------------+-----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|      rstn     |   rstn   |  GPIO_IN  |  1.714   |  0.857   |
+|     led[0]    |  led[0]  |  GPIO_OUT |  3.542   |  1.771   |
+|     led[1]    |  led[1]  |  GPIO_OUT |  3.542   |  1.771   |
+|     led[2]    |  led[2]  |  GPIO_OUT |  3.542   |  1.771   |
+|     led[3]    |  led[3]  |  GPIO_OUT |  3.542   |  1.771   |
++---------------+----------+-----------+----------+----------+
+
+LVDS Rx Bypass Configuration
+=============================
+
++---------------+------------------+-----------+----------+----------+
+| Instance Name |     Pin Name     | Parameter | Max (ns) | Min (ns) |
++---------------+------------------+-----------+----------+----------+
+|  lvds_refclk  | lvds_refclk_DATA |  GPIO_IN  |  1.777   |  0.888   |
++---------------+------------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 4. LVDS Tx Timing Report (begin) ----------
+
+LVDS Tx Clkout Configuration
+=============================
+
++---------------+------------+--------------+----------+----------+
+| Instance Name | Clock Pin  |  Parameter   | Max (ns) | Min (ns) |
++---------------+------------+--------------+----------+----------+
+|   lvds_txclk  | tx_fastclk | GPIO_CLK_OUT |  7.626   |  3.813   |
++---------------+------------+--------------+----------+----------+
+
+---------- LVDS Tx Timing Report (end) ----------

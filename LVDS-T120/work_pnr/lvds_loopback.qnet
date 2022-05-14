@@ -1,0 +1,2780 @@
+cell { name: "fa0/pipe0[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe0[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/rstn_filt~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "rstn_sync~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/cstates[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe0[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[0]_2~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/rstn_sync~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[0]_2~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "rx_heartbeat~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "gen/f1_prbs_r[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_fa~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "rstn_filt~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "tx_heartbeat~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/start_filt~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/cstates[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[15]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/start_sync~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[14]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[13]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[12]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe0[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe1[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[11]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[10]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe2[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe3[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe4[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe5[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe6[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/pipe7[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[9]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[8]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/fa_lock~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/data_buff[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fa0/match_i[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/testen_sync~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/stat0~FF" type: "eft" mode: "logic_ff_clk_FALLING" }
+cell { name: "det0/data_sync[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/data_sync[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/testen_filt~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/prbs_r[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[8]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "pass_cnt[9]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[1]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[2]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[3]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[4]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[5]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[6]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[7]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[8]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[9]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[10]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[11]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[12]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[13]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[14]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[15]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[16]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[17]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[18]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[19]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[20]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[21]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[22]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[23]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[24]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "tx_clk_cnt[25]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[1]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[2]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[3]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[4]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[5]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[6]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[7]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[8]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[9]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[10]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[11]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[12]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[13]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[14]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[15]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[16]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[17]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[18]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[19]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[20]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[21]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[22]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[23]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[24]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "rx_clk_cnt[25]~FF" type: "eft" mode: "arithmetic_ff_clk_RISING" }
+cell { name: "start_cnt[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[8]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "start_cnt[9]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "det0/load~FF_brt_1" type: "eft" mode: "logic_ff_clk_FALLING" }
+cell { name: "det0/load~FF_brt_0" type: "eft" mode: "logic_ff_clk_FALLING" }
+cell { name: "tx_slowclk" type: "io" mode: "inpad" fixed {x: 338 y: 322 k: 1} }
+cell { name: "rstn" type: "io" mode: "inpad" fixed {x: 332 y: 643 k: 3} }
+cell { name: "rx_slowclk" type: "io" mode: "inpad" fixed {x: 338 y: 318 k: 1} }
+cell { name: "rxpll_locked" type: "io" mode: "inpad" fixed {x: 330 y: 643 k: 3} }
+cell { name: "rx_data0[7]" type: "io" mode: "inpad" fixed {x: 196 y: 643 k: 3} }
+cell { name: "rx_data0[6]" type: "io" mode: "inpad" fixed {x: 194 y: 643 k: 1} }
+cell { name: "rx_data0[5]" type: "io" mode: "inpad" fixed {x: 196 y: 643 k: 1} }
+cell { name: "rx_data0[4]" type: "io" mode: "inpad" fixed {x: 195 y: 643 k: 1} }
+cell { name: "rx_data0[3]" type: "io" mode: "inpad" fixed {x: 194 y: 643 k: 3} }
+cell { name: "rx_data0[2]" type: "io" mode: "inpad" fixed {x: 193 y: 643 k: 1} }
+cell { name: "rx_data0[1]" type: "io" mode: "inpad" fixed {x: 192 y: 643 k: 3} }
+cell { name: "rx_data0[0]" type: "io" mode: "inpad" fixed {x: 192 y: 643 k: 1} }
+cell { name: "prbs_data[7]" type: "io" mode: "outpad" fixed {x: 12 y: 0 k: 0} }
+cell { name: "prbs_data[6]" type: "io" mode: "outpad" fixed {x: 11 y: 0 k: 0} }
+cell { name: "prbs_data[5]" type: "io" mode: "outpad" fixed {x: 10 y: 0 k: 2} }
+cell { name: "prbs_data[4]" type: "io" mode: "outpad" fixed {x: 10 y: 0 k: 0} }
+cell { name: "prbs_data[3]" type: "io" mode: "outpad" fixed {x: 9 y: 0 k: 0} }
+cell { name: "prbs_data[2]" type: "io" mode: "outpad" fixed {x: 8 y: 0 k: 2} }
+cell { name: "prbs_data[1]" type: "io" mode: "outpad" fixed {x: 8 y: 0 k: 0} }
+cell { name: "prbs_data[0]" type: "io" mode: "outpad" fixed {x: 7 y: 0 k: 0} }
+cell { name: "led[3]" type: "io" mode: "outpad" fixed {x: 323 y: 643 k: 0} }
+cell { name: "led[2]" type: "io" mode: "outpad" fixed {x: 322 y: 643 k: 0} }
+cell { name: "led[1]" type: "io" mode: "outpad" fixed {x: 308 y: 643 k: 0} }
+cell { name: "led[0]" type: "io" mode: "outpad" fixed {x: 307 y: 643 k: 0} }
+cell { name: "fa_lock" type: "io" mode: "outpad" fixed {x: 247 y: 643 k: 0} }
+cell { name: "rxpll_rstn" type: "io" mode: "outpad" fixed {x: 324 y: 643 k: 2} }
+cell { name: "txpll_rstn" type: "io" mode: "outpad" fixed {x: 329 y: 643 k: 2} }
+cell { name: "GND" type: "efl" mode: "logic" }
+cell { name: "CLKBUF__0" type: "gbuf_block" mode: "gbuf_block" fixed {x: 337 y: 318 k: 0} }
+cell { name: "LUT__780" type: "efl" mode: "logic" }
+cell { name: "LUT__787" type: "efl" mode: "logic" }
+cell { name: "LUT__788" type: "efl" mode: "logic" }
+cell { name: "LUT__789" type: "efl" mode: "logic" }
+cell { name: "LUT__790" type: "efl" mode: "logic" }
+cell { name: "LUT__793" type: "efl" mode: "logic" }
+cell { name: "LUT__794" type: "efl" mode: "logic" }
+cell { name: "LUT__795" type: "efl" mode: "logic" }
+cell { name: "LUT__796" type: "efl" mode: "logic" }
+cell { name: "LUT__797" type: "efl" mode: "logic" }
+cell { name: "LUT__798" type: "efl" mode: "logic" }
+cell { name: "LUT__799" type: "efl" mode: "logic" }
+cell { name: "LUT__800" type: "efl" mode: "logic" }
+cell { name: "LUT__801" type: "efl" mode: "logic" }
+cell { name: "LUT__802" type: "efl" mode: "logic" }
+cell { name: "LUT__803" type: "efl" mode: "logic" }
+cell { name: "LUT__804" type: "efl" mode: "logic" }
+cell { name: "LUT__805" type: "efl" mode: "logic" }
+cell { name: "LUT__806" type: "efl" mode: "logic" }
+cell { name: "LUT__807" type: "efl" mode: "logic" }
+cell { name: "LUT__809" type: "efl" mode: "logic" }
+cell { name: "LUT__811" type: "efl" mode: "logic" }
+cell { name: "LUT__813" type: "efl" mode: "logic" }
+cell { name: "LUT__814" type: "efl" mode: "logic" }
+cell { name: "LUT__816" type: "efl" mode: "logic" }
+cell { name: "LUT__818" type: "efl" mode: "logic" }
+cell { name: "LUT__820" type: "efl" mode: "logic" }
+cell { name: "LUT__821" type: "efl" mode: "logic" }
+cell { name: "LUT__823" type: "efl" mode: "logic" }
+cell { name: "LUT__825" type: "efl" mode: "logic" }
+cell { name: "LUT__827" type: "efl" mode: "logic" }
+cell { name: "LUT__828" type: "efl" mode: "logic" }
+cell { name: "LUT__829" type: "efl" mode: "logic" }
+cell { name: "LUT__830" type: "efl" mode: "logic" }
+cell { name: "LUT__831" type: "efl" mode: "logic" }
+cell { name: "LUT__832" type: "efl" mode: "logic" }
+cell { name: "LUT__833" type: "efl" mode: "logic" }
+cell { name: "LUT__834" type: "efl" mode: "logic" }
+cell { name: "LUT__835" type: "efl" mode: "logic" }
+cell { name: "LUT__837" type: "efl" mode: "logic" }
+cell { name: "LUT__838" type: "efl" mode: "logic" }
+cell { name: "LUT__839" type: "efl" mode: "logic" }
+cell { name: "LUT__840" type: "efl" mode: "logic" }
+cell { name: "LUT__842" type: "efl" mode: "logic" }
+cell { name: "LUT__843" type: "efl" mode: "logic" }
+cell { name: "LUT__844" type: "efl" mode: "logic" }
+cell { name: "LUT__845" type: "efl" mode: "logic" }
+cell { name: "LUT__846" type: "efl" mode: "logic" }
+cell { name: "LUT__847" type: "efl" mode: "logic" }
+cell { name: "LUT__848" type: "efl" mode: "logic" }
+cell { name: "LUT__849" type: "efl" mode: "logic" }
+cell { name: "LUT__851" type: "efl" mode: "logic" }
+cell { name: "LUT__852" type: "efl" mode: "logic" }
+cell { name: "LUT__853" type: "efl" mode: "logic" }
+cell { name: "LUT__854" type: "efl" mode: "logic" }
+cell { name: "LUT__855" type: "efl" mode: "logic" }
+cell { name: "LUT__856" type: "efl" mode: "logic" }
+cell { name: "LUT__857" type: "efl" mode: "logic" }
+cell { name: "LUT__858" type: "efl" mode: "logic" }
+cell { name: "LUT__860" type: "efl" mode: "logic" }
+cell { name: "LUT__861" type: "efl" mode: "logic" }
+cell { name: "LUT__862" type: "efl" mode: "logic" }
+cell { name: "LUT__863" type: "efl" mode: "logic" }
+cell { name: "LUT__864" type: "efl" mode: "logic" }
+cell { name: "LUT__865" type: "efl" mode: "logic" }
+cell { name: "LUT__866" type: "efl" mode: "logic" }
+cell { name: "LUT__867" type: "efl" mode: "logic" }
+cell { name: "LUT__869" type: "efl" mode: "logic" }
+cell { name: "LUT__870" type: "efl" mode: "logic" }
+cell { name: "LUT__871" type: "efl" mode: "logic" }
+cell { name: "LUT__872" type: "efl" mode: "logic" }
+cell { name: "LUT__873" type: "efl" mode: "logic" }
+cell { name: "LUT__874" type: "efl" mode: "logic" }
+cell { name: "LUT__875" type: "efl" mode: "logic" }
+cell { name: "LUT__876" type: "efl" mode: "logic" }
+cell { name: "LUT__877" type: "efl" mode: "logic" }
+cell { name: "LUT__879" type: "efl" mode: "logic" }
+cell { name: "LUT__880" type: "efl" mode: "logic" }
+cell { name: "LUT__881" type: "efl" mode: "logic" }
+cell { name: "LUT__882" type: "efl" mode: "logic" }
+cell { name: "LUT__883" type: "efl" mode: "logic" }
+cell { name: "LUT__884" type: "efl" mode: "logic" }
+cell { name: "LUT__885" type: "efl" mode: "logic" }
+cell { name: "LUT__886" type: "efl" mode: "logic" }
+cell { name: "LUT__888" type: "efl" mode: "logic" }
+cell { name: "LUT__889" type: "efl" mode: "logic" }
+cell { name: "LUT__890" type: "efl" mode: "logic" }
+cell { name: "LUT__891" type: "efl" mode: "logic" }
+cell { name: "LUT__892" type: "efl" mode: "logic" }
+cell { name: "LUT__893" type: "efl" mode: "logic" }
+cell { name: "LUT__894" type: "efl" mode: "logic" }
+cell { name: "LUT__895" type: "efl" mode: "logic" }
+cell { name: "LUT__897" type: "efl" mode: "logic" }
+cell { name: "LUT__898" type: "efl" mode: "logic" }
+cell { name: "LUT__899" type: "efl" mode: "logic" }
+cell { name: "LUT__900" type: "efl" mode: "logic" }
+cell { name: "LUT__901" type: "efl" mode: "logic" }
+cell { name: "LUT__902" type: "efl" mode: "logic" }
+cell { name: "LUT__903" type: "efl" mode: "logic" }
+cell { name: "LUT__904" type: "efl" mode: "logic" }
+cell { name: "LUT__915" type: "efl" mode: "logic" }
+cell { name: "LUT__919" type: "efl" mode: "logic" }
+cell { name: "LUT__922" type: "efl" mode: "logic" }
+cell { name: "LUT__927" type: "efl" mode: "logic" }
+cell { name: "LUT__930" type: "efl" mode: "logic" }
+cell { name: "LUT__932" type: "efl" mode: "logic" }
+cell { name: "LUT__940" type: "efl" mode: "logic" }
+cell { name: "CLKBUF__1" type: "gbuf_block" mode: "gbuf_block" fixed {x: 337 y: 322 k: 0} }
+cell { name: "rx_fastclk" type: "io" mode: "inpad" fixed {x: 338 y: 319 k: 1} }
+cell { name: "rx_fastclk~CLKBUF" type: "gbuf_block" mode: "gbuf_block" fixed {x: 337 y: 319 k: 0} }
+cell { name: "tx_fastclk" type: "io" mode: "inpad" fixed {x: 338 y: 321 k: 1} }
+cell { name: "tx_fastclk~CLKBUF" type: "gbuf_block" mode: "gbuf_block" fixed {x: 337 y: 321 k: 0} }
+net {
+	name: "fa0/data_buff[10]"
+	terminal	{ cell: "fa0/data_buff[10]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe0[2]~FF" port: "I[1]" }
+ }
+net {
+	name: "vcc"
+	type: CONSTANT
+	terminal	{ cell: "gen/rstn_filt~FF" port: "O" }
+	terminal	{ cell: "fa0/pipe0[2]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe0[3]~FF" port: "CE" }
+	terminal	{ cell: "gen/rstn_filt~FF" port: "CE" }
+	terminal	{ cell: "rstn_sync~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "CE" }
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe0[1]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[0]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[0]_2~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "CE" }
+	terminal	{ cell: "gen/rstn_sync~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[0]_2~FF" port: "CE" }
+	terminal	{ cell: "rx_heartbeat~FF" port: "CE" }
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[0]~FF" port: "CE" }
+	terminal	{ cell: "start_fa~FF" port: "I[1]" }
+	terminal	{ cell: "rstn_filt~FF" port: "I[1]" }
+	terminal	{ cell: "rstn_filt~FF" port: "CE" }
+	terminal	{ cell: "tx_heartbeat~FF" port: "CE" }
+	terminal	{ cell: "fa0/start_filt~FF" port: "CE" }
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[15]~FF" port: "CE" }
+	terminal	{ cell: "fa0/start_sync~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[14]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[13]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[5]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[4]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[12]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe0[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe1[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[11]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[10]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe2[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe3[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe4[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe5[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe6[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/pipe7[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[9]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[8]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[7]~FF" port: "CE" }
+	terminal	{ cell: "fa0/data_buff[6]~FF" port: "CE" }
+	terminal	{ cell: "det0/testen_sync~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "CE" }
+	terminal	{ cell: "det0/stat0~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "CE" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "CE" }
+	terminal	{ cell: "det0/testen_filt~FF" port: "I[1]" }
+	terminal	{ cell: "det0/testen_filt~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[1]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[2]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[4]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[5]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[7]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "CE" }
+	terminal	{ cell: "pass_cnt[9]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "CE" }
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "CE" }
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[1]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[2]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[5]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "CE" }
+	terminal	{ cell: "start_cnt[9]~FF" port: "CE" }
+	terminal	{ cell: "det0/load~FF_brt_1" port: "CE" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "CE" }
+	terminal	{ cell: "CLKBUF__0" port: "I[0]" }
+	terminal	{ cell: "CLKBUF__1" port: "I[0]" }
+	terminal	{ cell: "rx_fastclk~CLKBUF" port: "I[0]" }
+	terminal	{ cell: "tx_fastclk~CLKBUF" port: "I[0]" }
+ }
+net {
+	name: "det0/testen_sync"
+	terminal	{ cell: "det0/testen_sync~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe0[2]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe0[3]~FF" port: "RE" }
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe0[1]~FF" port: "RE" }
+	terminal	{ cell: "fa0/start_filt~FF" port: "RE" }
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[15]~FF" port: "RE" }
+	terminal	{ cell: "fa0/start_sync~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[14]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[13]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[5]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[4]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[12]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe0[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe1[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[11]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[10]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe2[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe3[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe4[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe5[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe6[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/pipe7[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[0]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[9]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[8]~FF" port: "RE" }
+	terminal	{ cell: "fa0/fa_lock~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[7]~FF" port: "RE" }
+	terminal	{ cell: "fa0/data_buff[6]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "RE" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "RE" }
+	terminal	{ cell: "det0/load~FF_brt_1" port: "I[1]" }
+ }
+net {
+	name: "fa0/pipe0[2]_2"
+	terminal	{ cell: "fa0/pipe0[2]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe6[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__807" port: "I[1]" }
+	terminal	{ cell: "LUT__811" port: "I[0]" }
+	terminal	{ cell: "LUT__816" port: "I[2]" }
+	terminal	{ cell: "LUT__821" port: "I[2]" }
+	terminal	{ cell: "LUT__832" port: "I[1]" }
+	terminal	{ cell: "LUT__847" port: "I[0]" }
+	terminal	{ cell: "LUT__856" port: "I[2]" }
+	terminal	{ cell: "LUT__863" port: "I[1]" }
+	terminal	{ cell: "LUT__876" port: "I[0]" }
+	terminal	{ cell: "LUT__881" port: "I[2]" }
+ }
+net {
+	name: "rx_slowclk~O"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "CLKBUF__0" port: "clkout" }
+	terminal	{ cell: "fa0/pipe0[2]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe0[3]~FF" port: "clk" }
+	terminal	{ cell: "rstn_sync~FF" port: "clk" }
+	terminal	{ cell: "pass~FF" port: "clk" }
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe0[1]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[0]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[0]_2~FF" port: "clk" }
+	terminal	{ cell: "rx_heartbeat~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[0]~FF" port: "clk" }
+	terminal	{ cell: "start_fa~FF" port: "clk" }
+	terminal	{ cell: "rstn_filt~FF" port: "clk" }
+	terminal	{ cell: "fa0/start_filt~FF" port: "clk" }
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[15]~FF" port: "clk" }
+	terminal	{ cell: "fa0/start_sync~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[14]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[13]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[5]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[4]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[12]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe0[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe1[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[11]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[10]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe2[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe3[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe4[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe5[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe6[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/pipe7[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[0]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[9]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[8]~FF" port: "clk" }
+	terminal	{ cell: "fa0/fa_lock~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[7]~FF" port: "clk" }
+	terminal	{ cell: "fa0/data_buff[6]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "clk" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "clk" }
+	terminal	{ cell: "det0/testen_sync~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "clk" }
+	terminal	{ cell: "det0/stat0~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "clk" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "clk" }
+	terminal	{ cell: "det0/testen_filt~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[1]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[2]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[3]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[4]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[5]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[6]~FF" port: "clk" }
+	terminal	{ cell: "det0/prbs_r[7]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[1]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[2]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[4]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[5]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[7]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "clk" }
+	terminal	{ cell: "pass_cnt[9]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "clk" }
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[1]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[2]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[5]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "clk" }
+	terminal	{ cell: "start_cnt[9]~FF" port: "clk" }
+	terminal	{ cell: "det0/load~FF_brt_1" port: "clk" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "clk" }
+ }
+net {
+	name: "fa0/data_buff[11]"
+	terminal	{ cell: "fa0/data_buff[11]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe0[3]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/pipe0[3]_2"
+	terminal	{ cell: "fa0/pipe0[3]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe5[0]~FF" port: "I[1]" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__805" port: "I[0]" }
+	terminal	{ cell: "LUT__816" port: "I[1]" }
+	terminal	{ cell: "LUT__833" port: "I[0]" }
+	terminal	{ cell: "LUT__847" port: "I[2]" }
+	terminal	{ cell: "LUT__854" port: "I[1]" }
+	terminal	{ cell: "LUT__866" port: "I[0]" }
+	terminal	{ cell: "LUT__883" port: "I[1]" }
+ }
+net {
+	name: "txpll_rstn"
+	terminal	{ cell: "rstn" port: "inpad" }
+	terminal	{ cell: "gen/rstn_filt~FF" port: "RE" }
+	terminal	{ cell: "rstn_sync~FF" port: "RE" }
+	terminal	{ cell: "pass~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[0]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[0]_2~FF" port: "RE" }
+	terminal	{ cell: "gen/rstn_sync~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[0]_2~FF" port: "RE" }
+	terminal	{ cell: "rx_heartbeat~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[0]~FF" port: "RE" }
+	terminal	{ cell: "start_fa~FF" port: "RE" }
+	terminal	{ cell: "rstn_filt~FF" port: "RE" }
+	terminal	{ cell: "tx_heartbeat~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[1]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[2]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[4]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[5]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[7]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "RE" }
+	terminal	{ cell: "pass_cnt[9]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "RE" }
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "RE" }
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[1]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[2]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[5]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "RE" }
+	terminal	{ cell: "start_cnt[9]~FF" port: "RE" }
+	terminal	{ cell: "rxpll_rstn" port: "outpad" }
+	terminal	{ cell: "txpll_rstn" port: "outpad" }
+ }
+net {
+	name: "gen/rstn_filt_2"
+	terminal	{ cell: "gen/rstn_filt~FF" port: "O_seq" }
+	terminal	{ cell: "gen/rstn_sync~FF" port: "I[1]" }
+ }
+net {
+	name: "tx_slowclk~O"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "CLKBUF__1" port: "clkout" }
+	terminal	{ cell: "gen/rstn_filt~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[0]_2~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "clk" }
+	terminal	{ cell: "gen/rstn_sync~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "clk" }
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "clk" }
+	terminal	{ cell: "tx_heartbeat~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "clk" }
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "clk" }
+ }
+net {
+	name: "rstn_filt"
+	terminal	{ cell: "rstn_filt~FF" port: "O_seq" }
+	terminal	{ cell: "rstn_sync~FF" port: "I[1]" }
+ }
+net {
+	name: "rstn_sync_2"
+	terminal	{ cell: "rstn_sync~FF" port: "O_seq" }
+	terminal	{ cell: "det0/testen_sync~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "RE" }
+	terminal	{ cell: "det0/stat0~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "RE" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "RE" }
+	terminal	{ cell: "det0/testen_filt~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[1]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[2]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[3]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[4]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[5]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[6]~FF" port: "RE" }
+	terminal	{ cell: "det0/prbs_r[7]~FF" port: "RE" }
+	terminal	{ cell: "det0/load~FF_brt_1" port: "RE" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "RE" }
+ }
+net {
+	name: "stat0"
+	terminal	{ cell: "det0/stat0~FF" port: "O_seq" }
+	terminal	{ cell: "pass~FF" port: "I[1]" }
+	terminal	{ cell: "pass_cnt[0]~FF" port: "I[1]" }
+	terminal	{ cell: "pass_cnt[1]~FF" port: "I[2]" }
+	terminal	{ cell: "pass_cnt[2]~FF" port: "I[2]" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "I[3]" }
+	terminal	{ cell: "pass_cnt[4]~FF" port: "I[2]" }
+	terminal	{ cell: "pass_cnt[5]~FF" port: "I[2]" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "I[3]" }
+	terminal	{ cell: "pass_cnt[7]~FF" port: "I[2]" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "I[3]" }
+	terminal	{ cell: "pass_cnt[9]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__790" port: "I[2]" }
+ }
+net {
+	name: "ceg_net1"
+	terminal	{ cell: "LUT__790" port: "O" }
+	terminal	{ cell: "pass~FF" port: "CE" }
+ }
+net {
+	name: "led[0]"
+	terminal	{ cell: "pass~FF" port: "O_seq" }
+	terminal	{ cell: "led[0]" port: "outpad" }
+ }
+net {
+	name: "gen/f1_prbs_r[2]"
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__780" port: "I[1]" }
+ }
+net {
+	name: "gen/f1_prbs_r[3]"
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "I[1]" }
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "I[1]" }
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "I[1]" }
+ }
+net {
+	name: "gen/rstn_sync_2"
+	terminal	{ cell: "gen/rstn_sync~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "RE" }
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "RE" }
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "RE" }
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "RE" }
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "RE" }
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "RE" }
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "RE" }
+ }
+net {
+	name: "prbs_data[1]"
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[1]" port: "outpad" }
+ }
+net {
+	name: "gen/f1_prbs_r[1]"
+	terminal	{ cell: "gen/f1_prbs_r[1]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__780" port: "I[0]" }
+ }
+net {
+	name: "gen/f1_prbs_r[4]"
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "I[0]" }
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "I[1]" }
+ }
+net {
+	name: "prbs_data[2]"
+	terminal	{ cell: "gen/f1_prbs_r[2]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[2]" port: "outpad" }
+ }
+net {
+	name: "n326"
+	terminal	{ cell: "LUT__802" port: "O" }
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "I[0]" }
+ }
+net {
+	name: "n64_2"
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "O" }
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "I[1]" }
+ }
+net {
+	name: "n319"
+	terminal	{ cell: "LUT__940" port: "O" }
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "I[2]" }
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "I[2]" }
+ }
+net {
+	name: "fa0/cstates[0]"
+	terminal	{ cell: "fa0/cstates[0]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/fa_lock~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__800" port: "I[2]" }
+	terminal	{ cell: "LUT__801" port: "I[0]" }
+	terminal	{ cell: "LUT__802" port: "I[3]" }
+	terminal	{ cell: "LUT__803" port: "I[1]" }
+	terminal	{ cell: "LUT__809" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[9]"
+	terminal	{ cell: "fa0/data_buff[9]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe0[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/pipe0[1]_2"
+	terminal	{ cell: "fa0/pipe0[1]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe7[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__804" port: "I[0]" }
+	terminal	{ cell: "LUT__813" port: "I[0]" }
+	terminal	{ cell: "LUT__829" port: "I[2]" }
+	terminal	{ cell: "LUT__846" port: "I[1]" }
+	terminal	{ cell: "LUT__856" port: "I[0]" }
+	terminal	{ cell: "LUT__865" port: "I[2]" }
+	terminal	{ cell: "LUT__873" port: "I[1]" }
+	terminal	{ cell: "LUT__879" port: "I[0]" }
+	terminal	{ cell: "LUT__894" port: "I[0]" }
+ }
+net {
+	name: "pass_cnt[0]"
+	terminal	{ cell: "pass_cnt[0]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[0]~FF" port: "I[0]" }
+	terminal	{ cell: "pass_cnt[1]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__787" port: "I[0]" }
+	terminal	{ cell: "LUT__915" port: "I[0]" }
+ }
+net {
+	name: "tx_clk_cnt[0]_2"
+	terminal	{ cell: "tx_clk_cnt[0]_2~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[0]_2~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "prbs_data[7]"
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[7]" port: "outpad" }
+ }
+net {
+	name: "gen/f1_prbs_r[7]"
+	terminal	{ cell: "gen/f1_prbs_r[7]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "I[0]" }
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "I[0]" }
+ }
+net {
+	name: "prbs_data[0]"
+	terminal	{ cell: "LUT__780" port: "O" }
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "I[1]" }
+	terminal	{ cell: "prbs_data[0]" port: "outpad" }
+ }
+net {
+	name: "prbs_data[6]"
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[6]" port: "outpad" }
+ }
+net {
+	name: "gen/f1_prbs_r[6]"
+	terminal	{ cell: "gen/f1_prbs_r[6]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "I[1]" }
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "prbs_data[5]"
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[5]" port: "outpad" }
+ }
+net {
+	name: "gen/f1_prbs_r[5]"
+	terminal	{ cell: "gen/f1_prbs_r[5]~FF" port: "O_seq" }
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "I[1]" }
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "I[0]" }
+ }
+net {
+	name: "prbs_data[4]"
+	terminal	{ cell: "gen/f1_prbs_r[4]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[4]" port: "outpad" }
+ }
+net {
+	name: "rx_clk_cnt[0]_2"
+	terminal	{ cell: "rx_clk_cnt[0]_2~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[0]_2~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "rx_clk_cnt[25]"
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_heartbeat~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "I[0]" }
+ }
+net {
+	name: "led[2]"
+	terminal	{ cell: "rx_heartbeat~FF" port: "O_seq" }
+	terminal	{ cell: "led[2]" port: "outpad" }
+ }
+net {
+	name: "prbs_data[3]"
+	terminal	{ cell: "gen/f1_prbs_r[3]~FF" port: "O" }
+	terminal	{ cell: "prbs_data[3]" port: "outpad" }
+ }
+net {
+	name: "start_cnt[0]"
+	terminal	{ cell: "start_cnt[0]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[0]~FF" port: "I[0]" }
+	terminal	{ cell: "start_cnt[1]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__793" port: "I[0]" }
+	terminal	{ cell: "LUT__927" port: "I[0]" }
+ }
+net {
+	name: "led[1]"
+	terminal	{ cell: "rxpll_locked" port: "inpad" }
+	terminal	{ cell: "start_cnt[0]~FF" port: "I[1]" }
+	terminal	{ cell: "start_cnt[1]~FF" port: "I[2]" }
+	terminal	{ cell: "start_cnt[2]~FF" port: "I[2]" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "I[3]" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "I[3]" }
+	terminal	{ cell: "start_cnt[5]~FF" port: "I[2]" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "I[3]" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "I[3]" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "I[3]" }
+	terminal	{ cell: "start_cnt[9]~FF" port: "I[2]" }
+	terminal	{ cell: "led[1]" port: "outpad" }
+ }
+net {
+	name: "equal_50/n19"
+	terminal	{ cell: "LUT__796" port: "O" }
+	terminal	{ cell: "start_fa~FF" port: "CE" }
+ }
+net {
+	name: "start_fa_2"
+	terminal	{ cell: "start_fa~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/start_filt~FF" port: "I[1]" }
+ }
+net {
+	name: "tx_clk_cnt[25]"
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_heartbeat~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "I[0]" }
+ }
+net {
+	name: "led[3]"
+	terminal	{ cell: "tx_heartbeat~FF" port: "O_seq" }
+	terminal	{ cell: "led[3]" port: "outpad" }
+ }
+net {
+	name: "fa0/start_filt_2"
+	terminal	{ cell: "fa0/start_filt~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/start_sync~FF" port: "I[1]" }
+ }
+net {
+	name: "n318"
+	terminal	{ cell: "LUT__800" port: "O" }
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n57"
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "O" }
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/cstates[1]"
+	terminal	{ cell: "fa0/cstates[1]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/fa_lock~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__800" port: "I[3]" }
+	terminal	{ cell: "LUT__801" port: "I[1]" }
+	terminal	{ cell: "LUT__802" port: "I[2]" }
+	terminal	{ cell: "LUT__803" port: "I[0]" }
+	terminal	{ cell: "LUT__809" port: "I[2]" }
+ }
+net {
+	name: "rx_data0[7]"
+	terminal	{ cell: "rx_data0[7]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[15]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__880" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[15]_2"
+	terminal	{ cell: "fa0/data_buff[15]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/data_buff[7]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/start_sync"
+	terminal	{ cell: "fa0/start_sync~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__800" port: "I[0]" }
+	terminal	{ cell: "LUT__802" port: "I[0]" }
+ }
+net {
+	name: "rx_data0[6]"
+	terminal	{ cell: "rx_data0[6]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[14]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__828" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[14]_2"
+	terminal	{ cell: "fa0/data_buff[14]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/data_buff[6]~FF" port: "I[1]" }
+ }
+net {
+	name: "rx_data0[5]"
+	terminal	{ cell: "rx_data0[5]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[13]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__843" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[13]_2"
+	terminal	{ cell: "fa0/data_buff[13]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/data_buff[5]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[5]_2"
+	terminal	{ cell: "fa0/data_buff[5]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe3[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__806" port: "I[1]" }
+	terminal	{ cell: "LUT__811" port: "I[1]" }
+	terminal	{ cell: "LUT__831" port: "I[1]" }
+	terminal	{ cell: "LUT__848" port: "I[0]" }
+	terminal	{ cell: "LUT__884" port: "I[2]" }
+ }
+net {
+	name: "fa0/data_buff[12]"
+	terminal	{ cell: "fa0/data_buff[12]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/data_buff[4]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[4]_2"
+	terminal	{ cell: "fa0/data_buff[4]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe4[0]~FF" port: "I[1]" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__806" port: "I[0]" }
+	terminal	{ cell: "LUT__811" port: "I[2]" }
+	terminal	{ cell: "LUT__833" port: "I[2]" }
+	terminal	{ cell: "LUT__845" port: "I[1]" }
+	terminal	{ cell: "LUT__857" port: "I[0]" }
+	terminal	{ cell: "LUT__884" port: "I[0]" }
+ }
+net {
+	name: "rx_data0[4]"
+	terminal	{ cell: "rx_data0[4]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[12]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__852" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[8]"
+	terminal	{ cell: "fa0/data_buff[8]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe0[0]~FF" port: "I[1]" }
+ }
+net {
+	name: "fa0/pipe0[0]"
+	terminal	{ cell: "fa0/pipe0[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__807" port: "I[0]" }
+	terminal	{ cell: "LUT__811" port: "I[3]" }
+	terminal	{ cell: "LUT__816" port: "I[0]" }
+	terminal	{ cell: "LUT__821" port: "I[1]" }
+	terminal	{ cell: "LUT__823" port: "I[2]" }
+	terminal	{ cell: "LUT__827" port: "I[0]" }
+	terminal	{ cell: "LUT__844" port: "I[2]" }
+	terminal	{ cell: "LUT__855" port: "I[1]" }
+	terminal	{ cell: "LUT__865" port: "I[0]" }
+	terminal	{ cell: "LUT__875" port: "I[2]" }
+	terminal	{ cell: "LUT__880" port: "I[0]" }
+	terminal	{ cell: "LUT__891" port: "I[1]" }
+	terminal	{ cell: "LUT__903" port: "I[0]" }
+ }
+net {
+	name: "fa0/data_buff[7]"
+	terminal	{ cell: "fa0/data_buff[7]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe1[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__806" port: "I[2]" }
+	terminal	{ cell: "LUT__885" port: "I[0]" }
+ }
+net {
+	name: "fa0/pipe1[0]"
+	terminal	{ cell: "fa0/pipe1[0]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "I[0]" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "I[0]" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__813" port: "I[1]" }
+	terminal	{ cell: "LUT__823" port: "I[1]" }
+	terminal	{ cell: "LUT__828" port: "I[0]" }
+	terminal	{ cell: "LUT__842" port: "I[0]" }
+	terminal	{ cell: "LUT__853" port: "I[2]" }
+	terminal	{ cell: "LUT__864" port: "I[1]" }
+	terminal	{ cell: "LUT__875" port: "I[0]" }
+	terminal	{ cell: "LUT__893" port: "I[2]" }
+	terminal	{ cell: "LUT__900" port: "I[1]" }
+ }
+net {
+	name: "rx_data0[3]"
+	terminal	{ cell: "rx_data0[3]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[11]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__861" port: "I[1]" }
+ }
+net {
+	name: "rx_data0[2]"
+	terminal	{ cell: "rx_data0[2]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[10]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__871" port: "I[1]" }
+ }
+net {
+	name: "fa0/data_buff[6]"
+	terminal	{ cell: "fa0/data_buff[6]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/pipe2[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__805" port: "I[1]" }
+	terminal	{ cell: "LUT__834" port: "I[0]" }
+	terminal	{ cell: "LUT__882" port: "I[1]" }
+ }
+net {
+	name: "fa0/pipe2[0]"
+	terminal	{ cell: "fa0/pipe2[0]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__816" port: "I[3]" }
+	terminal	{ cell: "LUT__820" port: "I[0]" }
+	terminal	{ cell: "LUT__825" port: "I[3]" }
+	terminal	{ cell: "LUT__843" port: "I[0]" }
+	terminal	{ cell: "LUT__851" port: "I[0]" }
+	terminal	{ cell: "LUT__862" port: "I[2]" }
+	terminal	{ cell: "LUT__874" port: "I[1]" }
+	terminal	{ cell: "LUT__893" port: "I[0]" }
+	terminal	{ cell: "LUT__902" port: "I[2]" }
+ }
+net {
+	name: "fa0/pipe3[0]"
+	terminal	{ cell: "fa0/pipe3[0]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "I[0]" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "I[1]" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__823" port: "I[0]" }
+	terminal	{ cell: "LUT__852" port: "I[0]" }
+	terminal	{ cell: "LUT__860" port: "I[0]" }
+	terminal	{ cell: "LUT__872" port: "I[2]" }
+	terminal	{ cell: "LUT__892" port: "I[1]" }
+	terminal	{ cell: "LUT__902" port: "I[0]" }
+ }
+net {
+	name: "fa0/pipe4[0]"
+	terminal	{ cell: "fa0/pipe4[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__818" port: "I[0]" }
+	terminal	{ cell: "LUT__820" port: "I[1]" }
+	terminal	{ cell: "LUT__825" port: "I[0]" }
+	terminal	{ cell: "LUT__861" port: "I[0]" }
+	terminal	{ cell: "LUT__870" port: "I[0]" }
+	terminal	{ cell: "LUT__890" port: "I[2]" }
+	terminal	{ cell: "LUT__901" port: "I[1]" }
+ }
+net {
+	name: "fa0/pipe5[0]"
+	terminal	{ cell: "fa0/pipe5[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__821" port: "I[0]" }
+	terminal	{ cell: "LUT__823" port: "I[3]" }
+	terminal	{ cell: "LUT__871" port: "I[0]" }
+	terminal	{ cell: "LUT__888" port: "I[0]" }
+	terminal	{ cell: "LUT__899" port: "I[2]" }
+ }
+net {
+	name: "fa0/pipe6[0]"
+	terminal	{ cell: "fa0/pipe6[0]~FF" port: "O_seq" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__825" port: "I[2]" }
+	terminal	{ cell: "LUT__889" port: "I[0]" }
+	terminal	{ cell: "LUT__897" port: "I[0]" }
+ }
+net {
+	name: "fa0/pipe7[0]"
+	terminal	{ cell: "fa0/pipe7[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__825" port: "I[1]" }
+	terminal	{ cell: "LUT__898" port: "I[0]" }
+ }
+net {
+	name: "n533"
+	terminal	{ cell: "LUT__804" port: "O" }
+	terminal	{ cell: "fa0/match_i[0]~FF" port: "I[0]" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "I[1]" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "I[2]" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "I[2]" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "I[1]" }
+ }
+net {
+	name: "n536"
+	terminal	{ cell: "LUT__807" port: "O" }
+	terminal	{ cell: "fa0/match_i[0]~FF" port: "I[1]" }
+ }
+net {
+	name: "ceg_net27"
+	terminal	{ cell: "LUT__809" port: "O" }
+	terminal	{ cell: "fa0/match_i[0]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "CE" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "CE" }
+ }
+net {
+	name: "fa0/match_i[0]"
+	terminal	{ cell: "fa0/match_i[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__797" port: "I[0]" }
+	terminal	{ cell: "LUT__831" port: "I[2]" }
+	terminal	{ cell: "LUT__834" port: "I[1]" }
+	terminal	{ cell: "LUT__845" port: "I[2]" }
+	terminal	{ cell: "LUT__848" port: "I[1]" }
+	terminal	{ cell: "LUT__854" port: "I[2]" }
+	terminal	{ cell: "LUT__857" port: "I[1]" }
+	terminal	{ cell: "LUT__863" port: "I[2]" }
+	terminal	{ cell: "LUT__866" port: "I[1]" }
+	terminal	{ cell: "LUT__873" port: "I[2]" }
+	terminal	{ cell: "LUT__876" port: "I[1]" }
+	terminal	{ cell: "LUT__882" port: "I[2]" }
+	terminal	{ cell: "LUT__885" port: "I[1]" }
+	terminal	{ cell: "LUT__891" port: "I[2]" }
+	terminal	{ cell: "LUT__894" port: "I[1]" }
+	terminal	{ cell: "LUT__900" port: "I[2]" }
+	terminal	{ cell: "LUT__903" port: "I[1]" }
+ }
+net {
+	name: "rx_data0[1]"
+	terminal	{ cell: "rx_data0[1]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[9]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__889" port: "I[1]" }
+ }
+net {
+	name: "rx_data0[0]"
+	terminal	{ cell: "rx_data0[0]" port: "inpad" }
+	terminal	{ cell: "fa0/data_buff[8]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__898" port: "I[1]" }
+ }
+net {
+	name: "fa0/n448"
+	terminal	{ cell: "LUT__801" port: "O" }
+	terminal	{ cell: "fa0/fa_lock~FF" port: "CE" }
+	terminal	{ cell: "LUT__940" port: "I[0]" }
+ }
+net {
+	name: "fa_lock"
+	terminal	{ cell: "fa0/fa_lock~FF" port: "O_seq" }
+	terminal	{ cell: "fa_lock" port: "outpad" }
+ }
+net {
+	name: "n534"
+	terminal	{ cell: "LUT__805" port: "O" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__807" port: "I[2]" }
+ }
+net {
+	name: "n537"
+	terminal	{ cell: "LUT__811" port: "O" }
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "I[3]" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "I[2]" }
+ }
+net {
+	name: "fa0/match_i[1]"
+	terminal	{ cell: "fa0/match_i[1]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__797" port: "I[1]" }
+	terminal	{ cell: "LUT__831" port: "I[0]" }
+	terminal	{ cell: "LUT__835" port: "I[0]" }
+	terminal	{ cell: "LUT__845" port: "I[0]" }
+	terminal	{ cell: "LUT__849" port: "I[0]" }
+	terminal	{ cell: "LUT__854" port: "I[0]" }
+	terminal	{ cell: "LUT__858" port: "I[0]" }
+	terminal	{ cell: "LUT__863" port: "I[0]" }
+	terminal	{ cell: "LUT__867" port: "I[0]" }
+	terminal	{ cell: "LUT__873" port: "I[0]" }
+	terminal	{ cell: "LUT__877" port: "I[0]" }
+	terminal	{ cell: "LUT__882" port: "I[0]" }
+	terminal	{ cell: "LUT__886" port: "I[0]" }
+	terminal	{ cell: "LUT__891" port: "I[0]" }
+	terminal	{ cell: "LUT__895" port: "I[0]" }
+	terminal	{ cell: "LUT__900" port: "I[0]" }
+	terminal	{ cell: "LUT__904" port: "I[0]" }
+ }
+net {
+	name: "n539"
+	terminal	{ cell: "LUT__814" port: "O" }
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "I[3]" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "I[2]" }
+ }
+net {
+	name: "fa0/match_i[2]"
+	terminal	{ cell: "fa0/match_i[2]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__798" port: "I[0]" }
+	terminal	{ cell: "LUT__830" port: "I[0]" }
+	terminal	{ cell: "LUT__833" port: "I[3]" }
+	terminal	{ cell: "LUT__847" port: "I[3]" }
+	terminal	{ cell: "LUT__856" port: "I[3]" }
+	terminal	{ cell: "LUT__865" port: "I[3]" }
+	terminal	{ cell: "LUT__875" port: "I[3]" }
+	terminal	{ cell: "LUT__884" port: "I[3]" }
+	terminal	{ cell: "LUT__893" port: "I[3]" }
+	terminal	{ cell: "LUT__902" port: "I[3]" }
+ }
+net {
+	name: "n540"
+	terminal	{ cell: "LUT__816" port: "O" }
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "I[3]" }
+	terminal	{ cell: "LUT__818" port: "I[1]" }
+ }
+net {
+	name: "fa0/match_i[3]"
+	terminal	{ cell: "fa0/match_i[3]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__798" port: "I[1]" }
+	terminal	{ cell: "LUT__830" port: "I[1]" }
+	terminal	{ cell: "LUT__833" port: "I[1]" }
+	terminal	{ cell: "LUT__847" port: "I[1]" }
+	terminal	{ cell: "LUT__856" port: "I[1]" }
+	terminal	{ cell: "LUT__865" port: "I[1]" }
+	terminal	{ cell: "LUT__875" port: "I[1]" }
+	terminal	{ cell: "LUT__884" port: "I[1]" }
+	terminal	{ cell: "LUT__893" port: "I[1]" }
+	terminal	{ cell: "LUT__902" port: "I[1]" }
+ }
+net {
+	name: "n541"
+	terminal	{ cell: "LUT__818" port: "O" }
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "I[3]" }
+ }
+net {
+	name: "fa0/match_i[4]"
+	terminal	{ cell: "fa0/match_i[4]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__797" port: "I[2]" }
+	terminal	{ cell: "LUT__832" port: "I[0]" }
+	terminal	{ cell: "LUT__846" port: "I[0]" }
+	terminal	{ cell: "LUT__855" port: "I[0]" }
+	terminal	{ cell: "LUT__864" port: "I[0]" }
+	terminal	{ cell: "LUT__874" port: "I[0]" }
+	terminal	{ cell: "LUT__883" port: "I[0]" }
+	terminal	{ cell: "LUT__892" port: "I[0]" }
+	terminal	{ cell: "LUT__901" port: "I[0]" }
+ }
+net {
+	name: "n543"
+	terminal	{ cell: "LUT__821" port: "O" }
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "I[3]" }
+ }
+net {
+	name: "fa0/match_i[5]"
+	terminal	{ cell: "fa0/match_i[5]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__798" port: "I[2]" }
+	terminal	{ cell: "LUT__829" port: "I[3]" }
+	terminal	{ cell: "LUT__844" port: "I[3]" }
+	terminal	{ cell: "LUT__853" port: "I[3]" }
+	terminal	{ cell: "LUT__862" port: "I[3]" }
+	terminal	{ cell: "LUT__872" port: "I[3]" }
+	terminal	{ cell: "LUT__881" port: "I[3]" }
+	terminal	{ cell: "LUT__890" port: "I[3]" }
+	terminal	{ cell: "LUT__899" port: "I[3]" }
+ }
+net {
+	name: "n542"
+	terminal	{ cell: "LUT__820" port: "O" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__821" port: "I[3]" }
+ }
+net {
+	name: "n544"
+	terminal	{ cell: "LUT__823" port: "O" }
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "I[3]" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "I[2]" }
+ }
+net {
+	name: "fa0/match_i[6]"
+	terminal	{ cell: "fa0/match_i[6]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__798" port: "I[3]" }
+	terminal	{ cell: "LUT__827" port: "I[1]" }
+	terminal	{ cell: "LUT__828" port: "I[2]" }
+	terminal	{ cell: "LUT__842" port: "I[1]" }
+	terminal	{ cell: "LUT__843" port: "I[2]" }
+	terminal	{ cell: "LUT__851" port: "I[1]" }
+	terminal	{ cell: "LUT__852" port: "I[2]" }
+	terminal	{ cell: "LUT__860" port: "I[1]" }
+	terminal	{ cell: "LUT__861" port: "I[2]" }
+	terminal	{ cell: "LUT__870" port: "I[1]" }
+	terminal	{ cell: "LUT__871" port: "I[2]" }
+	terminal	{ cell: "LUT__879" port: "I[1]" }
+	terminal	{ cell: "LUT__880" port: "I[2]" }
+	terminal	{ cell: "LUT__888" port: "I[1]" }
+	terminal	{ cell: "LUT__889" port: "I[2]" }
+	terminal	{ cell: "LUT__897" port: "I[1]" }
+	terminal	{ cell: "LUT__898" port: "I[2]" }
+ }
+net {
+	name: "n531"
+	terminal	{ cell: "LUT__799" port: "O" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__800" port: "I[1]" }
+	terminal	{ cell: "LUT__802" port: "I[1]" }
+	terminal	{ cell: "LUT__809" port: "I[0]" }
+ }
+net {
+	name: "n532"
+	terminal	{ cell: "LUT__803" port: "O" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__804" port: "I[3]" }
+	terminal	{ cell: "LUT__814" port: "I[2]" }
+ }
+net {
+	name: "n545"
+	terminal	{ cell: "LUT__825" port: "O" }
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "I[3]" }
+ }
+net {
+	name: "fa0/match_i[7]"
+	terminal	{ cell: "fa0/match_i[7]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__797" port: "I[3]" }
+	terminal	{ cell: "LUT__828" port: "I[3]" }
+	terminal	{ cell: "LUT__843" port: "I[3]" }
+	terminal	{ cell: "LUT__852" port: "I[3]" }
+	terminal	{ cell: "LUT__861" port: "I[3]" }
+	terminal	{ cell: "LUT__871" port: "I[3]" }
+	terminal	{ cell: "LUT__880" port: "I[3]" }
+	terminal	{ cell: "LUT__889" port: "I[3]" }
+	terminal	{ cell: "LUT__898" port: "I[3]" }
+ }
+net {
+	name: "det0/testen_filt"
+	terminal	{ cell: "det0/testen_filt~FF" port: "O_seq" }
+	terminal	{ cell: "det0/testen_sync~FF" port: "I[1]" }
+ }
+net {
+	name: "n548"
+	terminal	{ cell: "LUT__829" port: "O" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "I[0]" }
+ }
+net {
+	name: "n551"
+	terminal	{ cell: "LUT__832" port: "O" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "I[2]" }
+ }
+net {
+	name: "n554"
+	terminal	{ cell: "LUT__835" port: "O" }
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[6]"
+	terminal	{ cell: "det0/data_sync[6]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__840" port: "I[0]" }
+ }
+net {
+	name: "det0/error"
+	terminal	{ cell: "det0/load~FF_brt_0" port: "O" }
+	terminal	{ cell: "det0/stat0~FF" port: "I[1]" }
+ }
+net {
+	name: "n561"
+	terminal	{ cell: "LUT__844" port: "O" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "I[0]" }
+ }
+net {
+	name: "n563"
+	terminal	{ cell: "LUT__846" port: "O" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "I[2]" }
+ }
+net {
+	name: "n566"
+	terminal	{ cell: "LUT__849" port: "O" }
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[5]"
+	terminal	{ cell: "det0/data_sync[5]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__839" port: "I[0]" }
+ }
+net {
+	name: "n569"
+	terminal	{ cell: "LUT__853" port: "O" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "n571"
+	terminal	{ cell: "LUT__855" port: "O" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "I[2]" }
+ }
+net {
+	name: "n574"
+	terminal	{ cell: "LUT__858" port: "O" }
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[4]"
+	terminal	{ cell: "det0/data_sync[4]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__839" port: "I[3]" }
+ }
+net {
+	name: "n577"
+	terminal	{ cell: "LUT__862" port: "O" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "I[0]" }
+ }
+net {
+	name: "n579"
+	terminal	{ cell: "LUT__864" port: "O" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "I[2]" }
+ }
+net {
+	name: "n582"
+	terminal	{ cell: "LUT__867" port: "O" }
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[3]"
+	terminal	{ cell: "det0/data_sync[3]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__838" port: "I[0]" }
+ }
+net {
+	name: "n585"
+	terminal	{ cell: "LUT__872" port: "O" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "I[0]" }
+ }
+net {
+	name: "n587"
+	terminal	{ cell: "LUT__874" port: "O" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "I[2]" }
+ }
+net {
+	name: "n590"
+	terminal	{ cell: "LUT__877" port: "O" }
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[2]"
+	terminal	{ cell: "det0/data_sync[2]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__838" port: "I[3]" }
+ }
+net {
+	name: "n593"
+	terminal	{ cell: "LUT__881" port: "O" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "I[0]" }
+ }
+net {
+	name: "n595"
+	terminal	{ cell: "LUT__883" port: "O" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "I[2]" }
+ }
+net {
+	name: "n598"
+	terminal	{ cell: "LUT__886" port: "O" }
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[7]"
+	terminal	{ cell: "det0/data_sync[7]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__840" port: "I[2]" }
+ }
+net {
+	name: "n601"
+	terminal	{ cell: "LUT__890" port: "O" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n603"
+	terminal	{ cell: "LUT__892" port: "O" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "I[2]" }
+ }
+net {
+	name: "n606"
+	terminal	{ cell: "LUT__895" port: "O" }
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[1]"
+	terminal	{ cell: "det0/data_sync[1]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__837" port: "I[0]" }
+ }
+net {
+	name: "n609"
+	terminal	{ cell: "LUT__899" port: "O" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "I[0]" }
+ }
+net {
+	name: "n611"
+	terminal	{ cell: "LUT__901" port: "O" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "I[2]" }
+ }
+net {
+	name: "n614"
+	terminal	{ cell: "LUT__904" port: "O" }
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "I[3]" }
+ }
+net {
+	name: "det0/data_sync[0]"
+	terminal	{ cell: "det0/data_sync[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__837" port: "I[3]" }
+ }
+net {
+	name: "det0/prbs_r[1]"
+	terminal	{ cell: "det0/prbs_r[1]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "I[0]" }
+	terminal	{ cell: "det0/prbs_r[7]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__837" port: "I[1]" }
+ }
+net {
+	name: "det0/prbs_r[2]"
+	terminal	{ cell: "det0/prbs_r[2]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/prbs_r[1]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__838" port: "I[2]" }
+ }
+net {
+	name: "det0/n72"
+	terminal	{ cell: "LUT__869" port: "O" }
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[1]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[2]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[3]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[4]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[5]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[6]~FF" port: "CE" }
+	terminal	{ cell: "det0/prbs_r[7]~FF" port: "CE" }
+ }
+net {
+	name: "det0/n56"
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "O" }
+	terminal	{ cell: "det0/prbs_r[6]~FF" port: "I[1]" }
+ }
+net {
+	name: "det0/prbs_r[0]"
+	terminal	{ cell: "det0/prbs_r[0]~FF" port: "O_seq" }
+	terminal	{ cell: "LUT__837" port: "I[2]" }
+ }
+net {
+	name: "det0/prbs_r[3]"
+	terminal	{ cell: "det0/prbs_r[3]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[1]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/prbs_r[2]~FF" port: "I[0]" }
+	terminal	{ cell: "det0/prbs_r[7]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__838" port: "I[1]" }
+ }
+net {
+	name: "det0/prbs_r[4]"
+	terminal	{ cell: "det0/prbs_r[4]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[2]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/prbs_r[3]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__839" port: "I[2]" }
+ }
+net {
+	name: "det0/prbs_r[5]"
+	terminal	{ cell: "det0/prbs_r[5]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[3]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/prbs_r[4]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__839" port: "I[1]" }
+ }
+net {
+	name: "det0/prbs_r[6]"
+	terminal	{ cell: "det0/prbs_r[6]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[4]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/prbs_r[5]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__840" port: "I[1]" }
+ }
+net {
+	name: "det0/prbs_r[7]"
+	terminal	{ cell: "det0/prbs_r[7]~FF" port: "O_seq" }
+	terminal	{ cell: "det0/prbs_r[5]~FF" port: "I[1]" }
+	terminal	{ cell: "det0/prbs_r[6]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__840" port: "I[3]" }
+ }
+net {
+	name: "pass_cnt[1]"
+	terminal	{ cell: "pass_cnt[1]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[1]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__787" port: "I[1]" }
+	terminal	{ cell: "LUT__915" port: "I[1]" }
+ }
+net {
+	name: "pass_cnt[2]"
+	terminal	{ cell: "pass_cnt[2]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[2]~FF" port: "I[0]" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__787" port: "I[2]" }
+ }
+net {
+	name: "n615"
+	terminal	{ cell: "LUT__915" port: "O" }
+	terminal	{ cell: "pass_cnt[2]~FF" port: "I[1]" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "I[1]" }
+ }
+net {
+	name: "pass_cnt[3]"
+	terminal	{ cell: "pass_cnt[3]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[3]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__787" port: "I[3]" }
+ }
+net {
+	name: "pass_cnt[4]"
+	terminal	{ cell: "pass_cnt[4]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[4]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__789" port: "I[0]" }
+	terminal	{ cell: "LUT__919" port: "I[0]" }
+	terminal	{ cell: "LUT__922" port: "I[0]" }
+ }
+net {
+	name: "n523"
+	terminal	{ cell: "LUT__787" port: "O" }
+	terminal	{ cell: "pass_cnt[4]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__789" port: "I[1]" }
+	terminal	{ cell: "LUT__919" port: "I[1]" }
+	terminal	{ cell: "LUT__922" port: "I[3]" }
+ }
+net {
+	name: "pass_cnt[5]"
+	terminal	{ cell: "pass_cnt[5]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[5]~FF" port: "I[0]" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__788" port: "I[0]" }
+	terminal	{ cell: "LUT__922" port: "I[1]" }
+ }
+net {
+	name: "n616"
+	terminal	{ cell: "LUT__919" port: "O" }
+	terminal	{ cell: "pass_cnt[5]~FF" port: "I[1]" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "I[1]" }
+ }
+net {
+	name: "pass_cnt[6]"
+	terminal	{ cell: "pass_cnt[6]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[6]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__788" port: "I[1]" }
+	terminal	{ cell: "LUT__922" port: "I[2]" }
+ }
+net {
+	name: "pass_cnt[7]"
+	terminal	{ cell: "pass_cnt[7]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[7]~FF" port: "I[0]" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__788" port: "I[2]" }
+ }
+net {
+	name: "n617"
+	terminal	{ cell: "LUT__922" port: "O" }
+	terminal	{ cell: "pass_cnt[7]~FF" port: "I[1]" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "I[1]" }
+ }
+net {
+	name: "pass_cnt[8]"
+	terminal	{ cell: "pass_cnt[8]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[8]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__788" port: "I[3]" }
+ }
+net {
+	name: "pass_cnt[9]"
+	terminal	{ cell: "pass_cnt[9]~FF" port: "O_seq" }
+	terminal	{ cell: "pass_cnt[9]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__790" port: "I[1]" }
+ }
+net {
+	name: "n525"
+	terminal	{ cell: "LUT__789" port: "O" }
+	terminal	{ cell: "pass_cnt[9]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__790" port: "I[0]" }
+ }
+net {
+	name: "tx_clk_cnt[1]"
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n254"
+	terminal	{ cell: "tx_clk_cnt[1]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[2]"
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "I[0]" }
+ }
+net {
+	name: "gnd"
+	type: CONSTANT
+	terminal	{ cell: "GND" port: "O" }
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "I[1]" }
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "I[1]" }
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "I[1]" }
+ }
+net {
+	name: "n166_2"
+	terminal	{ cell: "tx_clk_cnt[2]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[3]"
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "I[0]" }
+ }
+net {
+	name: "n164_2"
+	terminal	{ cell: "tx_clk_cnt[3]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[4]"
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "n129"
+	terminal	{ cell: "tx_clk_cnt[4]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[5]"
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "I[0]" }
+ }
+net {
+	name: "n126"
+	terminal	{ cell: "tx_clk_cnt[5]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[6]"
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "I[0]" }
+ }
+net {
+	name: "n122"
+	terminal	{ cell: "tx_clk_cnt[6]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[7]"
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "I[0]" }
+ }
+net {
+	name: "n120_2"
+	terminal	{ cell: "tx_clk_cnt[7]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[8]"
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "I[0]" }
+ }
+net {
+	name: "n116_2"
+	terminal	{ cell: "tx_clk_cnt[8]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[9]"
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "I[0]" }
+ }
+net {
+	name: "n114_2"
+	terminal	{ cell: "tx_clk_cnt[9]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[10]"
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "I[0]" }
+ }
+net {
+	name: "n110_2"
+	terminal	{ cell: "tx_clk_cnt[10]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[11]"
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "I[0]" }
+ }
+net {
+	name: "n108_2"
+	terminal	{ cell: "tx_clk_cnt[11]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[12]"
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "I[0]" }
+ }
+net {
+	name: "n104_2"
+	terminal	{ cell: "tx_clk_cnt[12]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[13]"
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "I[0]" }
+ }
+net {
+	name: "n53"
+	terminal	{ cell: "tx_clk_cnt[13]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[14]"
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "I[0]" }
+ }
+net {
+	name: "n51"
+	terminal	{ cell: "tx_clk_cnt[14]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[15]"
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "I[0]" }
+ }
+net {
+	name: "n93"
+	terminal	{ cell: "tx_clk_cnt[15]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[16]"
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "I[0]" }
+ }
+net {
+	name: "n35"
+	terminal	{ cell: "tx_clk_cnt[16]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[17]"
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "I[0]" }
+ }
+net {
+	name: "n177_2"
+	terminal	{ cell: "tx_clk_cnt[17]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[18]"
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "I[0]" }
+ }
+net {
+	name: "n168_2"
+	terminal	{ cell: "tx_clk_cnt[18]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[19]"
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "I[0]" }
+ }
+net {
+	name: "n162_2"
+	terminal	{ cell: "tx_clk_cnt[19]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[20]"
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "I[0]" }
+ }
+net {
+	name: "n157_2"
+	terminal	{ cell: "tx_clk_cnt[20]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[21]"
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "I[0]" }
+ }
+net {
+	name: "n150"
+	terminal	{ cell: "tx_clk_cnt[21]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[22]"
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "I[0]" }
+ }
+net {
+	name: "n148"
+	terminal	{ cell: "tx_clk_cnt[22]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[23]"
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "I[0]" }
+ }
+net {
+	name: "n146"
+	terminal	{ cell: "tx_clk_cnt[23]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "cin" }
+ }
+net {
+	name: "tx_clk_cnt[24]"
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "O_seq" }
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "I[0]" }
+ }
+net {
+	name: "n144"
+	terminal	{ cell: "tx_clk_cnt[24]~FF" port: "cout" }
+	terminal	{ cell: "tx_clk_cnt[25]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[1]"
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "I[0]" }
+ }
+net {
+	name: "n43"
+	terminal	{ cell: "rx_clk_cnt[1]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[2]"
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "I[0]" }
+ }
+net {
+	name: "n141"
+	terminal	{ cell: "rx_clk_cnt[2]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[3]"
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "I[0]" }
+ }
+net {
+	name: "n124"
+	terminal	{ cell: "rx_clk_cnt[3]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[4]"
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "I[0]" }
+ }
+net {
+	name: "n118_2"
+	terminal	{ cell: "rx_clk_cnt[4]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[5]"
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "I[0]" }
+ }
+net {
+	name: "n112_2"
+	terminal	{ cell: "rx_clk_cnt[5]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[6]"
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "I[0]" }
+ }
+net {
+	name: "n106_2"
+	terminal	{ cell: "rx_clk_cnt[6]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[7]"
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "I[0]" }
+ }
+net {
+	name: "n88"
+	terminal	{ cell: "rx_clk_cnt[7]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[8]"
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "I[0]" }
+ }
+net {
+	name: "n59"
+	terminal	{ cell: "rx_clk_cnt[8]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[9]"
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "I[0]" }
+ }
+net {
+	name: "n48"
+	terminal	{ cell: "rx_clk_cnt[9]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[10]"
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "I[0]" }
+ }
+net {
+	name: "n33"
+	terminal	{ cell: "rx_clk_cnt[10]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[11]"
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "I[0]" }
+ }
+net {
+	name: "n29"
+	terminal	{ cell: "rx_clk_cnt[11]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[12]"
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "I[0]" }
+ }
+net {
+	name: "n27"
+	terminal	{ cell: "rx_clk_cnt[12]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[13]"
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "I[0]" }
+ }
+net {
+	name: "n20"
+	terminal	{ cell: "rx_clk_cnt[13]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[14]"
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "I[0]" }
+ }
+net {
+	name: "n84"
+	terminal	{ cell: "rx_clk_cnt[14]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[15]"
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "I[0]" }
+ }
+net {
+	name: "n86"
+	terminal	{ cell: "rx_clk_cnt[15]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[16]"
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "I[0]" }
+ }
+net {
+	name: "n95"
+	terminal	{ cell: "rx_clk_cnt[16]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[17]"
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "I[0]" }
+ }
+net {
+	name: "n258"
+	terminal	{ cell: "rx_clk_cnt[17]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[18]"
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "I[0]" }
+ }
+net {
+	name: "n256"
+	terminal	{ cell: "rx_clk_cnt[18]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[19]"
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "I[0]" }
+ }
+net {
+	name: "n152"
+	terminal	{ cell: "rx_clk_cnt[19]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[20]"
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "I[0]" }
+ }
+net {
+	name: "n139"
+	terminal	{ cell: "rx_clk_cnt[20]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[21]"
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "I[0]" }
+ }
+net {
+	name: "n137"
+	terminal	{ cell: "rx_clk_cnt[21]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[22]"
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "I[0]" }
+ }
+net {
+	name: "n135"
+	terminal	{ cell: "rx_clk_cnt[22]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[23]"
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "I[0]" }
+ }
+net {
+	name: "n133"
+	terminal	{ cell: "rx_clk_cnt[23]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "cin" }
+ }
+net {
+	name: "rx_clk_cnt[24]"
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "O_seq" }
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "I[0]" }
+ }
+net {
+	name: "n131"
+	terminal	{ cell: "rx_clk_cnt[24]~FF" port: "cout" }
+	terminal	{ cell: "rx_clk_cnt[25]~FF" port: "cin" }
+ }
+net {
+	name: "start_cnt[1]"
+	terminal	{ cell: "start_cnt[1]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[1]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__793" port: "I[1]" }
+	terminal	{ cell: "LUT__927" port: "I[1]" }
+ }
+net {
+	name: "start_cnt[2]"
+	terminal	{ cell: "start_cnt[2]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[2]~FF" port: "I[0]" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__794" port: "I[0]" }
+	terminal	{ cell: "LUT__930" port: "I[0]" }
+	terminal	{ cell: "LUT__932" port: "I[0]" }
+ }
+net {
+	name: "n618"
+	terminal	{ cell: "LUT__927" port: "O" }
+	terminal	{ cell: "start_cnt[2]~FF" port: "I[1]" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "I[1]" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__932" port: "I[3]" }
+ }
+net {
+	name: "start_cnt[3]"
+	terminal	{ cell: "start_cnt[3]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[3]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__794" port: "I[1]" }
+	terminal	{ cell: "LUT__930" port: "I[1]" }
+	terminal	{ cell: "LUT__932" port: "I[1]" }
+ }
+net {
+	name: "n619"
+	terminal	{ cell: "LUT__930" port: "O" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "I[1]" }
+ }
+net {
+	name: "start_cnt[4]"
+	terminal	{ cell: "start_cnt[4]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[4]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__793" port: "I[2]" }
+	terminal	{ cell: "LUT__932" port: "I[2]" }
+ }
+net {
+	name: "start_cnt[5]"
+	terminal	{ cell: "start_cnt[5]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[5]~FF" port: "I[0]" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__794" port: "I[2]" }
+ }
+net {
+	name: "n620"
+	terminal	{ cell: "LUT__932" port: "O" }
+	terminal	{ cell: "start_cnt[5]~FF" port: "I[1]" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "I[1]" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "I[0]" }
+ }
+net {
+	name: "start_cnt[6]"
+	terminal	{ cell: "start_cnt[6]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[6]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__794" port: "I[3]" }
+ }
+net {
+	name: "n527"
+	terminal	{ cell: "LUT__794" port: "O" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "I[1]" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__795" port: "I[2]" }
+ }
+net {
+	name: "start_cnt[7]"
+	terminal	{ cell: "start_cnt[7]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[7]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__793" port: "I[3]" }
+ }
+net {
+	name: "n526"
+	terminal	{ cell: "LUT__793" port: "O" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__795" port: "I[1]" }
+ }
+net {
+	name: "start_cnt[8]"
+	terminal	{ cell: "start_cnt[8]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[8]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__795" port: "I[0]" }
+ }
+net {
+	name: "start_cnt[9]"
+	terminal	{ cell: "start_cnt[9]~FF" port: "O_seq" }
+	terminal	{ cell: "start_cnt[9]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__796" port: "I[0]" }
+ }
+net {
+	name: "n528"
+	terminal	{ cell: "LUT__795" port: "O" }
+	terminal	{ cell: "start_cnt[9]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__796" port: "I[1]" }
+ }
+net {
+	name: "det0/load~FF_brt_1_q"
+	terminal	{ cell: "det0/load~FF_brt_1" port: "O_seq" }
+	terminal	{ cell: "LUT__869" port: "I[1]" }
+ }
+net {
+	name: "n555"
+	terminal	{ cell: "LUT__837" port: "O" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "I[0]" }
+ }
+net {
+	name: "n556"
+	terminal	{ cell: "LUT__838" port: "O" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "I[1]" }
+ }
+net {
+	name: "n557"
+	terminal	{ cell: "LUT__839" port: "O" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "I[2]" }
+ }
+net {
+	name: "n558"
+	terminal	{ cell: "LUT__840" port: "O" }
+	terminal	{ cell: "det0/load~FF_brt_0" port: "I[3]" }
+ }
+net {
+	name: "det0/load~FF_brt_0_q"
+	terminal	{ cell: "det0/load~FF_brt_0" port: "O_seq" }
+	terminal	{ cell: "LUT__869" port: "I[0]" }
+ }
+net {
+	name: "tx_slowclk"
+	gbuf_driven: true
+	terminal	{ cell: "tx_slowclk" port: "inpad" }
+	terminal	{ cell: "CLKBUF__1" port: "IO_in" }
+ }
+net {
+	name: "rx_slowclk"
+	gbuf_driven: true
+	terminal	{ cell: "rx_slowclk" port: "inpad" }
+	terminal	{ cell: "CLKBUF__0" port: "IO_in" }
+ }
+net {
+	name: "n524"
+	terminal	{ cell: "LUT__788" port: "O" }
+	terminal	{ cell: "LUT__789" port: "I[2]" }
+ }
+net {
+	name: "n529"
+	terminal	{ cell: "LUT__797" port: "O" }
+	terminal	{ cell: "LUT__799" port: "I[0]" }
+	terminal	{ cell: "LUT__804" port: "I[1]" }
+	terminal	{ cell: "LUT__814" port: "I[0]" }
+ }
+net {
+	name: "n530"
+	terminal	{ cell: "LUT__798" port: "O" }
+	terminal	{ cell: "LUT__799" port: "I[1]" }
+	terminal	{ cell: "LUT__804" port: "I[2]" }
+	terminal	{ cell: "LUT__814" port: "I[1]" }
+ }
+net {
+	name: "n535"
+	terminal	{ cell: "LUT__806" port: "O" }
+	terminal	{ cell: "LUT__807" port: "I[3]" }
+ }
+net {
+	name: "n538"
+	terminal	{ cell: "LUT__813" port: "O" }
+	terminal	{ cell: "LUT__814" port: "I[3]" }
+ }
+net {
+	name: "n546"
+	terminal	{ cell: "LUT__827" port: "O" }
+	terminal	{ cell: "LUT__829" port: "I[1]" }
+ }
+net {
+	name: "n547"
+	terminal	{ cell: "LUT__828" port: "O" }
+	terminal	{ cell: "LUT__829" port: "I[0]" }
+ }
+net {
+	name: "n549"
+	terminal	{ cell: "LUT__830" port: "O" }
+	terminal	{ cell: "LUT__832" port: "I[2]" }
+	terminal	{ cell: "LUT__846" port: "I[2]" }
+	terminal	{ cell: "LUT__855" port: "I[2]" }
+	terminal	{ cell: "LUT__864" port: "I[2]" }
+	terminal	{ cell: "LUT__874" port: "I[2]" }
+	terminal	{ cell: "LUT__883" port: "I[2]" }
+	terminal	{ cell: "LUT__892" port: "I[2]" }
+	terminal	{ cell: "LUT__901" port: "I[2]" }
+ }
+net {
+	name: "n550"
+	terminal	{ cell: "LUT__831" port: "O" }
+	terminal	{ cell: "LUT__832" port: "I[3]" }
+	terminal	{ cell: "LUT__835" port: "I[2]" }
+ }
+net {
+	name: "n552"
+	terminal	{ cell: "LUT__833" port: "O" }
+	terminal	{ cell: "LUT__835" port: "I[1]" }
+ }
+net {
+	name: "n553"
+	terminal	{ cell: "LUT__834" port: "O" }
+	terminal	{ cell: "LUT__835" port: "I[3]" }
+ }
+net {
+	name: "n559"
+	terminal	{ cell: "LUT__842" port: "O" }
+	terminal	{ cell: "LUT__844" port: "I[1]" }
+ }
+net {
+	name: "n560"
+	terminal	{ cell: "LUT__843" port: "O" }
+	terminal	{ cell: "LUT__844" port: "I[0]" }
+ }
+net {
+	name: "n562"
+	terminal	{ cell: "LUT__845" port: "O" }
+	terminal	{ cell: "LUT__846" port: "I[3]" }
+	terminal	{ cell: "LUT__849" port: "I[2]" }
+ }
+net {
+	name: "n564"
+	terminal	{ cell: "LUT__847" port: "O" }
+	terminal	{ cell: "LUT__849" port: "I[1]" }
+ }
+net {
+	name: "n565"
+	terminal	{ cell: "LUT__848" port: "O" }
+	terminal	{ cell: "LUT__849" port: "I[3]" }
+ }
+net {
+	name: "n567"
+	terminal	{ cell: "LUT__851" port: "O" }
+	terminal	{ cell: "LUT__853" port: "I[1]" }
+ }
+net {
+	name: "n568"
+	terminal	{ cell: "LUT__852" port: "O" }
+	terminal	{ cell: "LUT__853" port: "I[0]" }
+ }
+net {
+	name: "n570"
+	terminal	{ cell: "LUT__854" port: "O" }
+	terminal	{ cell: "LUT__855" port: "I[3]" }
+	terminal	{ cell: "LUT__858" port: "I[2]" }
+ }
+net {
+	name: "n572"
+	terminal	{ cell: "LUT__856" port: "O" }
+	terminal	{ cell: "LUT__858" port: "I[1]" }
+ }
+net {
+	name: "n573"
+	terminal	{ cell: "LUT__857" port: "O" }
+	terminal	{ cell: "LUT__858" port: "I[3]" }
+ }
+net {
+	name: "n575"
+	terminal	{ cell: "LUT__860" port: "O" }
+	terminal	{ cell: "LUT__862" port: "I[1]" }
+ }
+net {
+	name: "n576"
+	terminal	{ cell: "LUT__861" port: "O" }
+	terminal	{ cell: "LUT__862" port: "I[0]" }
+ }
+net {
+	name: "n578"
+	terminal	{ cell: "LUT__863" port: "O" }
+	terminal	{ cell: "LUT__864" port: "I[3]" }
+	terminal	{ cell: "LUT__867" port: "I[2]" }
+ }
+net {
+	name: "n580"
+	terminal	{ cell: "LUT__865" port: "O" }
+	terminal	{ cell: "LUT__867" port: "I[1]" }
+ }
+net {
+	name: "n581"
+	terminal	{ cell: "LUT__866" port: "O" }
+	terminal	{ cell: "LUT__867" port: "I[3]" }
+ }
+net {
+	name: "n583"
+	terminal	{ cell: "LUT__870" port: "O" }
+	terminal	{ cell: "LUT__872" port: "I[1]" }
+ }
+net {
+	name: "n584"
+	terminal	{ cell: "LUT__871" port: "O" }
+	terminal	{ cell: "LUT__872" port: "I[0]" }
+ }
+net {
+	name: "n586"
+	terminal	{ cell: "LUT__873" port: "O" }
+	terminal	{ cell: "LUT__874" port: "I[3]" }
+	terminal	{ cell: "LUT__877" port: "I[2]" }
+ }
+net {
+	name: "n588"
+	terminal	{ cell: "LUT__875" port: "O" }
+	terminal	{ cell: "LUT__877" port: "I[1]" }
+ }
+net {
+	name: "n589"
+	terminal	{ cell: "LUT__876" port: "O" }
+	terminal	{ cell: "LUT__877" port: "I[3]" }
+ }
+net {
+	name: "n591"
+	terminal	{ cell: "LUT__879" port: "O" }
+	terminal	{ cell: "LUT__881" port: "I[1]" }
+ }
+net {
+	name: "n592"
+	terminal	{ cell: "LUT__880" port: "O" }
+	terminal	{ cell: "LUT__881" port: "I[0]" }
+ }
+net {
+	name: "n594"
+	terminal	{ cell: "LUT__882" port: "O" }
+	terminal	{ cell: "LUT__883" port: "I[3]" }
+	terminal	{ cell: "LUT__886" port: "I[2]" }
+ }
+net {
+	name: "n596"
+	terminal	{ cell: "LUT__884" port: "O" }
+	terminal	{ cell: "LUT__886" port: "I[1]" }
+ }
+net {
+	name: "n597"
+	terminal	{ cell: "LUT__885" port: "O" }
+	terminal	{ cell: "LUT__886" port: "I[3]" }
+ }
+net {
+	name: "n599"
+	terminal	{ cell: "LUT__888" port: "O" }
+	terminal	{ cell: "LUT__890" port: "I[1]" }
+ }
+net {
+	name: "n600"
+	terminal	{ cell: "LUT__889" port: "O" }
+	terminal	{ cell: "LUT__890" port: "I[0]" }
+ }
+net {
+	name: "n602"
+	terminal	{ cell: "LUT__891" port: "O" }
+	terminal	{ cell: "LUT__892" port: "I[3]" }
+	terminal	{ cell: "LUT__895" port: "I[2]" }
+ }
+net {
+	name: "n604"
+	terminal	{ cell: "LUT__893" port: "O" }
+	terminal	{ cell: "LUT__895" port: "I[1]" }
+ }
+net {
+	name: "n605"
+	terminal	{ cell: "LUT__894" port: "O" }
+	terminal	{ cell: "LUT__895" port: "I[3]" }
+ }
+net {
+	name: "n607"
+	terminal	{ cell: "LUT__897" port: "O" }
+	terminal	{ cell: "LUT__899" port: "I[1]" }
+ }
+net {
+	name: "n608"
+	terminal	{ cell: "LUT__898" port: "O" }
+	terminal	{ cell: "LUT__899" port: "I[0]" }
+ }
+net {
+	name: "n610"
+	terminal	{ cell: "LUT__900" port: "O" }
+	terminal	{ cell: "LUT__901" port: "I[3]" }
+	terminal	{ cell: "LUT__904" port: "I[2]" }
+ }
+net {
+	name: "n612"
+	terminal	{ cell: "LUT__902" port: "O" }
+	terminal	{ cell: "LUT__904" port: "I[1]" }
+ }
+net {
+	name: "n613"
+	terminal	{ cell: "LUT__903" port: "O" }
+	terminal	{ cell: "LUT__904" port: "I[3]" }
+ }
+net {
+	name: "rx_fastclk"
+	gbuf_driven: true
+	terminal	{ cell: "rx_fastclk" port: "inpad" }
+	terminal	{ cell: "rx_fastclk~CLKBUF" port: "IO_in" }
+ }
+net {
+	name: "rx_fastclk~CLKBUF"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "rx_fastclk~CLKBUF" port: "clkout" }
+ }
+net {
+	name: "tx_fastclk"
+	gbuf_driven: true
+	terminal	{ cell: "tx_fastclk" port: "inpad" }
+	terminal	{ cell: "tx_fastclk~CLKBUF" port: "IO_in" }
+ }
+net {
+	name: "tx_fastclk~CLKBUF"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "tx_fastclk~CLKBUF" port: "clkout" }
+ }

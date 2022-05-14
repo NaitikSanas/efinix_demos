@@ -1,0 +1,77 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Date: Sat May 14 12:37:00 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: mipi_loopback
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 110 / 1108 (9.93%)
+Outputs: 118 / 1263 (9.34%)
+Clocks: 7 / 16 (43.75%)
+Logic Elements: 5414 / 112128 (4.83%)
+	LE: LUTs/Adders: 751 / 112128 (0.67%)
+	LE: Registers: 4975 / 107520 (4.63%)
+Memory Blocks: 16 / 1056 (1.52%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++--------------------------------+------+------------+-------------+------------+------------+
+|              NAME              | MODE | READ_WIDTH | WRITE_WIDTH | WRITE_MODE | OUTPUT_REG |
++--------------------------------+------+------------+-------------+------------+------------+
+|  fifo_in0/memory_in0/mem__D$2  | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$12  | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$b12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$c12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$d12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$e12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$f12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$g12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$h12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$i12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$j12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$k12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$l12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$m12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$n12 | SDP  |     1      |      1      | READ_FIRST |   false    |
+| fifo_in0/memory_in0/mem__D$o1  | SDP  |     1      |      1      | READ_FIRST |   false    |
++--------------------------------+------+------------+-------------+------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|       bscan_DRCK       |    Input     |
+|       bscan_TMS        |    Input     |
+|     bscan_RUNTEST      |    Input     |
+|   my_mipi_rx_ULPS[3]   |    Input     |
+|   my_mipi_rx_ULPS[2]   |    Input     |
+|   my_mipi_rx_ULPS[1]   |    Input     |
+|   my_mipi_rx_ULPS[0]   |    Input     |
+|  my_mipi_rx_ULPS_CLK   |    Input     |
+|    my_mipi_rx_VC[1]    |    Input     |
+|    my_mipi_rx_VC[0]    |    Input     |
+|  my_mipi_rx_HSYNC[3]   |    Input     |
+|  my_mipi_rx_VSYNC[3]   |    Input     |
+|  my_mipi_rx_HSYNC[2]   |    Input     |
+|  my_mipi_rx_VSYNC[2]   |    Input     |
+|  my_mipi_rx_HSYNC[1]   |    Input     |
+|  my_mipi_rx_VSYNC[1]   |    Input     |
+|  my_mipi_rx_HSYNC[0]   |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 20 seconds

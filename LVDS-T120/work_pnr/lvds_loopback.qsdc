@@ -1,0 +1,24 @@
+clock {
+  name: "tx_slowclk"
+  period: 16000
+  target_pin {
+    cell: "tx_slowclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "rx_slowclk"
+  period: 16000
+  target_pin {
+    cell: "rx_slowclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}

@@ -1,0 +1,5 @@
+Instance Name,Instance Type,Severity,Rule,Description
+led[1],gpio,warning,gpio_rule_cfg_drive_strength,Resource GPIOB_RXN03 does not support Drive Strength feature. It will be ignored.
+led[2],gpio,warning,gpio_rule_cfg_drive_strength,Resource GPIOB_RXN06 does not support Drive Strength feature. It will be ignored.
+led[3],gpio,warning,gpio_rule_cfg_drive_strength,Resource GPIOB_RXN01 does not support Drive Strength feature. It will be ignored.
+lvds_rx0,lvds_rx,warning,lvds_rule_rx_distance,These Rx LVTTL must be placed at least 2 pairs away from LVDS lvds_rx0 in order to avoid noise coupling from LVTTL to LVDS: GPIOB_RXN01

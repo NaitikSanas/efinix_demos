@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="TIndia Standard Time" project="mipi_loopback" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+
+  <efx:group name="System Resources">
+    <efx:group_data info="runtime" name="packing" severity="info" value="0|0:0:0"/>
+    <efx:group_data info="runtime" name="placement" severity="info" value="0|0:0:20"/>
+    <efx:group_data info="runtime" name="routing" severity="info" value="0|0:0:4"/>
+    <efx:group_data info="peak_rr" name="Peak RSS" severity="info" value="2685.39 MB"/>
+  </efx:group>
+
+  <efx:group name="Core Resources">
+    <efx:group_data name="Inputs" severity="info" value="110 / 1108"/>
+    <efx:group_data name="Outputs" severity="info" value="118 / 1263"/>
+    <efx:group_data name="Clocks" severity="info" value="7 / 16"/>
+    <efx:group_data name="Logic Elements" severity="info" value="5414 / 112128"/>
+    <efx:group_data name="Memory Blocks" severity="info" value="16 / 1056"/>
+    <efx:group_data name="Multipliers" severity="info" value="0 / 320"/>
+  </efx:group>
+
+  <efx:group name="Interface">
+    <efx:group_data name="Missing Interface Pins" severity="info" value="17"/>
+    <efx:group_data name="Unassigned Core Pins" severity="info" value="0"/>
+  </efx:group>
+
+  <efx:group name="Timing">
+    <efx:group_data name="Worst Negative Slack (WNS)" severity="info" value="16.232 ns"/>
+    <efx:group_data name="Worst Hold Slack (WHS)" severity="info" value="0.188 ns"/>
+    <efx:group_data name="tx_vga_clk" severity="info" value="119.532 MHz"/>
+    <efx:group_data name="tx_pixel_clk" severity="info" value="247.560 MHz"/>
+    <efx:group_data name="rx_vga_clk" severity="info" value="114.045 MHz"/>
+    <efx:group_data name="rx_pixel_clk" severity="info" value="378.990 MHz"/>
+  </efx:group>
+
+</efx:tool_report>

@@ -1,0 +1,10 @@
+Module Resource Usage Distribution Estimates
+Generated at: May 14, 2022 09:38:59
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+lvds_loopback_top:lvds_loopback_top 	    144(78)	     50(50)	    162(34)	     0(0)	     0(0)	
++gen:prbs_gen                       	       9(9)	       0(0)	       8(8)	     0(0)	     0(0)	
++fa0:frame_aligner                  	     38(38)	       0(0)	   106(106)	     0(0)	     0(0)	
++det0:prbs_det                      	     19(19)	       0(0)	     14(14)	     0(0)	     0(0)	

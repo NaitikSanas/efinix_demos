@@ -1,0 +1,262 @@
+Synthesis report for project mipi_loopback
+Generated at: May 14, 2022 12:36:31
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : mipi_loopback_top
+### ### File List (begin) ### ### ###
+C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\debug_top.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\fifo.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\video_gen.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\sw_counter.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\memory.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\mipi_loopback_top.v (verilog_2k)
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+"MEM|SYN-0677" : Zero initialization of uninitialized memory block 'mem'. (C:/Users\sanas\OneDrive\Documents\MIPI_Loopback\memory.v:44)
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 27
+Enable signal <equal_25/n5>, number of controlling flip flops: 65
+Enable signal <ceg_net4>, number of controlling flip flops: 1
+Enable signal <ceg_net7>, number of controlling flip flops: 1
+Enable signal <ceg_net12>, number of controlling flip flops: 1
+Enable signal <patgen/equal_4/n20>, number of controlling flip flops: 10
+Enable signal <n9587>, number of controlling flip flops: 20
+Enable signal <vsync_golden_reset>, number of controlling flip flops: 20
+Enable signal <sw4_inst/equal_12/n31>, number of controlling flip flops: 2
+Enable signal <sw4_inst/n9>, number of controlling flip flops: 16
+Enable signal <valid_h_golden_3>, number of controlling flip flops: 12
+Enable signal <rx_valid_VC_2>, number of controlling flip flops: 12
+Enable signal <goldenpat/equal_4/n20>, number of controlling flip flops: 10
+Enable signal <ceg_net66>, number of controlling flip flops: 1
+Enable signal <ceg_net70>, number of controlling flip flops: 1
+Enable signal <sw5_inst/equal_12/n31>, number of controlling flip flops: 1
+Enable signal <sw5_inst/n9>, number of controlling flip flops: 16
+Enable signal <edb_top_inst/VIO_0/vio_core_inst/word_ct_en>, number of controlling flip flops: 16
+Enable signal <ceg_net82>, number of controlling flip flops: 6
+Enable signal <edb_top_inst/VIO_0/vio_core_inst/n118>, number of controlling flip flops: 3
+Enable signal <ceg_net76>, number of controlling flip flops: 16
+Enable signal <edb_top_inst/VIO_0/vio_core_inst/n990>, number of controlling flip flops: 16
+Enable signal <edb_top_inst/VIO_0/vio_core_inst/addr_ct_en>, number of controlling flip flops: 3
+Enable signal <edb_top_inst/VIO_0/vio_core_inst/op_reg_en>, number of controlling flip flops: 2
+Enable signal <ceg_net198>, number of controlling flip flops: 32
+Enable signal <edb_top_inst/VIO_0/vio_core_inst/internal_reg_r0[2]_2>, number of controlling flip flops: 68
+Enable signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+Enable signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 37
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of enable signals: 14
+SR signal <my_mipi_rx_RSTN>, number of controlling flip flops: 4471
+SR signal <n14531>, number of controlling flip flops: 2
+SR signal <n14538>, number of controlling flip flops: 2
+SR signal <n14533>, number of controlling flip flops: 20
+SR signal <n14535>, number of controlling flip flops: 1
+SR signal <patgen/n478>, number of controlling flip flops: 11
+SR signal <sw4_inst/n146>, number of controlling flip flops: 16
+SR signal <n14820>, number of controlling flip flops: 1
+SR signal <n9422>, number of controlling flip flops: 54
+SR signal <goldenpat/n478>, number of controlling flip flops: 11
+SR signal <sw5_inst/n146>, number of controlling flip flops: 16
+SR signal <n14840>, number of controlling flip flops: 3
+SR signal <n14963>, number of controlling flip flops: 24
+SR signal <bscan_RESET>, number of controlling flip flops: 123
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF Output: edb_top_inst/VIO_0/probe_out_vec[0](=0)
+FF instance: fifo_in0/occupants[0]_2~FF(unreachable)
+FF instance: fifo_in0/rd_pointer[12]~FF(unreachable)
+FF instance: fifo_in0/occupants[1]~FF(unreachable)
+FF instance: fifo_in0/occupants[2]~FF(unreachable)
+FF instance: fifo_in0/occupants[3]~FF(unreachable)
+FF instance: fifo_in0/occupants[4]~FF(unreachable)
+FF instance: fifo_in0/occupants[5]~FF(unreachable)
+FF instance: fifo_in0/occupants[6]~FF(unreachable)
+FF instance: fifo_in0/occupants[7]~FF(unreachable)
+FF instance: fifo_in0/occupants[8]~FF(unreachable)
+FF instance: fifo_in0/occupants[9]~FF(unreachable)
+FF instance: fifo_in0/occupants[10]~FF(unreachable)
+FF instance: fifo_in0/occupants[11]~FF(unreachable)
+FF instance: fifo_in0/occupants[12]~FF(unreachable)
+FF instance: fifo_in0/wr_pointer[12]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[0]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[31]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[28]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[27]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[26]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[25]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[24]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[23]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[22]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[21]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[20]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[19]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[18]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[17]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[16]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[15]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[14]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[13]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[12]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[11]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[10]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[9]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[8]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[7]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[6]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[5]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[4]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[30]~FF(unreachable)
+FF instance: edb_top_inst/VIO_0/vio_core_inst/address_counter[29]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+mipi_loopback_top:mipi_loopback_top                           4975(4491)        8(5)    741(191)     16(0)      0(0)
++patgen:video_gen                                                 41(41)        0(0)      92(92)      0(0)      0(0)
++sw4_inst:sw_counter(MAX_CNT=4)                                   18(18)        0(0)      43(43)      0(0)      0(0)
++fifo_in0:fifo(DATA_WIDTH=16,ADDR_WIDTH=12)                       24(24)        0(0)      31(31)     16(0)      0(0)
+ +memory_in0:memory(DATA_WIDTH=16,ADDR_WIDTH=12,RAM_DEPTH...        0(0)        0(0)        0(0)    16(16)      0(0)
++goldenpat:video_gen                                              41(41)        0(0)    109(109)      0(0)      0(0)
++sw5_inst:sw_counter(MAX_CNT=2)                                   17(17)        0(0)      31(31)      0(0)      0(0)
++edb_top_inst:edb_top                                             343(0)        3(0)      244(0)      0(0)      0(0)
+ +VIO_0:edb_vio_top(NUM_PROBE_IN=7,NUM_PROBE_OUT=0,PROBE_...      302(0)        3(0)      229(0)      0(0)      0(0)
+  +vio_core_inst:vio_core(INT_WIDTH=68,OUT_WIDTH=0,PROBE_...     302(66)        3(3)    229(142)      0(0)      0(0)
+   +axi_crc_i:adbg_crc32                                          32(32)        0(0)      55(55)      0(0)      0(0)
+   +gen_probe_in_sync[0].sync_probe_in_U:syncer                     3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[1].sync_probe_in_U:syncer                     3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[2].sync_probe_in_U:syncer                     3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[3].sync_probe_in_U:syncer                     3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[4].sync_probe_in_U:syncer                     3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[5].sync_probe_in_U:syncer                     3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[6].sync_probe_in_U:syncer                     3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[7].sync_probe_in_U:syncer                     3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[8].sync_probe_in_U:syncer                     3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[9].sync_probe_in_U:syncer                     3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[10].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[11].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[12].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[13].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[14].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[15].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[16].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[17].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[18].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[19].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[20].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[21].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[22].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[23].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[24].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[25].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[26].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[27].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[28].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[29].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[30].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[31].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[32].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[33].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[34].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[35].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[36].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[37].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[38].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[39].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[40].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[41].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[42].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[43].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[44].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[45].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[46].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[47].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[48].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[49].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[50].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[51].sync_probe_in_U:syncer                    3(3)        0(0)        1(1)      0(0)      0(0)
+   +gen_probe_in_sync[52].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[53].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[54].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[55].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[56].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[57].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[58].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[59].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[60].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[61].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[62].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[63].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[64].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[65].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[66].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+   +gen_probe_in_sync[67].sync_probe_in_U:syncer                    3(3)        0(0)        0(0)      0(0)      0(0)
+ +debug_hub_inst:debug_hub                                        41(41)        0(0)      15(15)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+        Clock     Flip-Flops   Memory Ports    Multipliers
+        -----     ----------   ------------    -----------
+   tx_vga_clk            175              0              0
+ tx_pixel_clk             67              0              0
+ rx_pixel_clk            224              0              0
+   rx_vga_clk           4302             32              0
+    bscan_TCK            207              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : mipi_loopback
+project-xml : C:/Users/sanas/OneDrive/Documents/MIPI_Loopback/mipi_loopback.xml
+root : mipi_loopback_top
+I : C:/Users/sanas/OneDrive/Documents/MIPI_Loopback
+output-dir : C:/Users/sanas/OneDrive/Documents/MIPI_Loopback/outflow
+work-dir : C:/Users/sanas/OneDrive/Documents/MIPI_Loopback/work_syn
+write-efx-verilog : C:/Users/sanas/OneDrive/Documents/MIPI_Loopback/outflow/mipi_loopback.map.v
+binary-db : C:/Users/sanas/OneDrive/Documents/MIPI_Loopback/mipi_loopback.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	125
+OUTPUT PORTS    : 	118
+
+EFX_ADD         : 	8
+EFX_LUT4        : 	741
+   1-2  Inputs  : 	200
+   3    Inputs  : 	199
+   4    Inputs  : 	342
+EFX_FF          : 	4975
+EFX_RAM_5K      : 	16
+EFX_GBUFCE      : 	5
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 14s
+Elapsed synthesis time : 15s

@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Date: Sat May 14 12:37:21 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: mipi_loopback
+Elapsed time for routing: 0 hours 0 minutes 4 seconds
+Elapsed time for entire flow: 0 hours 1 minutes 6 seconds

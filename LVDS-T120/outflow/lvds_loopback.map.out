@@ -1,0 +1,138 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2021.2.323
+[EFX-0000 INFO] Compiled: Dec 15 2021.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+INFO: Read project database "C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/lvds_loopback.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v' (VERI-1482)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v(59): INFO: undeclared symbol 'stat0', assumed default net type 'wire' (VERI-2561)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v(64): INFO: undeclared symbol 'rxpll_lockedo', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_gen.v' (VERI-1482)
+INFO: Analysis took 0.0139013 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 58.608 MB, end = 58.944 MB, delta = 0.336 MB
+INFO: 	Analysis peak virtual memory usage = 109.156 MB
+INFO: Analysis resident set memory usage: begin = 57.748 MB, end = 60.088 MB, delta = 2.34 MB
+INFO: 	Analysis peak resident set memory usage = 60.088 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v(16): INFO: compiling module 'lvds_loopback_top' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_gen.v(16): INFO: compiling module 'prbs_gen' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v(16): INFO: compiling module 'frame_aligner' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v(88): WARNING: latch inferred for net 'nstates[1]' (VERI-2580)
+C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v(16): INFO: compiling module 'prbs_det' (VERI-1018)
+INFO: Elaboration took 0.0121061 seconds.
+INFO: 	Elaboration took 0.015625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 58.944 MB, end = 59.568 MB, delta = 0.624 MB
+INFO: 	Elaboration peak virtual memory usage = 109.156 MB
+INFO: Elaboration resident set memory usage: begin = 60.096 MB, end = 62.016 MB, delta = 1.92 MB
+INFO: 	Elaboration peak resident set memory usage = 62.016 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0200499 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 59.8 MB, end = 60.712 MB, delta = 0.912 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 109.156 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 62.396 MB, end = 63.296 MB, delta = 0.9 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 63.296 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'mux_107' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:87)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "lvds_loopback_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "prbs_gen" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "prbs_gen" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_aligner" begin
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_aligner" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "prbs_det" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "prbs_det" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lvds_loopback_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 10 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lvds_loopback_top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network rx_slowclk with 105 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network tx_slowclk with 36 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 18 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 159, ed: 513, lv: 3, pw: 445.86
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n5 with 105 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n3 with 36 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Inverted Clock Network n5 with 2 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 1 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port txpll_locked is unconnected and will be removed
+INFO: Found 1 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0024288 seconds.
+INFO: 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 74.344 MB, end = 74.344 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 109.156 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 79.124 MB, end = 79.168 MB, delta = 0.044 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 98.364 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'lvds_loopback_top' to Verilog file 'C:/Users/sanas/OneDrive/Documents/LVDS/LVDS-T120/outflow/lvds_loopback.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	50
+[EFX-0000 INFO] EFX_LUT4        : 	162
+[EFX-0000 INFO] EFX_FF          : 	144
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

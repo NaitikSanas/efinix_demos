@@ -1,0 +1,14 @@
+Efinity Interface Designer Device Migration Log
+Version: 2021.2.323
+Date: 2022-05-12 10:33
+Device Change: T20F256 to T120F324
+Migration Type: default
+Block Type Change: MIPI V1 is now supported
+== Block Type Version Change : GPIO V1 to GPIO V2 ==
+Parameter Change: led[0], Existing IO Standard is unsupported, reset to default
+Parameter Change: led[1], Existing IO Standard is unsupported, reset to default
+Parameter Change: led[2], Existing IO Standard is unsupported, reset to default
+Parameter Change: led[3], Existing IO Standard is unsupported, reset to default
+Parameter Change: pass, Existing IO Standard is unsupported, reset to default
+Parameter Change: rstn, Existing IO Standard is unsupported, reset to default
+Parameter Change: tx_refclk, Existing IO Standard is unsupported, reset to default

@@ -1,0 +1,46 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Date: Sat May 14 09:39:16 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: lvds_loopback
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 14 / 1108 (1.26%)
+Outputs: 15 / 1263 (1.19%)
+Clocks: 4 / 16 (25.00%)
+Logic Elements: 252 / 112128 (0.22%)
+	LE: LUTs/Adders: 214 / 112128 (0.19%)
+	LE: Registers: 144 / 107520 (0.13%)
+Memory Blocks: 0 / 1056 (0.00%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|      txpll_locked      |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|       fa_lock        |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 13 seconds

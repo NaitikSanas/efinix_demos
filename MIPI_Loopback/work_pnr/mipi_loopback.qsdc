@@ -1,0 +1,1683 @@
+clock {
+  name: "tx_vga_clk"
+  period: 25000
+  target_pin {
+    cell: "tx_vga_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "tx_pixel_clk"
+  period: 100000
+  target_pin {
+    cell: "tx_pixel_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_LANES[1]"
+      port: "OUTPAD"
+    }
+    setup: -3640
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_LANES[0]"
+      port: "OUTPAD"
+    }
+    setup: -3640
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_VSYNC"
+      port: "OUTPAD"
+    }
+    setup: -3898
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_HSYNC"
+      port: "OUTPAD"
+    }
+    setup: -3899
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_VALID"
+      port: "OUTPAD"
+    }
+    setup: -3855
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[63]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[62]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[61]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[60]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[59]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[58]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[57]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[56]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[55]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[54]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[53]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[52]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[51]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[50]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[49]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[48]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[47]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[46]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[45]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[44]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[43]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[42]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[41]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[40]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[39]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[38]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[37]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[36]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[35]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[34]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[33]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[32]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[31]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[30]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[29]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[28]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[27]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[26]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[25]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[24]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[23]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[22]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[21]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[20]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[19]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[18]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[17]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[16]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[15]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[14]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[13]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[12]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[11]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[10]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[9]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[8]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[7]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[6]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[5]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[4]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[3]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[2]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[1]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_DATA[0]"
+      port: "OUTPAD"
+    }
+    setup: -3727
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_TYPE[5]"
+      port: "OUTPAD"
+    }
+    setup: -3532
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_TYPE[4]"
+      port: "OUTPAD"
+    }
+    setup: -3532
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_TYPE[3]"
+      port: "OUTPAD"
+    }
+    setup: -3532
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_TYPE[2]"
+      port: "OUTPAD"
+    }
+    setup: -3532
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_TYPE[1]"
+      port: "OUTPAD"
+    }
+    setup: -3532
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_TYPE[0]"
+      port: "OUTPAD"
+    }
+    setup: -3532
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_FRAME_MODE"
+      port: "OUTPAD"
+    }
+    setup: -4028
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_CLK_ENTER"
+      port: "OUTPAD"
+    }
+    setup: -3993
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_CLK_EXIT"
+      port: "OUTPAD"
+    }
+    setup: -4013
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_ENTER[3]"
+      port: "OUTPAD"
+    }
+    setup: -3812
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_ENTER[2]"
+      port: "OUTPAD"
+    }
+    setup: -3812
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_ENTER[1]"
+      port: "OUTPAD"
+    }
+    setup: -3812
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_ENTER[0]"
+      port: "OUTPAD"
+    }
+    setup: -3812
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_EXIT[3]"
+      port: "OUTPAD"
+    }
+    setup: -3742
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_EXIT[2]"
+      port: "OUTPAD"
+    }
+    setup: -3742
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_EXIT[1]"
+      port: "OUTPAD"
+    }
+    setup: -3742
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_tx_ULPS_EXIT[0]"
+      port: "OUTPAD"
+    }
+    setup: -3742
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+}
+clock {
+  name: "mipi_rx_cal_clk"
+  period: 10000
+  target_pin {
+    cell: "mipi_rx_cal_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "tx_esc_pll_CLKOUT0"
+  period: 50000
+  target_pin {
+    cell: "tx_esc_pll_CLKOUT0"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "rx_vga_clk"
+  period: 25000
+  target_pin {
+    cell: "rx_vga_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "rx_pixel_clk"
+  period: 100000
+  target_pin {
+    cell: "rx_pixel_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_VSYNC[0]"
+      port: "INPAD"
+    }
+    arrival: 5193
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_VALID"
+      port: "INPAD"
+    }
+    arrival: 5041
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_CNT[3]"
+      port: "INPAD"
+    }
+    arrival: 5111
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_CNT[2]"
+      port: "INPAD"
+    }
+    arrival: 5111
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_CNT[1]"
+      port: "INPAD"
+    }
+    arrival: 5111
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_CNT[0]"
+      port: "INPAD"
+    }
+    arrival: 5111
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[63]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[62]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[61]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[60]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[59]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[58]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[57]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[56]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[55]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[54]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[53]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[52]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[51]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[50]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[49]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[48]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[47]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[46]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[45]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[44]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[43]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[42]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[41]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[40]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[39]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[38]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[37]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[36]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[35]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[34]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[33]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[32]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[31]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[30]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[29]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[28]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[27]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[26]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[25]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[24]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[23]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[22]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[21]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[20]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[19]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[18]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[17]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[16]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[15]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[14]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[13]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[12]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[11]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[10]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[9]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[8]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[7]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[6]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[5]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[4]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[3]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[2]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[1]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_DATA[0]"
+      port: "INPAD"
+    }
+    arrival: 5139
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[17]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[16]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[15]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[14]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[13]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[12]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[11]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[10]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[9]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[8]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[7]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[6]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[5]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[4]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[3]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[2]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[1]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "my_mipi_rx_ERROR[0]"
+      port: "INPAD"
+    }
+    arrival: 5057
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_rx_VC_ENA[3]"
+      port: "OUTPAD"
+    }
+    setup: -3546
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_rx_VC_ENA[2]"
+      port: "OUTPAD"
+    }
+    setup: -3546
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_rx_VC_ENA[1]"
+      port: "OUTPAD"
+    }
+    setup: -3546
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_rx_VC_ENA[0]"
+      port: "OUTPAD"
+    }
+    setup: -3546
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "my_mipi_rx_CLEAR"
+      port: "OUTPAD"
+    }
+    setup: -3997
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+}

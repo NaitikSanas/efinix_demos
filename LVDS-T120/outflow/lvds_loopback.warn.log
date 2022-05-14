@@ -1,0 +1,545 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:01:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_rstni is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port user_switch[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port user_switch[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port user_switch[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:03:29
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_rstni is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port user_switch[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port user_switch[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port user_switch[0] is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:04:26
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:06:49
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:17:06
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0256 WARNING] The primary output port 'led[7]' wire 'led[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[6]' wire 'led[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[5]' wire 'led[5]' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'led[7]'. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v:26)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'led[6]'. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v:26)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'led[5]'. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\lvds_loopback_top.v:26)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:23:48
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:23:55
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:24:38
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 10:29:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 11:15:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 11:38:52
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 18:27:30
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 12, 2022 19:01:22
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 13:13:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 13:25:30
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 14:11:58
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 15:17:20
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 15:38:12
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 15:43:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 15:50:14
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 16:07:02
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 16:09:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 16:20:05
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 16:36:05
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 13, 2022 16:58:10
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 14, 2022 09:22:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 14, 2022 09:26:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 14, 2022 09:35:08
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 14, 2022 09:38:44
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 14, 2022 09:38:59
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'nstates[1]' (VERI-2580) (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\frame_aligner.v:88)
+[EFX-0200 WARNING] Removing redundant signal : rstn_filt. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rstn_sync. (C:/Users\sanas\OneDrive\Documents\LVDS\LVDS-T120\prbs_det.v:25)
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[0]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[1]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[2]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[3]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[4]=0).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[5]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[6]=1).
+[EFX-0266 WARNING] Module Instance 'fa0' input pin tied to constant (pattern[7]=1).
+[EFX-0266 WARNING] Module Instance 'det0' input pin tied to constant (testen=1).
+[EFX-0011 VERI-WARNING] Input/Inout Port txpll_locked is unconnected and will be removed 

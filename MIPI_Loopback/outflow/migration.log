@@ -1,0 +1,31 @@
+Efinity Interface Designer Device Migration Log
+Version: 2021.2.323
+Date: 2022-05-14 09:54
+Device Change: T20F169 to T120F324
+Migration Type: default
+== Block Type Version Change : GPIO V1 to GPIO V2 ==
+Parameter Change: led5, Existing IO Standard is unsupported, reset to default
+Parameter Change: led6, Existing IO Standard is unsupported, reset to default
+Parameter Change: mipi_refclk, Existing IO Standard is unsupported, reset to default
+Parameter Change: ref_clk, Existing IO Standard is unsupported, reset to default
+Parameter Change: rst_n, Existing IO Standard is unsupported, reset to default
+Parameter Change: sw4, Existing IO Standard is unsupported, reset to default
+Parameter Change: sw5, Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_b[0], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_b[1], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_b[2], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_b[3], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_b[4], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_g[0], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_g[1], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_g[2], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_g[3], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_g[4], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_g[5], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_hs, Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_r[0], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_r[1], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_r[2], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_r[3], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_r[4], Existing IO Standard is unsupported, reset to default
+Parameter Change: vga_vs, Existing IO Standard is unsupported, reset to default

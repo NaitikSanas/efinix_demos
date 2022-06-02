@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2021.2.323 
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+Compiled: Dec 15 2021.
+
+Using source file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr/t120f324_lpddr3_x16.lbf"
+Generating HEX programming file for device "T85F324", family "Trion"
+Using periphery source file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.lpf"
+Generating bit file: "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+	release_tri_then_reset                   = on
+Finished generating "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.hex"
+Efinity Bitstream Generator took 7.00331 seconds.
+	Efinity Bitstream Generator took 5.82812 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.764 MB, end = 6.244 MB, delta = 3.48 MB
+	Efinity Bitstream Generator peak virtual memory usage = 186.656 MB
+Efinity Bitstream Generator resident set memory usage: begin = 7.348 MB, end = 12.152 MB, delta = 4.804 MB
+	Efinity Bitstream Generator peak resident set memory usage = 160.42 MB

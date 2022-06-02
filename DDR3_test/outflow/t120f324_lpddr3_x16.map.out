@@ -1,0 +1,326 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2021.2.323
+[EFX-0000 INFO] Compiled: Dec 15 2021.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+INFO: Read project database "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/t120f324_lpddr3_x16.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v' (VERI-1482)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v(99): WARNING: redeclaration of ANSI port 'ddr_rstn' is not allowed (VERI-1372)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\ddr_reset_sequencer.v' (VERI-1482)
+INFO: Analysis took 0.0191363 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 57.8 MB, end = 58.504 MB, delta = 0.704 MB
+INFO: 	Analysis peak virtual memory usage = 109.132 MB
+INFO: Analysis resident set memory usage: begin = 57.328 MB, end = 60.22 MB, delta = 2.892 MB
+INFO: 	Analysis peak resident set memory usage = 60.224 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v(223): WARNING: port 'ddr_init_done' remains unconnected for this instance (VERI-1927)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v(1): INFO: compiling module 'top' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v(3): INFO: compiling module 'memory_checker(ALEN=7,STOP_ADDR=32'b0111111111111111111000000000)' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v(178): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v(196): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v(3): INFO: compiling module 'memory_checker(ALEN=7,ASIZE=4,START_ADDR=32'b01111000000000000000000000000,STOP_ADDR=32'b01111111111111111111000000000)' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v(178): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v(196): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v(10): INFO: compiling module 'edb_top' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v(518): INFO: compiling module 'edb_vio_top_renamed_due_excessive_length_1' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v(1077): INFO: compiling module 'vio_core(INT_WIDTH=1032,OUT_WIDTH=2,PROBE_OUT_INIT_VAL=2'b11,UUID=128'b10001011011010000100000010001101000100010000010001001011000000001010010100001001100110011101000100101110111011001100010111100000)' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v(311): INFO: compiling module 'edb_adbg_crc32' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v(1873): INFO: compiling module 'syncer' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v(389): INFO: compiling module 'debug_hub' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\ddr_reset_sequencer.v(47): INFO: compiling module 'ddr_reset_sequencer' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\ddr_reset_sequencer.v(87): WARNING: expression size 64 truncated to fit in target size 20 (VERI-1209)
+INFO: Elaboration took 0.27561 seconds.
+INFO: 	Elaboration took 0.265625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 58.504 MB, end = 90.004 MB, delta = 31.5 MB
+INFO: 	Elaboration peak virtual memory usage = 109.132 MB
+INFO: Elaboration resident set memory usage: begin = 60.228 MB, end = 92.156 MB, delta = 31.928 MB
+INFO: 	Elaboration peak resident set memory usage = 92.16 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0138613 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 91.588 MB, end = 91.588 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 109.132 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 93.884 MB, end = 93.904 MB, delta = 0.02 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 97.304 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : rid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[6]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[5]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[4]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[3]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[2]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rlast. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:27)
+[EFX-0200 WARNING] Removing redundant signal : rresp[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:30)
+[EFX-0200 WARNING] Removing redundant signal : rresp[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:30)
+[EFX-0200 WARNING] Removing redundant signal : bid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[6]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[5]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[4]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[3]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[2]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : rid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[33].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0031 INFO] 'mux_1273' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\debug_top.v:1828)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_checker(ALEN=7,STOP_ADDR=32'b0111111111111111111000000000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_checker(ALEN=7,STOP_ADDR=32'b0111111111111111111000000000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_checker(ALEN=7,ASIZE=4,START_ADDR=32'b01111000000000000000000000000,STOP_ADDR=32'b01111111111111111111000000000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "memory_checker(ALEN=7,ASIZE=4,START_ADDR=32'b01111000000000000000000000000,STOP_ADDR=32'b01111111111111111111000000000)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "syncer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "syncer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vio_core(INT_WIDTH=1032,OUT_WIDTH=2,PROBE_OUT_INIT_VAL=2'b11,UUID=128'b10001011011010000100000010001101000100010000010001001011000000001010010100001001100110011101000100101110111011001100010111100000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vio_core(INT_WIDTH=1032,OUT_WIDTH=2,PROBE_OUT_INIT_VAL=2'b11,UUID=128'b10001011011010000100000010001101000100010000010001001011000000001010010100001001100110011101000100101110111011001100010111100000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_vio_top_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_vio_top_renamed_due_excessive_length_1" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 649 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 1598, ed: 5292, lv: 6, pw: 5590.31
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 1s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n435 with 2509 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n447 with 856 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port rid_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port rid_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port rlast_0 is unconnected and will be removed
+WARNING: Input/Inout Port rresp_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port rresp_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[7] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[6] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[5] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[4] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[3] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[2] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[1] is unconnected and will be removed
+WARNING: Input/Inout Port rid_1[0] is unconnected and will be removed
+WARNING: Input/Inout Port rlast_1 is unconnected and will be removed
+WARNING: Input/Inout Port rresp_1[1] is unconnected and will be removed
+WARNING: Input/Inout Port rresp_1[0] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port bid_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[7] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[6] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[5] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[4] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[3] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[2] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[1] is unconnected and will be removed
+WARNING: Input/Inout Port bid_1[0] is unconnected and will be removed
+WARNING: Input/Inout Port pll_rstni is unconnected and will be removed
+WARNING: Input/Inout Port bscan_DRCK is unconnected and will be removed
+WARNING: Input/Inout Port bscan_TMS is unconnected and will be removed
+WARNING: Input/Inout Port bscan_RUNTEST is unconnected and will be removed
+INFO: Found 42 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0402336 seconds.
+INFO: 	VDB Netlist Checker took 0.03125 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 138.008 MB, end = 138.008 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 154.02 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 141.336 MB, end = 141.38 MB, delta = 0.044 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 152.568 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'top' to Verilog file 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	7
+[EFX-0000 INFO] EFX_LUT4        : 	1546
+[EFX-0000 INFO] EFX_FF          : 	3320
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

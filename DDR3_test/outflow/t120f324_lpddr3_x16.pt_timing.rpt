@@ -1,0 +1,77 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.2.323
+Date: 2022-06-01 19:05
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T85F324
+Project: t120f324_lpddr3_x16
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++-----------------+-------------+-----------------------+
+|      Clock      | Period (ns) | Phase Shift (degrees) |
++-----------------+-------------+-----------------------+
+| br0_pll_CLKOUT0 |     2.50    |           0           |
+|     axi_clk     |    32.00    |           0           |
++-----------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+---------------+-----------+----------+----------+
+| Instance Name |    Pin Name   | Parameter | Max (ns) | Min (ns) |
++---------------+---------------+-----------+----------+----------+
+| br0_pll_clkin | br0_pll_clkin |  GPIO_IN  |  1.476   |  0.738   |
+| br1_pll_clkin | br1_pll_clkin |  GPIO_IN  |  1.476   |  0.738   |
++---------------+---------------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+------------+-----------+----------+----------+
+| Instance Name |  Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+------------+-----------+----------+----------+
+|   check_rstn  | check_rstn |  GPIO_IN  |  1.714   |  0.857   |
+|    ddr_rstn   |  ddr_rstn  |  GPIO_IN  |  1.714   |  0.857   |
+|      done     |    done    |  GPIO_OUT |  3.542   |  1.771   |
+|      pass     |    pass    |  GPIO_OUT |  2.700   |  1.350   |
++---------------+------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 4. LVDS Tx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++------------------+------------------+-----------+----------+----------+
+|  Instance Name   |     Pin Name     | Parameter | Max (ns) | Min (ns) |
++------------------+------------------+-----------+----------+----------+
+| o_br0_pll_locked | o_br0_pll_locked |  GPIO_OUT |  3.658   |  1.829   |
+| o_br1_pll_locked | o_br1_pll_locked |  GPIO_OUT |  3.658   |  1.829   |
+|    pll_locked    |    pll_locked    |  GPIO_OUT |  3.658   |  1.829   |
++------------------+------------------+-----------+----------+----------+
+
+---------- LVDS Tx Timing Report (end) ----------
+
+---------- 5. JTAG Timing Report (begin) ----------
+
++---------------+-----------+-----------+----------+----------+
+| Instance Name |  Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+-----------+-----------+----------+----------+
+|     bscan     | bscan_TDI |  JTAG_IN  |  2.415   |  1.208   |
+|     bscan     | bscan_TMS |  JTAG_IN  |  1.755   |  0.877   |
++---------------+-----------+-----------+----------+----------+
+
+---------- JTAG Timing Report (end) ----------

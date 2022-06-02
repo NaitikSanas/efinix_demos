@@ -1,0 +1,219 @@
+
+Efinix Static Timing Analysis Report
+Version: 2021.2.323 
+Date: Wed Jun 01 19:06:53 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Top-level Entity Name: t120f324_lpddr3_x16
+
+SDC Filename: C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc
+
+Timing Model: C4
+	temperature : 0C to 85C
+	voltage : 1.2V +/-50mV
+	speedgrade : 4
+	technology : s40ll
+	status : final
+
+---------- Table of Contents (begin) ----------
+   1. Clock Frequency Summary 
+   2. Clock Relationship Summary 
+   3. Path Details for Max Critical Paths 
+   4. Path Details for Min Critical Paths 
+---------- Table of Contents (end) ------------
+
+---------- 1. Clock Frequency Summary (begin) ----------
+
+User target constrained clocks
+Clock Name      Period (ns)   Frequency (MHz)   Waveform   Source Clock Name
+axi_clk            32.000          31.250         {0.000 16.000}        axi_clk
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+axi_clk            16.120          62.035     (R-R)
+
+Geomean max period: 16.120
+
+---------- Clock Frequency Summary (end) ---------------
+
+---------- 2. Clock Relationship Summary (begin) ----------
+
+Setup (Max) Clock Relationship
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+axi_clk          axi_clk              32.000        15.880     (R-R)
+
+Hold (Min) Clock Relationship
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+axi_clk          axi_clk               0.000         0.307     (R-R)
+
+NOTE: Values are in nanoseconds.
+
+---------- Clock Relationship Summary (end) ---------------
+
+---------- 3. Path Details for Max Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (axi_clk vs axi_clk)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : rdata_0[213]
+Path End      : itest_axi0/obs_rdata_det0[212]~FF|CE
+Launch Clock  : axi_clk (RISE)
+Capture Clock : axi_clk (RISE)
+Slack         : 15.880  (required time - arrival time)
+Delay         : 12.825
+
+Logic Level : 6
+Non-global nets on path : 7
+Global nets on path     : 0
+
+Launch Clock Path Delay        :  0.000
++ Data Path Delay              : 13.000
++ Input Delay                  :  8.310
+--------------------------------------------
+End-of-path arrival time       : 21.310
+
+Constraint                     : 32.000
++ Capture Clock Path Delay     :  5.310
+- Clock Uncertainty            :  0.120
+--------------------------------------------
+End-of-path required time      : 37.190
+
+
+Data Path
+pin name                                model name    delay (ns)   cumulative delay (ns)    pins on net   location
+===================================================================================================================
+ rdata_0[213]                            inpad            0.200                  0.200           3          (338,192)
+ rdata_0[213]                            io               3.148                  3.348           3          (338,192)
+   Routing elements:  
+     Manhattan distance of X:14, Y:17
+ LUT__11864|I[3]                         eft              0.116                  3.464           3          (324,175)
+ LUT__11864|in[3]                        lut              0.000                  3.465           3          (324,175)
+ LUT__11864|out                          lut              0.000                  3.465           2          (324,175)
+ LUT__11864|O                            eft              1.077                  4.542           2          (324,175)
+   Routing elements:   feedthru(1)
+     Manhattan distance of X:0, Y:12
+ LUT__11866|I[3]                         eft              0.116                  4.658           2          (324,163)
+ LUT__11866|in[3]                        lut              0.000                  4.658           2          (324,163)
+ LUT__11866|out                          lut              0.000                  4.658           2          (324,163)
+ LUT__11866|O                            eft              0.820                  5.478           2          (324,163)
+   Routing elements:  
+     Manhattan distance of X:0, Y:2
+ LUT__11872|I[1]                         eft              0.223                  5.701           2          (324,165)
+ LUT__11872|in[1]                        lut              0.000                  5.701           2          (324,165)
+ LUT__11872|out                          lut              0.000                  5.701           2          (324,165)
+ LUT__11872|O                            eft              0.979                  6.680           2          (324,165)
+   Routing elements:  
+     Manhattan distance of X:14, Y:40
+ LUT__11892|I[0]                         eft              0.267                  6.947           2          (310,125)
+ LUT__11892|in[0]                        lut              0.000                  6.947           2          (310,125)
+ LUT__11892|out                          lut              0.000                  6.947           2          (310,125)
+ LUT__11892|O                            eft              1.020                  7.968           2          (310,125)
+   Routing elements:  
+     Manhattan distance of X:0, Y:12
+ LUT__11893|I[2]                         eft              0.161                  8.128           2          (310,113)
+ LUT__11893|in[2]                        lut              0.000                  8.128           2          (310,113)
+ LUT__11893|out                          lut              0.000                  8.128           3          (310,113)
+ LUT__11893|O                            eft              0.817                  8.945           3          (310,113)
+   Routing elements:  
+     Manhattan distance of X:0, Y:20
+ itest_axi0/fail_0~FF|I[2]               eft              0.161                  9.106           3          (310,93)
+ LUT__11895|in[2]                        lut              0.000                  9.106           3          (310,93)
+ LUT__11895|out                          lut              0.000                  9.106         338          (310,93)
+ itest_axi0/fail_0~FF|O                  eft              3.719                 12.825         337          (310,93)
+   Routing elements:  
+     Manhattan distance of X:0, Y:66
+ itest_axi0/obs_rdata_det0[212]~FF|CE    ff               0.175                 13.000         338          (310,159)
+
+Capture Clock Path
+pin name                                 model name    delay (ns)   cumulative delay (ns)    pins on net   location
+====================================================================================================================
+ axi_clk                                  inpad           0.000                  0.000           2          (338,323)
+ axi_clk                                  inpad           0.200                  0.200           2          (338,323)
+ axi_clk                                  io              0.000                  0.200           2          (338,323)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                          gbuf_block      0.320                  0.520           2          (337,323)
+ CLKBUF__0|I                              gbuf            4.790                  5.310           2          (337,323)
+ CLKBUF__0|O                              gbuf            0.000                  5.310        2490          (337,323)
+ CLKBUF__0|clkout                         gbuf_block      0.000                  5.310        2490          (337,323)
+ itest_axi0/obs_rdata_det0[212]~FF|CLK    ff              0.000                  5.310        2490          (310,159)
+
+---------- Path Details for Max Critical Paths (end) ---------------
+
+---------- 4. Path Details for Min Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (axi_clk vs axi_clk)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : itest_axi0/aaddr_0[0]~FF|CLK
+Path End      : itest_axi0/aaddr_0[0]~FF|D
+Launch Clock  : axi_clk (RISE)
+Capture Clock : axi_clk (RISE)
+Slack         : 0.307  (arrival time - required time)
+Delay         : 0.226
+
+Logic Level : 1
+Non-global nets on path : 1
+Global nets on path     : 0
+
+Launch Clock Path Delay        :  2.655
++ Clock To Q + Data Path Delay :  0.367
+--------------------------------------------
+End-of-path arrival time       :  3.022
+
+Constraint                     :  0.000
++ Capture Clock Path Delay     :  2.655
++ Clock Uncertainty            :  0.060
+--------------------------------------------
+End-of-path required time      :  2.715
+
+
+Launch Clock Path
+pin name                        model name    delay (ns)   cumulative delay (ns)    pins on net   location
+===========================================================================================================
+ axi_clk                         inpad           0.000                  0.000           2          (338,323)
+ axi_clk                         inpad           0.100                  0.100           2          (338,323)
+ axi_clk                         io              0.000                  0.100           2          (338,323)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                 gbuf_block      0.160                  0.260           2          (337,323)
+ CLKBUF__0|I                     gbuf            2.395                  2.655           2          (337,323)
+ CLKBUF__0|O                     gbuf            0.000                  2.655        2490          (337,323)
+ CLKBUF__0|clkout                gbuf_block      0.000                  2.655        2490          (337,323)
+ itest_axi0/aaddr_0[0]~FF|CLK    ff              0.000                  2.655        2490          (310,186)
+
+Data Path
+pin name                          model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=============================================================================================================
+ itest_axi0/aaddr_0[0]~FF|Q        ff               0.141                  0.141           7          (310,186)
+ itest_axi0/aaddr_0[0]~FF|O_seq    eft              0.168                  0.309           7          (310,186)
+ itest_axi0/aaddr_0[0]~FF|I[3]     eft              0.058                  0.367           7          (310,186)
+ LUT__11623|in[3]                  lut              0.000                  0.367           7          (310,186)
+ LUT__11623|out                    lut              0.000                  0.367           2          (310,186)
+
+Capture Clock Path
+pin name                        model name    delay (ns)   cumulative delay (ns)    pins on net   location
+===========================================================================================================
+ axi_clk                         inpad           0.000                  0.000           2          (338,323)
+ axi_clk                         inpad           0.100                  0.100           2          (338,323)
+ axi_clk                         io              0.000                  0.100           2          (338,323)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                 gbuf_block      0.160                  0.260           2          (337,323)
+ CLKBUF__0|I                     gbuf            2.395                  2.655           2          (337,323)
+ CLKBUF__0|O                     gbuf            0.000                  2.655        2490          (337,323)
+ CLKBUF__0|clkout                gbuf_block      0.000                  2.655        2490          (337,323)
+ itest_axi0/aaddr_0[0]~FF|CLK    ff              0.000                  2.655        2490          (310,186)
+
+---------- Path Details for Min Critical Paths (end) ---------------

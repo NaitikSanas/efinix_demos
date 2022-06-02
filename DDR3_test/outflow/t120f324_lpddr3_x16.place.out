@@ -1,0 +1,349 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Compiled: Dec 15 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/t120f324_lpddr3_x16.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0339678 seconds.
+	VDB Netlist Checker took 0.03125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 35.672 MB, end = 35.672 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 78.38 MB
+VDB Netlist Checker resident set memory usage: begin = 43.56 MB, end = 43.792 MB, delta = 0.232 MB
+	VDB Netlist Checker peak resident set memory usage = 59.428 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #572(rid_0[7]) has no fanout.
+Removing input.
+logical_block #573(rid_0[6]) has no fanout.
+Removing input.
+logical_block #574(rid_0[5]) has no fanout.
+Removing input.
+logical_block #575(rid_0[4]) has no fanout.
+Removing input.
+logical_block #576(rid_0[3]) has no fanout.
+Removing input.
+logical_block #577(rid_0[2]) has no fanout.
+Removing input.
+logical_block #578(rid_0[1]) has no fanout.
+Removing input.
+logical_block #579(rid_0[0]) has no fanout.
+Removing input.
+logical_block #836(rlast_0) has no fanout.
+Removing input.
+logical_block #839(rresp_0[1]) has no fanout.
+Removing input.
+logical_block #840(rresp_0[0]) has no fanout.
+Removing input.
+logical_block #841(rid_1[7]) has no fanout.
+Removing input.
+logical_block #842(rid_1[6]) has no fanout.
+Removing input.
+logical_block #843(rid_1[5]) has no fanout.
+Removing input.
+logical_block #844(rid_1[4]) has no fanout.
+Removing input.
+logical_block #845(rid_1[3]) has no fanout.
+Removing input.
+logical_block #846(rid_1[2]) has no fanout.
+Removing input.
+logical_block #847(rid_1[1]) has no fanout.
+Removing input.
+logical_block #848(rid_1[0]) has no fanout.
+Removing input.
+logical_block #977(rlast_1) has no fanout.
+Removing input.
+logical_block #980(rresp_1[1]) has no fanout.
+Removing input.
+logical_block #981(rresp_1[0]) has no fanout.
+Removing input.
+logical_block #982(bid_0[7]) has no fanout.
+Removing input.
+logical_block #983(bid_0[6]) has no fanout.
+Removing input.
+logical_block #984(bid_0[5]) has no fanout.
+Removing input.
+logical_block #985(bid_0[4]) has no fanout.
+Removing input.
+logical_block #986(bid_0[3]) has no fanout.
+Removing input.
+logical_block #987(bid_0[2]) has no fanout.
+Removing input.
+logical_block #988(bid_0[1]) has no fanout.
+Removing input.
+logical_block #989(bid_0[0]) has no fanout.
+Removing input.
+logical_block #992(bid_1[7]) has no fanout.
+Removing input.
+logical_block #993(bid_1[6]) has no fanout.
+Removing input.
+logical_block #994(bid_1[5]) has no fanout.
+Removing input.
+logical_block #995(bid_1[4]) has no fanout.
+Removing input.
+logical_block #996(bid_1[3]) has no fanout.
+Removing input.
+logical_block #997(bid_1[2]) has no fanout.
+Removing input.
+logical_block #998(bid_1[1]) has no fanout.
+Removing input.
+logical_block #999(bid_1[0]) has no fanout.
+Removing input.
+logical_block #1003(pll_rstni) has no fanout.
+Removing input.
+logical_block #1016(bscan_DRCK) has no fanout.
+Removing input.
+logical_block #1018(bscan_TMS) has no fanout.
+Removing input.
+logical_block #1019(bscan_RUNTEST) has no fanout.
+Removing input.
+Pass 0: Swept away 42 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 42 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 42 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/t120f324_lpddr3_x16.vdb".
+Netlist pre-processing took 0.286986 seconds.
+	Netlist pre-processing took 0.21875 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 11.908 MB, end = 46.332 MB, delta = 34.424 MB
+	Netlist pre-processing peak virtual memory usage = 78.38 MB
+Netlist pre-processing resident set memory usage: begin = 20.528 MB, end = 54.46 MB, delta = 33.932 MB
+	Netlist pre-processing peak resident set memory usage = 59.428 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.net_proto" took 0.011 seconds
+Creating IO constraints file 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.io_place'
+Packing took 0.0480301 seconds.
+	Packing took 0.046875 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 40.98 MB, end = 45.88 MB, delta = 4.9 MB
+	Packing peak virtual memory usage = 78.38 MB
+Packing resident set memory usage: begin = 49.4 MB, end = 54.228 MB, delta = 4.828 MB
+	Packing peak resident set memory usage = 59.428 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.net_proto
+Read proto netlist for file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.net_proto" took 0.01 seconds
+Setup net and block data structure took 0.171 seconds
+Packed netlist loading took 0.206546 seconds.
+	Packed netlist loading took 0.1875 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 45.88 MB, end = 103.228 MB, delta = 57.348 MB
+	Packed netlist loading peak virtual memory usage = 142.372 MB
+Packed netlist loading resident set memory usage: begin = 54.236 MB, end = 109.412 MB, delta = 55.176 MB
+	Packed netlist loading peak resident set memory usage = 148.448 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+WARNING(1): [SDC line 14] Clock name or regular expression (br0_pll_CLKOUT0) does not correspond to any nets.
+If you'd like to create a virtual clock, use the '-name' keyword without providing any target clock.
+Unable to create clock due to warning found
+WARNING(2): [SDC line 56] Specified get_ports name or regular expression "bscan_RUNTEST" does not correspond to any ports.
+WARNING(3): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(4): [SDC line 57] Specified get_ports name or regular expression "bscan_RUNTEST" does not correspond to any ports.
+WARNING(5): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(6): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(7): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(8): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(9): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(10): [SDC line 107] Specified get_ports name or regular expression "rlast_0" does not correspond to any ports.
+WARNING(11): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(12): [SDC line 108] Specified get_ports name or regular expression "rlast_0" does not correspond to any ports.
+WARNING(13): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(14): [SDC line 109] Specified get_ports name or regular expression "rresp_0[1]" does not correspond to any ports.
+WARNING(15): [SDC line 109] Specified get_ports name or regular expression "rresp_0[0]" does not correspond to any ports.
+WARNING(16): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(17): [SDC line 110] Specified get_ports name or regular expression "rresp_0[1]" does not correspond to any ports.
+WARNING(18): [SDC line 110] Specified get_ports name or regular expression "rresp_0[0]" does not correspond to any ports.
+WARNING(19): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(20): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(21): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(22): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(23): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(24): [SDC line 155] Specified get_ports name or regular expression "rlast_1" does not correspond to any ports.
+WARNING(25): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(26): [SDC line 156] Specified get_ports name or regular expression "rlast_1" does not correspond to any ports.
+WARNING(27): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(28): [SDC line 157] Specified get_ports name or regular expression "rresp_1[1]" does not correspond to any ports.
+WARNING(29): [SDC line 157] Specified get_ports name or regular expression "rresp_1[0]" does not correspond to any ports.
+WARNING(30): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(31): [SDC line 158] Specified get_ports name or regular expression "rresp_1[1]" does not correspond to any ports.
+WARNING(32): [SDC line 158] Specified get_ports name or regular expression "rresp_1[0]" does not correspond to any ports.
+WARNING(33): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(34): [SDC line 52] Input bscan_CAPTURE is associated with an unconstrained clock bscan_TCK.
+WARNING(35): [SDC line 53] Input bscan_CAPTURE is associated with an unconstrained clock bscan_TCK.
+WARNING(36): [SDC line 54] Input bscan_RESET is associated with an unconstrained clock bscan_TCK.
+WARNING(37): [SDC line 55] Input bscan_RESET is associated with an unconstrained clock bscan_TCK.
+WARNING(38): [SDC line 58] Input bscan_SEL is associated with an unconstrained clock bscan_TCK.
+WARNING(39): [SDC line 59] Input bscan_SEL is associated with an unconstrained clock bscan_TCK.
+WARNING(40): [SDC line 60] Input bscan_UPDATE is associated with an unconstrained clock bscan_TCK.
+WARNING(41): [SDC line 61] Input bscan_UPDATE is associated with an unconstrained clock bscan_TCK.
+WARNING(42): [SDC line 62] Input bscan_SHIFT is associated with an unconstrained clock bscan_TCK.
+WARNING(43): [SDC line 63] Input bscan_SHIFT is associated with an unconstrained clock bscan_TCK.
+WARNING(44): Ignoring input constraints that were set with invalid clock.
+WARNING(45): [SDC line 50] Output bscan_TDO is associated with an unconstrained clock bscan_TCK.
+WARNING(46): [SDC line 51] Output bscan_TDO is associated with an unconstrained clock bscan_TCK.
+WARNING(47): Ignoring output constraints that were set with invalid clock.
+
+SDC file 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/t120f324_lpddr3_x16.pt.sdc' parsed successfully.
+1 clocks (including virtual clocks), 784 inputs and 1140 outputs were constrained.
+
+WARNING(48): There are 831 pins with no clock constraint driven by root clock: bscan_TCK
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv".
+Writing IO placement constraints to 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16.interface.io'.
+
+Reading placement constraints from 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16.interface.io'.
+
+Reading placement constraints from 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.io_place'.
+WARNING(49): Clock driver bscan_TCK should use the dedicated clock pad.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+NumRegions 1
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      162159           22640         5.9%
+          2      126872           22642         9.6%
+          3       98890           22550        14.4%
+          4       75446           21109        23.7%
+          5       63520           19074        38.8%
+          6       55672           18292        56.3%
+          7       52767           17325        64.8%
+          8       55117           17228        70.9%
+          9       60680           18230        76.1%
+         10       67929           17790        80.0%
+         11       75580           17361        82.6%
+         12       75661           16981        85.3%
+         13       76954           17145        87.2%
+         14       72943           17384        88.1%
+         15       74348           16801        90.3%
+         16       73424           16736        91.6%
+         17       70676           16886        92.8%
+         18       69584           16405        94.0%
+         19       68333           15829        95.3%
+         20       49489           16989        98.0%
+         21       48372           15675        99.0%
+         22       47670           16647        99.4%
+         23       47101           16317        99.7%
+         24       46844           16132        99.8%
+         25       46503           16631        99.9%
+         26       46177           16635       100.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       46177           15279        30.0
+          1       49089           14759        30.0
+          2       55125           14170        30.0
+          3       53211           13080        30.0
+          4       51171           12730        30.0
+          5       50401           12261        30.0
+          6       49787           12261        30.0
+          7       49184           12230        30.0
+          8       48327           12121        30.0
+          9       47820           12121        30.0
+         10       47355           12132        30.0
+         11       46710           12132        30.0
+         12       46130           12132        30.0
+         13       45629           12095        30.0
+         14       45141           12049        30.0
+         15       44626           11921        30.0
+         16       44018           11657        30.0
+         17       43726           11125        30.0
+         18       43300           10949        30.0
+         19       43059           10949        30.0
+         20       42459           10949        30.0
+         21       42241           10918        30.0
+         22       41776           10693        30.0
+         23       41235           10644        30.0
+         24       40962           10583        30.0
+         25       40820           10485        30.0
+         26       40585           10625        30.0
+         27       40235           10485        30.0
+         28       39827           10485        30.0
+         29       39532           10485        30.0
+         30       39016           10485        30.0
+         31       38699           10981        30.0
+         32       38438           10764        30.0
+         33       38008           10421        29.9
+         34       37661           10421        29.6
+         35       37486           10421        29.2
+         36       37291           10421        28.7
+         37       36903           10375        28.1
+         38       36648           10372        27.4
+         39       36550           10372        26.7
+         40       36313           10195        25.8
+         41       35998           10296        25.0
+         42       35717           10296        24.1
+         43       35274           10224        23.3
+         44       35009           10159        22.4
+         45       35021           10295        21.6
+         46       34921           10168        20.6
+         47       34315           10055        19.0
+Placement successful: 4497 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.111427 at 338,122
+Congestion-weighted HPWL per net: 5.02016
+
+Reading placement constraints from 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.qplace'.
+[TimingCost::InitializeTimingData]
+Finished Realigning Types (604 blocks needed type change)
+WARNING(50): There are 831 pins with no clock constraint driven by root clock: bscan_TCK
+[TimingCost::InitializeTimingData]
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 9.93521 ns
+Successfully created FPGA place file 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.place'
+Placement took 21.8485 seconds.
+	Placement took 36.0781 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 103.228 MB, end = 161.62 MB, delta = 58.392 MB
+	Placement peak virtual memory usage = 1112.56 MB
+Placement resident set memory usage: begin = 109.428 MB, end = 164.316 MB, delta = 54.888 MB
+	Placement peak resident set memory usage = 1096.54 MB
+***** Ending stage placement *****

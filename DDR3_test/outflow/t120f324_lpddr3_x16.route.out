@@ -1,0 +1,110 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Compiled: Dec 15 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T85F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2021.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 33.1003 seconds.
+	BuildGraph process took 32.5156 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 162.916 MB, end = 2309.26 MB, delta = 2146.34 MB
+	BuildGraph process peak virtual memory usage = 2335.84 MB
+BuildGraph process resident set memory usage: begin = 165.14 MB, end = 2244.77 MB, delta = 2079.63 MB
+	BuildGraph process peak resident set memory usage = 2270.54 MB
+check rr_graph process took 0.674087 seconds.
+	check rr_graph process took 0.671875 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2523.6 MB, end = 2523.6 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2582.08 MB
+check rr_graph process resident set memory usage: begin = 2458.71 MB, end = 2458.77 MB, delta = 0.06 MB
+	check rr_graph process peak resident set memory usage = 2517.12 MB
+Generated 6637906 RR nodes and 25221733 RR edges
+This design has 0 global control net(s). See C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow\t120f324_lpddr3_x16.route.rpt for details.
+Routing graph took 34.3123 seconds.
+	Routing graph took 33.6406 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 161.62 MB, end = 2300.74 MB, delta = 2139.12 MB
+	Routing graph peak virtual memory usage = 2582.08 MB
+Routing graph resident set memory usage: begin = 164.316 MB, end = 2236.46 MB, delta = 2072.14 MB
+	Routing graph peak resident set memory usage = 2517.12 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+WARNING(1): There are 831 pins with no clock constraint driven by root clock: bscan_TCK
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1         9227              11.17               2.85
+         2          794              15.71                2.2
+         3          121              15.62              0.876
+         4            0                 16              0.435
+
+Successfully routed netlist after 4 routing iterations and 21740955 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 1068017898
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.route'
+Routing took 7.56368 seconds.
+	Routing took 7.40625 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2327.87 MB, end = 2332.08 MB, delta = 4.212 MB
+	Routing peak virtual memory usage = 2859.05 MB
+Routing resident set memory usage: begin = 2264.11 MB, end = 2270.45 MB, delta = 6.34 MB
+	Routing peak resident set memory usage = 2666.22 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+WARNING(2): There are 831 pins with no clock constraint driven by root clock: bscan_TCK
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+axi_clk            16.120          62.035     (R-R)
+
+Geomean max period: 16.120
+
+Setup (Max) Clock Relationship
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+axi_clk          axi_clk              32.000        15.880     (R-R)
+
+Hold (Min) Clock Relationship
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+axi_clk          axi_clk               0.000         0.307     (R-R)
+
+
+WARNING(3): There are 831 pins with no clock constraint driven by root clock: bscan_TCK
+final timing analysis took 0.522366 seconds.
+	final timing analysis took 0.515625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2296.83 MB, end = 2304.13 MB, delta = 7.304 MB
+	final timing analysis peak virtual memory usage = 2859.05 MB
+final timing analysis resident set memory usage: begin = 2235.5 MB, end = 2243.11 MB, delta = 7.612 MB
+	final timing analysis peak resident set memory usage = 2666.22 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/outflow/t120f324_lpddr3_x16.interface.csv".
+Finished writing bitstream file C:/Users/sanas/OneDrive/Documents/t120f324_lpddr3_x16/work_pnr\t120f324_lpddr3_x16.lbf.
+Bitstream generation took 4.26258 seconds.
+	Bitstream generation took 4.10938 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2304.13 MB, end = 2443.23 MB, delta = 139.1 MB
+	Bitstream generation peak virtual memory usage = 2859.05 MB
+Bitstream generation resident set memory usage: begin = 2243.13 MB, end = 2379.74 MB, delta = 136.612 MB
+	Bitstream generation peak resident set memory usage = 2666.22 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 74.1664 seconds.
+	The entire flow of EFX_PNR took 85.9688 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 6.34 MB, end = 281.232 MB, delta = 274.892 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2859.05 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 11.928 MB, end = 269.012 MB, delta = 257.084 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2666.22 MB

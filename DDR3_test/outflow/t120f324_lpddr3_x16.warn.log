@@ -1,0 +1,350 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 01, 2022 18:55:54
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] redeclaration of ANSI port 'ddr_rstn' is not allowed (VERI-1372) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v:99)
+[EFX-0011 VERI-WARNING] port 'ddr_init_done' remains unconnected for this instance (VERI-1927) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v:223)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:178)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:196)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:178)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:196)
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\ddr_reset_sequencer.v:87)
+[EFX-0200 WARNING] Removing redundant signal : rid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[6]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[5]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[4]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[3]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[2]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rlast. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:27)
+[EFX-0200 WARNING] Removing redundant signal : rresp[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:30)
+[EFX-0200 WARNING] Removing redundant signal : rresp[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:30)
+[EFX-0200 WARNING] Removing redundant signal : bid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[6]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[5]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[4]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[3]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[2]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : rid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[33].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rlast_0 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rlast_1 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_1[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_1[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port pll_rstni is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 01, 2022 19:05:20
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] redeclaration of ANSI port 'ddr_rstn' is not allowed (VERI-1372) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v:99)
+[EFX-0011 VERI-WARNING] port 'ddr_init_done' remains unconnected for this instance (VERI-1927) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\top.v:223)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:178)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:196)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:178)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:196)
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\ddr_reset_sequencer.v:87)
+[EFX-0200 WARNING] Removing redundant signal : rid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[6]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[5]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[4]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[3]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[2]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rid[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0200 WARNING] Removing redundant signal : rlast. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:27)
+[EFX-0200 WARNING] Removing redundant signal : rresp[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:30)
+[EFX-0200 WARNING] Removing redundant signal : rresp[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:30)
+[EFX-0200 WARNING] Removing redundant signal : bid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[6]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[5]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[4]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[3]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[2]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[1]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : bid[0]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:32)
+[EFX-0200 WARNING] Removing redundant signal : rid[7]. (C:/Users\sanas\OneDrive\Documents\t120f324_lpddr3_x16\memory_checker.v:25)
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (RSTB=0).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin tied to constant (ENB=1).
+[EFX-0266 WARNING] Module Instance 'gen_probe_in_sync[33].sync_probe_in_U' input pin tied to constant (RSTA=0).
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rlast_0 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rid_1[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rlast_1 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_1[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port rresp_1[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bid_1[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port pll_rstni is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 

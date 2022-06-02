@@ -1,0 +1,107 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Compiled: Dec 15 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2021.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 29.8172 seconds.
+	BuildGraph process took 29.6094 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 83.136 MB, end = 2262.47 MB, delta = 2179.34 MB
+	BuildGraph process peak virtual memory usage = 2288.53 MB
+BuildGraph process resident set memory usage: begin = 83.28 MB, end = 2195.78 MB, delta = 2112.5 MB
+	BuildGraph process peak resident set memory usage = 2221.67 MB
+check rr_graph process took 0.611444 seconds.
+	check rr_graph process took 0.59375 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2476.84 MB, end = 2476.84 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2535.37 MB
+check rr_graph process resident set memory usage: begin = 2409.73 MB, end = 2409.79 MB, delta = 0.06 MB
+	check rr_graph process peak resident set memory usage = 2468.15 MB
+Generated 6638695 RR nodes and 25229285 RR edges
+This design has 0 global control net(s). See C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow\mipi_pi_top.route.rpt for details.
+Routing graph took 30.855 seconds.
+	Routing graph took 30.5938 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 81.7 MB, end = 2243.11 MB, delta = 2161.41 MB
+	Routing graph peak virtual memory usage = 2535.37 MB
+Routing graph resident set memory usage: begin = 82.404 MB, end = 2177.51 MB, delta = 2095.1 MB
+	Routing graph peak resident set memory usage = 2468.15 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1         2228              6.115              0.479
+         2          178              8.283              0.342
+         3           27              8.963              0.203
+         4            0              8.979              0.173
+
+Successfully routed netlist after 4 routing iterations and 3422228 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 1457745230
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow/mipi_pi_top.route'
+Routing took 1.9254 seconds.
+	Routing took 1.89062 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2268.53 MB, end = 2265.37 MB, delta = -3.16 MB
+	Routing peak virtual memory usage = 2786.66 MB
+Routing resident set memory usage: begin = 2203.61 MB, end = 2203.37 MB, delta = -0.236 MB
+	Routing peak resident set memory usage = 2590.51 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+Maximum possible analyzed clocks frequency
+Clock Name            Period (ns)   Frequency (MHz)   Edge
+mipi_pclk                   9.099         109.897     (R-R)
+
+Geomean max period: 9.099
+
+Setup (Max) Clock Relationship
+Launch Clock        Capture Clock       Constraint (ns)   Slack (ns)    Edge
+mipi_pclk            mipi_pclk                30.000        20.901     (R-R)
+
+Hold (Min) Clock Relationship
+Launch Clock        Capture Clock       Constraint (ns)   Slack (ns)    Edge
+mipi_pclk            mipi_pclk                 0.000         0.086     (R-R)
+
+
+final timing analysis took 0.110225 seconds.
+	final timing analysis took 0.109375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2239.95 MB, end = 2241.51 MB, delta = 1.564 MB
+	final timing analysis peak virtual memory usage = 2786.66 MB
+final timing analysis resident set memory usage: begin = 2178 MB, end = 2179.89 MB, delta = 1.888 MB
+	final timing analysis peak resident set memory usage = 2590.51 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow/mipi_pi_top.interface.csv'.
+Successfully processed interface constraints file "C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow/mipi_pi_top.interface.csv".
+Finished writing bitstream file C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/work_pnr\mipi_pi_top.lbf.
+Bitstream generation took 3.77105 seconds.
+	Bitstream generation took 3.71875 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2241.51 MB, end = 2323.13 MB, delta = 81.616 MB
+	Bitstream generation peak virtual memory usage = 2786.66 MB
+Bitstream generation resident set memory usage: begin = 2179.91 MB, end = 2263.87 MB, delta = 83.964 MB
+	Bitstream generation peak resident set memory usage = 2590.51 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 55.462 seconds.
+	The entire flow of EFX_PNR took 53.4531 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 6.356 MB, end = 637.636 MB, delta = 631.28 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2786.66 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.024 MB, end = 617.452 MB, delta = 605.428 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2590.51 MB

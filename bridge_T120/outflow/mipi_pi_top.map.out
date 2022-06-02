@@ -1,0 +1,211 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2021.2.323
+[EFX-0000 INFO] Compiled: Dec 15 2021.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+INFO: Read project database "C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/mipi_pi_top.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\line_buf_4_to_6.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v' (VERI-1482)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v(13): INFO: analyzing included file 'C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120/mipi_parameter.vh' (VERI-1328)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v(13): INFO: back to file 'C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v' (VERI-2320)
+INFO: Analysis took 0.0387791 seconds.
+INFO: 	Analysis took 0 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 57.988 MB, end = 58.844 MB, delta = 0.856 MB
+INFO: 	Analysis peak virtual memory usage = 109.1 MB
+INFO: Analysis resident set memory usage: begin = 57.444 MB, end = 60.028 MB, delta = 2.584 MB
+INFO: 	Analysis peak resident set memory usage = 60.032 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v(15): INFO: compiling module 'mipi_pi_top' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v(119): WARNING: expression size 4 truncated to fit in target size 1 (VERI-1209)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v(122): WARNING: expression size 4 truncated to fit in target size 1 (VERI-1209)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\line_buf_4_to_6.v(13): INFO: compiling module 'line_buf_4_to_6' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v(14): INFO: compiling module 'simple_dual_port_ram(DATA_WIDTH=40,ADDR_WIDTH=11)' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v(31): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v(14): INFO: compiling module 'simple_dual_port_ram(DATA_WIDTH=1,ADDR_WIDTH=13)' (VERI-1018)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v(31): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v(67): WARNING: net 'w_mipi_inst1_CLEAR[0]' does not have a driver (VDB-1002)
+INFO: Elaboration took 0.0243601 seconds.
+INFO: 	Elaboration took 0.015625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 58.844 MB, end = 63.28 MB, delta = 4.436 MB
+INFO: 	Elaboration peak virtual memory usage = 109.1 MB
+INFO: Elaboration resident set memory usage: begin = 60.04 MB, end = 65.82 MB, delta = 5.78 MB
+INFO: 	Elaboration peak resident set memory usage = 65.824 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0125016 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 63.932 MB, end = 63.932 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 109.1 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 66.68 MB, end = 66.688 MB, delta = 0.008 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 66.708 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:31)
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] Removing redundant signal : i[12]. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:35)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'inst_simple_dual_port_ram' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'inst_dly' input pin tied to constant (we=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_mipi_inst1_CLEAR[0]'. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v:67)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:31)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "mipi_pi_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(DATA_WIDTH=40,ADDR_WIDTH=11)" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(DATA_WIDTH=40,ADDR_WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "line_buf_4_to_6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "line_buf_4_to_6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(DATA_WIDTH=1,ADDR_WIDTH=13)" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(DATA_WIDTH=1,ADDR_WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mipi_pi_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 31 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mipi_pi_top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 406, ed: 1177, lv: 4, pw: 1559.04
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 470 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n108 with 25 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port mipi_inst1_HSYNC[3] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_HSYNC[2] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_HSYNC[1] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_VSYNC[3] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_VSYNC[2] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_VSYNC[1] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_CNT[3] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_CNT[2] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_CNT[1] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_CNT[0] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_TYPE[5] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_TYPE[4] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_TYPE[3] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_TYPE[2] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_TYPE[1] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_TYPE[0] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[63] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[62] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[61] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[60] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[59] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[58] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[57] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[56] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[55] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[54] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[53] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[52] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[51] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[50] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[49] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[48] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[47] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[46] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[45] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[44] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[43] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[42] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[41] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_DATA[40] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_VC[1] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_VC[0] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[17] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[16] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[15] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[14] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[13] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[12] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[11] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[10] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[8] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[7] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[6] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[5] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[4] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[3] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[2] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[1] is unconnected and will be removed
+WARNING: Input/Inout Port mipi_inst1_ERR[0] is unconnected and will be removed
+WARNING: Input/Inout Port sys_clk is unconnected and will be removed
+INFO: Found 60 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0087243 seconds.
+INFO: 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 82.788 MB, end = 82.788 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 109.1 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 87.648 MB, end = 87.708 MB, delta = 0.06 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 104.596 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'mipi_pi_top' to Verilog file 'C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow/mipi_pi_top.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	248
+[EFX-0000 INFO] EFX_LUT4        : 	406
+[EFX-0000 INFO] EFX_FF          : 	430
+[EFX-0000 INFO] EFX_RAM_5K      : 	22
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

@@ -1,0 +1,144 @@
+Synthesis report for project mipi_pi_top
+Generated at: Jun 02, 2022 14:29:16
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : mipi_pi_top
+### ### File List (begin) ### ### ###
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\line_buf_4_to_6.v (verilog_2k)
+C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v (verilog_2k)
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+"MEM|SYN-0677" : Zero initialization of uninitialized memory block 'ram'. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:31)
+"MEM|SYN-0677" : Zero initialization of uninitialized memory block 'ram'. (C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\simple_dual_port_ram.v:31)
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v (199)" removed instance : dff_77/i3
+@ "C:/Users\sanas\OneDrive\Documents\t120_bridge\bridge_T120\mipi_pi_top.v (199)" representative instance : dff_76/i3
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 13
+Enable signal <n271>, number of controlling flip flops: 16
+Enable signal <ceg_net83>, number of controlling flip flops: 16
+Enable signal <equal_59/n31>, number of controlling flip flops: 3
+Enable signal <r_rden_1P_2>, number of controlling flip flops: 14
+Enable signal <r_waddr_1P[10]_2>, number of controlling flip flops: 1
+Enable signal <n875>, number of controlling flip flops: 1
+Enable signal <ceg_net98>, number of controlling flip flops: 10
+Enable signal <ceg_net101>, number of controlling flip flops: 1
+Enable signal <ceg_net104>, number of controlling flip flops: 1
+Enable signal <inst_line_buf/r_mipi_rx_full_1P_2>, number of controlling flip flops: 1
+Enable signal <ceg_net140>, number of controlling flip flops: 3
+Enable signal <inst_line_buf/n1283>, number of controlling flip flops: 1
+Enable signal <inst_line_buf/n2531>, number of controlling flip flops: 1
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of enable signals: 4
+SR signal <i_arstn>, number of controlling flip flops: 69
+SR signal <n874>, number of controlling flip flops: 16
+SR signal <rx_status2>, number of controlling flip flops: 339
+SR signal <n875>, number of controlling flip flops: 3
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF Output: green_gain[0](=0)
+FF Output: blue_gain[0](=0)
+FF Output: green_gain[1](=0)
+FF Output: blue_gain[1](=0)
+FF instance: cnt[0]~FF(unreachable)
+FF instance: cnt[1]~FF(unreachable)
+FF instance: cnt[2]~FF(unreachable)
+FF instance: cnt[3]~FF(unreachable)
+FF instance: cnt[4]~FF(unreachable)
+FF instance: cnt[5]~FF(unreachable)
+FF instance: cnt[6]~FF(unreachable)
+FF instance: cnt[7]~FF(unreachable)
+FF instance: cnt[8]~FF(unreachable)
+FF instance: cnt[9]~FF(unreachable)
+FF instance: cnt[10]~FF(unreachable)
+FF instance: cnt[11]~FF(unreachable)
+FF instance: cnt[12]~FF(unreachable)
+FF instance: cnt[13]~FF(unreachable)
+FF instance: cnt[14]~FF(unreachable)
+FF instance: cnt[15]~FF(unreachable)
+FF instance: cnt[16]~FF(unreachable)
+FF instance: cnt[17]~FF(unreachable)
+FF instance: cnt[18]~FF(unreachable)
+FF instance: cnt[19]~FF(unreachable)
+FF instance: cnt[20]~FF(unreachable)
+FF instance: cnt[21]~FF(unreachable)
+FF instance: cnt[22]~FF(unreachable)
+FF instance: cnt[23]~FF(unreachable)
+FF instance: cnt[24]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+mipi_pi_top:mipi_pi_top                                         430(106)     248(12)    406(197)     22(0)      0(0)
++inst_line_buf:line_buf_4_to_6                                  323(323)    236(236)    208(208)     20(0)      0(0)
+ +inst_simple_dual_port_ram:simple_dual_port_ram(DATA_WID...        0(0)        0(0)        0(0)    20(20)      0(0)
++inst_dly:simple_dual_port_ram(DATA_WIDTH=1,ADDR_WIDTH=13)          1(1)        0(0)        1(1)      2(2)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+     Clock     Flip-Flops   Memory Ports    Multipliers
+     -----     ----------   ------------    -----------
+ mipi_pclk            430             44              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : mipi_pi_top
+project-xml : C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/mipi_pi_top.xml
+root : mipi_pi_top
+I : C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120
+output-dir : C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow
+work-dir : C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/work_syn
+write-efx-verilog : C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/outflow/mipi_pi_top.map.v
+binary-db : C:/Users/sanas/OneDrive/Documents/t120_bridge/bridge_T120/mipi_pi_top.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	108
+OUTPUT PORTS    : 	119
+
+EFX_ADD         : 	248
+EFX_LUT4        : 	406
+   1-2  Inputs  : 	164
+   3    Inputs  : 	119
+   4    Inputs  : 	123
+EFX_FF          : 	430
+EFX_RAM_5K      : 	22
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 2s
+Elapsed synthesis time : 2s

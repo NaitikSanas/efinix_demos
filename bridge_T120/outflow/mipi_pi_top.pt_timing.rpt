@@ -1,0 +1,87 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.2.323
+Date: 2022-06-02 14:29
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: mipi_pi_top
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++--------------------+-------------+-----------------------+
+|       Clock        | Period (ns) | Phase Shift (degrees) |
++--------------------+-------------+-----------------------+
+|    mipi_cal_clk    |    10.00    |           0           |
+|     mipi_pclk      |    20.00    |           0           |
+| pll_inst3_CLKOUT0  |    20.00    |           0           |
+| mipi_inst2_ESC_CLK |    49.63    |           0           |
++--------------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++--------------+----------+----------+
+|  Clock Pin   | Max (ns) | Min (ns) |
++--------------+----------+----------+
+| mipi_cal_clk |  5.310   |  2.655   |
++--------------+----------+----------+
+
+Clkout GPIO Configuration:
+===========================
+
++---------------+--------------+--------------+----------+----------+
+| Instance Name |  Clock Pin   |  Parameter   | Max (ns) | Min (ns) |
++---------------+--------------+--------------+----------+----------+
+|  mipi_cal_clk | mipi_cal_clk | GPIO_CLK_OUT |  9.139   |  4.569   |
++---------------+--------------+--------------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-------------+-----------+----------+----------+
+| Instance Name |   Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+-------------+-----------+----------+----------+
+|   i_mref_clk  |  i_mref_clk |  GPIO_IN  |  1.476   |  0.738   |
+|   pll_clkin   |  pll_clkin  |  GPIO_IN  |  1.396   |  0.698   |
+|  pll_esc_clk  | pll_esc_clk |  GPIO_IN  |  1.476   |  0.738   |
+|    sys_clk    |   sys_clk   |  GPIO_IN  |  1.476   |  0.738   |
++---------------+-------------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+------------+-----------+----------+----------+
+| Instance Name |  Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+------------+-----------+----------+----------+
+|    i_arstn    |  i_arstn   |  GPIO_IN  |  1.714   |  0.857   |
+|      key1     |    key1    |  GPIO_IN  |  1.714   |  0.857   |
+|      key2     |    key2    |  GPIO_IN  |  1.714   |  0.857   |
+|   rx_status   | rx_status  |  GPIO_OUT |  3.542   |  1.771   |
+|   rx_status2  | rx_status2 |  GPIO_OUT |  3.542   |  1.771   |
+|   rx_status3  | rx_status3 |  GPIO_OUT |  3.542   |  1.771   |
+|    standby    |  standby   |  GPIO_OUT |  3.542   |  1.771   |
++---------------+------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 6. JTAG Timing Report (begin) ----------
+
++---------------+----------------+-----------+----------+----------+
+| Instance Name |    Pin Name    | Parameter | Max (ns) | Min (ns) |
++---------------+----------------+-----------+----------+----------+
+|   jtag_inst1  | jtag_inst1_TDI |  JTAG_IN  |  2.415   |  1.208   |
+|   jtag_inst1  | jtag_inst1_TMS |  JTAG_IN  |  1.755   |  0.877   |
++---------------+----------------+-----------+----------+----------+
+
+---------- JTAG Timing Report (end) ----------

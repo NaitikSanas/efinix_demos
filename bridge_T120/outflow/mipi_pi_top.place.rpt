@@ -1,0 +1,155 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323 
+Date: Thu Jun 02 14:29:32 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: mipi_pi_top
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 50 / 1108 (4.51%)
+Outputs: 119 / 1263 (9.42%)
+Clocks: 3 / 16 (18.75%)
+Logic Elements: 843 / 112128 (0.75%)
+	LE: LUTs/Adders: 656 / 112128 (0.59%)
+	LE: Registers: 430 / 107520 (0.40%)
+Memory Blocks: 22 / 1056 (2.08%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++----------------------------------------------------+------+------------+-------------+------------+------------+
+|                        NAME                        | MODE | READ_WIDTH | WRITE_WIDTH | WRITE_MODE | OUTPUT_REG |
++----------------------------------------------------+------+------------+-------------+------------+------------+
+|  inst_line_buf/inst_simple_dual_port_ram/ram__D$2  | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$12  | SDP  |     2      |      2      | READ_FIRST |    true    |
+|                 inst_dly/ram__D$3                  | SDP  |     1      |      1      | READ_FIRST |   false    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$b12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$c12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$d12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$e12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$f12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$g12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$h12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$i12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$j12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$k12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$l12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$m12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$n12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$o12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$p12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$q12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$r12 | SDP  |     2      |      2      | READ_FIRST |    true    |
+| inst_line_buf/inst_simple_dual_port_ram/ram__D$s1  | SDP  |     2      |      2      | READ_FIRST |    true    |
+|                 inst_dly/ram__D$0                  | SDP  |     1      |      1      | READ_FIRST |   false    |
++----------------------------------------------------+------+------------+-------------+------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|     jtag_inst1_TDO     |    Output    |
+|     jtag_inst1_SEL     |    Input     |
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TDI     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|     jtag_inst1_TCK     |    Input     |
+|    jtag_inst1_RESET    |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|    jtag_inst1_SHIFT    |    Input     |
+|   jtag_inst1_UPDATE    |    Input     |
+|   jtag_inst1_CAPTURE   |    Input     |
+|      i_pll_locked      |    Input     |
+|   pll_inst3_CLKOUT0    |    Input     |
+|   mipi_inst1_ULPS[3]   |    Input     |
+|   mipi_inst1_ULPS[2]   |    Input     |
+|   mipi_inst1_ULPS[1]   |    Input     |
+|   mipi_inst1_ULPS[0]   |    Input     |
+|  mipi_inst1_ULPS_CLK   |    Input     |
+|  mipi_inst1_ERROR[17]  |    Input     |
+|  mipi_inst1_ERROR[16]  |    Input     |
+|  mipi_inst1_ERROR[15]  |    Input     |
+|  mipi_inst1_ERROR[14]  |    Input     |
+|  mipi_inst1_ERROR[13]  |    Input     |
+|  mipi_inst1_ERROR[12]  |    Input     |
+|  mipi_inst1_ERROR[11]  |    Input     |
+|  mipi_inst1_ERROR[10]  |    Input     |
+|  mipi_inst1_ERROR[9]   |    Input     |
+|  mipi_inst1_ERROR[8]   |    Input     |
+|  mipi_inst1_ERROR[7]   |    Input     |
+|  mipi_inst1_ERROR[6]   |    Input     |
+|  mipi_inst1_ERROR[5]   |    Input     |
+|  mipi_inst1_ERROR[4]   |    Input     |
+|  mipi_inst1_ERROR[3]   |    Input     |
+|  mipi_inst1_ERROR[2]   |    Input     |
+|  mipi_inst1_ERROR[1]   |    Input     |
+|  mipi_inst1_ERROR[0]   |    Input     |
+|    mipi_inst1_VC[1]    |    Input     |
+|    mipi_inst1_VC[0]    |    Input     |
+|   mipi_inst1_TYPE[5]   |    Input     |
+|   mipi_inst1_TYPE[4]   |    Input     |
+|   mipi_inst1_TYPE[3]   |    Input     |
+|   mipi_inst1_TYPE[2]   |    Input     |
+|   mipi_inst1_TYPE[1]   |    Input     |
+|   mipi_inst1_TYPE[0]   |    Input     |
+|  mipi_inst1_DATA[63]   |    Input     |
+|  mipi_inst1_DATA[62]   |    Input     |
+|  mipi_inst1_DATA[61]   |    Input     |
+|  mipi_inst1_DATA[60]   |    Input     |
+|  mipi_inst1_DATA[59]   |    Input     |
+|  mipi_inst1_DATA[58]   |    Input     |
+|  mipi_inst1_DATA[57]   |    Input     |
+|  mipi_inst1_DATA[56]   |    Input     |
+|  mipi_inst1_DATA[55]   |    Input     |
+|  mipi_inst1_DATA[54]   |    Input     |
+|  mipi_inst1_DATA[53]   |    Input     |
+|  mipi_inst1_DATA[52]   |    Input     |
+|  mipi_inst1_DATA[51]   |    Input     |
+|  mipi_inst1_DATA[50]   |    Input     |
+|  mipi_inst1_DATA[49]   |    Input     |
+|  mipi_inst1_DATA[48]   |    Input     |
+|  mipi_inst1_DATA[47]   |    Input     |
+|  mipi_inst1_DATA[46]   |    Input     |
+|  mipi_inst1_DATA[45]   |    Input     |
+|  mipi_inst1_DATA[44]   |    Input     |
+|  mipi_inst1_DATA[43]   |    Input     |
+|  mipi_inst1_DATA[42]   |    Input     |
+|  mipi_inst1_DATA[41]   |    Input     |
+|  mipi_inst1_DATA[40]   |    Input     |
+|   mipi_inst1_CNT[3]    |    Input     |
+|   mipi_inst1_CNT[2]    |    Input     |
+|   mipi_inst1_CNT[1]    |    Input     |
+|   mipi_inst1_CNT[0]    |    Input     |
+|  mipi_inst1_HSYNC[3]   |    Input     |
+|  mipi_inst1_VSYNC[3]   |    Input     |
+|  mipi_inst1_HSYNC[2]   |    Input     |
+|  mipi_inst1_VSYNC[2]   |    Input     |
+|  mipi_inst1_HSYNC[1]   |    Input     |
+|  mipi_inst1_VSYNC[1]   |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|  mipi_inst1_ERR[9]   |    Input     |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 14 seconds

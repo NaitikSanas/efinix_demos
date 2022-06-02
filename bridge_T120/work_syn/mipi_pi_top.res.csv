@@ -1,0 +1,10 @@
+Module Resource Usage Distribution Estimates
+Generated at: Jun 02, 2022 14:29:16
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+mipi_pi_top:mipi_pi_top                                     	   430(106)	    248(12)	   406(197)	    22(0)	     0(0)	
++inst_line_buf:line_buf_4_to_6                              	   323(323)	   236(236)	   208(208)	    20(0)	     0(0)	
+ +inst_simple_dual_port_ram:simple_dual_port_ram(DATA_WIDTH=40,ADDR_WIDTH=11)	       0(0)	       0(0)	       0(0)	   20(20)	     0(0)	
++inst_dly:simple_dual_port_ram(DATA_WIDTH=1,ADDR_WIDTH=13)  	       1(1)	       0(0)	       1(1)	     2(2)	     0(0)	

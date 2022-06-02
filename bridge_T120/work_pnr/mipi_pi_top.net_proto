@@ -1,0 +1,3642 @@
+
+X
+r_mipi_rx_data_1P[35]~FFeftlogic"0
+r_mipi_rx_data_1P[35]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[34]~FFeftlogic"0
+r_mipi_rx_data_1P[34]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[21]~FFeftlogic"0
+r_mipi_rx_data_1P[21]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[20]~FFeftlogic"0
+r_mipi_rx_data_1P[20]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[39]~FFeftlogic"0
+r_mipi_rx_data_1P[39]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[38]~FFeftlogic"0
+r_mipi_rx_data_1P[38]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[37]~FFeftlogic"0
+r_mipi_rx_data_1P[37]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[36]~FFeftlogic"0
+r_mipi_rx_data_1P[36]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[19]~FFeftlogic"0
+r_mipi_rx_data_1P[19]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[18]~FFeftlogic"0
+r_mipi_rx_data_1P[18]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[17]~FFeftlogic"0
+r_mipi_rx_data_1P[17]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[16]~FFeftlogic"0
+r_mipi_rx_data_1P[16]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[15]~FFeftlogic"0
+r_mipi_rx_data_1P[15]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[14]~FFeftlogic"0
+r_mipi_rx_data_1P[14]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[13]~FFeftlogic"0
+r_mipi_rx_data_1P[13]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[12]~FFeftlogic"0
+r_mipi_rx_data_1P[12]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[11]~FFeftlogic"0
+r_mipi_rx_data_1P[11]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[23]~FFeftlogic"0
+r_mipi_rx_data_1P[23]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[10]~FFeftlogic"0
+r_mipi_rx_data_1P[10]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[9]~FFeftlogic"/
+r_mipi_rx_data_1P[9]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[8]~FFeftlogic"/
+r_mipi_rx_data_1P[8]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[7]~FFeftlogic"/
+r_mipi_rx_data_1P[7]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[22]~FFeftlogic"0
+r_mipi_rx_data_1P[22]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[6]~FFeftlogic"/
+r_mipi_rx_data_1P[6]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[5]~FFeftlogic"/
+r_mipi_rx_data_1P[5]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[4]~FFeftlogic"/
+r_mipi_rx_data_1P[4]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[3]~FFeftlogic"/
+r_mipi_rx_data_1P[3]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[2]~FFeftlogic"/
+r_mipi_rx_data_1P[2]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[1]~FFeftlogic"/
+r_mipi_rx_data_1P[1]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[33]~FFeftlogic"0
+r_mipi_rx_data_1P[33]~FFeft(0)/ff(0)"EFX_FF
+V
+r_mipi_rx_data_1P[0]~FFeftlogic"/
+r_mipi_rx_data_1P[0]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[32]~FFeftlogic"0
+r_mipi_rx_data_1P[32]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[31]~FFeftlogic"0
+r_mipi_rx_data_1P[31]~FFeft(0)/ff(0)"EFX_FF
+R
+r_mipi_rx_valid_1P~FFeftlogic"-
+r_mipi_rx_valid_1P~FFeft(0)/ff(0)"EFX_FF
+P
+key1_counter[0]_2~FFeftlogic",
+key1_counter[0]_2~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[30]~FFeftlogic"0
+r_mipi_rx_data_1P[30]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[29]~FFeftlogic"0
+r_mipi_rx_data_1P[29]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[28]~FFeftlogic"0
+r_mipi_rx_data_1P[28]~FFeft(0)/ff(0)"EFX_FF
+w
+key2_counter[0]~FFeftlogic"*
+key2_counter[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3526eft(0)/lut4(0)/lut(1)"names
+X
+r_mipi_rx_data_1P[25]~FFeftlogic"0
+r_mipi_rx_data_1P[25]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[24]~FFeftlogic"0
+r_mipi_rx_data_1P[24]~FFeft(0)/ff(0)"EFX_FF
+D
+red_gain[0]~FFeftlogic"&
+red_gain[0]~FFeft(0)/ff(0)"EFX_FF
+L
+r_waddr_1P[0]_2~FFeftlogic"*
+r_waddr_1P[0]_2~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[27]~FFeftlogic"0
+r_mipi_rx_data_1P[27]~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_data_1P[26]~FFeftlogic"0
+r_mipi_rx_data_1P[26]~FFeft(0)/ff(0)"EFX_FF
+L
+r_raddr_1P[0]_2~FFeftlogic"*
+r_raddr_1P[0]_2~FFeft(0)/ff(0)"EFX_FF
+e
+r_rden_1P~FFeftlogic"#
+VCCeft(0)/lut4(0)/lut(1)"names"$
+r_rden_1P~FFeft(0)/ff(0)"EFX_FF
+X
+r_mipi_rx_hsync_1P[0]~FFeftlogic"0
+r_mipi_rx_hsync_1P[0]~FFeft(0)/ff(0)"EFX_FF
+w
+key1_counter[1]~FFeftlogic"*
+key1_counter[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3547eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[2]~FFeftlogic"*
+key1_counter[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3548eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[3]~FFeftlogic"*
+key1_counter[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3549eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[4]~FFeftlogic"*
+key1_counter[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3551eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[5]~FFeftlogic"*
+key1_counter[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3552eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[6]~FFeftlogic"*
+key1_counter[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3554eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[7]~FFeftlogic"*
+key1_counter[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3555eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[8]~FFeftlogic"*
+key1_counter[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3557eft(0)/lut4(0)/lut(1)"names
+w
+key1_counter[9]~FFeftlogic"*
+key1_counter[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3558eft(0)/lut4(0)/lut(1)"names
+y
+key1_counter[10]~FFeftlogic"+
+key1_counter[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3559eft(0)/lut4(0)/lut(1)"names
+y
+key1_counter[11]~FFeftlogic"+
+key1_counter[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3562eft(0)/lut4(0)/lut(1)"names
+y
+key1_counter[12]~FFeftlogic"+
+key1_counter[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3563eft(0)/lut4(0)/lut(1)"names
+y
+key1_counter[13]~FFeftlogic"+
+key1_counter[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3565eft(0)/lut4(0)/lut(1)"names
+y
+key1_counter[14]~FFeftlogic"+
+key1_counter[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3566eft(0)/lut4(0)/lut(1)"names
+y
+key1_counter[15]~FFeftlogic"+
+key1_counter[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3567eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[1]~FFeftlogic"*
+key2_counter[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3572eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[2]~FFeftlogic"*
+key2_counter[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3574eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[3]~FFeftlogic"*
+key2_counter[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3575eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[4]~FFeftlogic"*
+key2_counter[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3577eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[5]~FFeftlogic"*
+key2_counter[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3578eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[6]~FFeftlogic"*
+key2_counter[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3580eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[7]~FFeftlogic"*
+key2_counter[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3581eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[8]~FFeftlogic"*
+key2_counter[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3583eft(0)/lut4(0)/lut(1)"names
+w
+key2_counter[9]~FFeftlogic"*
+key2_counter[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3584eft(0)/lut4(0)/lut(1)"names
+y
+key2_counter[10]~FFeftlogic"+
+key2_counter[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3585eft(0)/lut4(0)/lut(1)"names
+y
+key2_counter[11]~FFeftlogic"+
+key2_counter[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3587eft(0)/lut4(0)/lut(1)"names
+y
+key2_counter[12]~FFeftlogic"+
+key2_counter[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3589eft(0)/lut4(0)/lut(1)"names
+y
+key2_counter[13]~FFeftlogic"+
+key2_counter[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3591eft(0)/lut4(0)/lut(1)"names
+y
+key2_counter[14]~FFeftlogic"+
+key2_counter[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3593eft(0)/lut4(0)/lut(1)"names
+y
+key2_counter[15]~FFeftlogic"+
+key2_counter[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3594eft(0)/lut4(0)/lut(1)"names
+o
+red_gain[1]~FFeftlogic"&
+red_gain[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3595eft(0)/lut4(0)/lut(1)"names
+o
+red_gain[2]~FFeftlogic"&
+red_gain[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3596eft(0)/lut4(0)/lut(1)"names
+H
+green_gain[2]~FFeftlogic"(
+green_gain[2]~FFeft(0)/ff(0)"EFX_FF
+t
+r_waddr_1P[1]~FFeft
+arithmetic"(
+r_waddr_1P[1]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i2eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[2]~FFeft
+arithmetic"(
+r_waddr_1P[2]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i3eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[3]~FFeft
+arithmetic"(
+r_waddr_1P[3]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i4eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[4]~FFeft
+arithmetic"(
+r_waddr_1P[4]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i5eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[5]~FFeft
+arithmetic"(
+r_waddr_1P[5]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i6eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[6]~FFeft
+arithmetic"(
+r_waddr_1P[6]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i7eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[7]~FFeft
+arithmetic"(
+r_waddr_1P[7]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i8eft(0)/adder(1)"EFX_ADD
+t
+r_waddr_1P[8]~FFeft
+arithmetic"(
+r_waddr_1P[8]~FFeft(0)/ff(1)"EFX_FF"%
+	add_81/i9eft(0)/adder(1)"EFX_ADD
+u
+r_waddr_1P[9]~FFeft
+arithmetic"(
+r_waddr_1P[9]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_81/i10eft(0)/adder(1)"EFX_ADD
+w
+r_waddr_1P[10]~FFeft
+arithmetic")
+r_waddr_1P[10]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_81/i11eft(0)/adder(1)"EFX_ADD
+w
+r_waddr_1P[11]~FFeft
+arithmetic")
+r_waddr_1P[11]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_81/i12eft(0)/adder(1)"EFX_ADD
+w
+r_waddr_1P[12]~FFeft
+arithmetic")
+r_waddr_1P[12]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_81/i13eft(0)/adder(1)"EFX_ADD
+ù
+%inst_line_buf/r_mipi_rx_data_1P[0]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3603eft(0)/lut4(0)/lut(1)"names
+n
+#inst_line_buf/r_mipi_rx_valid_1P~FFeftlogic";
+#inst_line_buf/r_mipi_rx_valid_1P~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/r_mipi_rx_x_2P[0]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3605eft(0)/lut4(0)/lut(1)"names
+n
+#inst_line_buf/r_mipi_rx_hsync_2P~FFeftlogic";
+#inst_line_buf/r_mipi_rx_hsync_2P~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/r_mipi_tx_x_1P[0]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3612eft(0)/lut4(0)/lut(1)"names
+p
+$inst_line_buf/r_mipi_rx_full_1P_2~FFeftlogic"<
+$inst_line_buf/r_mipi_rx_full_1P_2~FFeft(0)/ff(0)"EFX_FF
+h
+ inst_line_buf/r_mipi_tx_en_1P~FFeftlogic"8
+ inst_line_buf/r_mipi_tx_en_1P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_x_inc_1P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_x_inc_1P~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/r_mipi_tx_b_1P[0]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_b_1P[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3618eft(0)/lut4(0)/lut(1)"names
+r
+%inst_line_buf/r_mipi_tx_data_4P[0]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[0]~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_hsync_1P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_hsync_1P~FFeft(0)/ff(0)"EFX_FF
+ô
+#inst_line_buf/r_mipi_tx_valid_1P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_valid_1P~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3616eft(0)/lut4(0)/lut(1)"names
+n
+#inst_line_buf/r_mipi_tx_hsync_2P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_hsync_2P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_valid_2P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_valid_2P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_hsync_3P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_hsync_3P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_valid_3P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_valid_3P~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/w_mipi_tx_data[0]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3620eft(0)/lut4(0)/lut(1)"names
+n
+#inst_line_buf/r_mipi_tx_hsync_4P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_hsync_4P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_valid_4P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_valid_4P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_hsync_5P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_hsync_5P~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_tx_valid_5P~FFeftlogic";
+#inst_line_buf/r_mipi_tx_valid_5P~FFeft(0)/ff(0)"EFX_FF
+h
+ inst_line_buf/w_mipi_tx_hsync~FFeftlogic"8
+ inst_line_buf/w_mipi_tx_hsync~FFeft(0)/ff(0)"EFX_FF
+h
+ inst_line_buf/w_mipi_tx_valid~FFeftlogic"8
+ inst_line_buf/w_mipi_tx_valid~FFeft(0)/ff(0)"EFX_FF
+n
+#inst_line_buf/r_mipi_rx_hsync_1P~FFeftlogic";
+#inst_line_buf/r_mipi_rx_hsync_1P~FFeft(0)/ff(0)"EFX_FF
+ù
+%inst_line_buf/r_mipi_rx_data_1P[1]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3626eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[2]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3627eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[3]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3628eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[4]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3629eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[5]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3630eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[6]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3631eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[7]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3632eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[8]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3633eft(0)/lut4(0)/lut(1)"names
+ù
+%inst_line_buf/r_mipi_rx_data_1P[9]~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_data_1P[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3634eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[10]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3638eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[11]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3641eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[12]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3644eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[13]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3647eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[14]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3650eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[15]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3653eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[16]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[16]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3656eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[17]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[17]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3659eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[18]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[18]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3662eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[19]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[19]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3665eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[20]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[20]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3666eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[21]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[21]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3667eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[22]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[22]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3668eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[23]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[23]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3669eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[24]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[24]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3670eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[25]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[25]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3671eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[26]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[26]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3672eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[27]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[27]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3673eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[28]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[28]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3674eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[29]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[29]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3675eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[30]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[30]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3679eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[31]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[31]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3682eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[32]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[32]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3685eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[33]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[33]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3688eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[34]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[34]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3691eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[35]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[35]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3694eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[36]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[36]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3697eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[37]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[37]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3700eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[38]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[38]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3703eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_rx_data_1P[39]~FFeftlogic">
+&inst_line_buf/r_mipi_rx_data_1P[39]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3706eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[1]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3707eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[2]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3709eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[3]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3710eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[4]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3712eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[5]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3713eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[6]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3715eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[7]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3716eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[8]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3718eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_rx_x_2P[9]~FFeftlogic":
+"inst_line_buf/r_mipi_rx_x_2P[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3719eft(0)/lut4(0)/lut(1)"names
+r
+%inst_line_buf/r_mipi_rx_x_2P[10]_2~FFeftlogic"=
+%inst_line_buf/r_mipi_rx_x_2P[10]_2~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/r_mipi_tx_x_1P[1]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3720eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[2]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3722eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[3]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3724eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[4]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3725eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[5]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3727eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[6]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3730eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[7]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3732eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[8]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3734eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_x_1P[9]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_x_1P[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3736eft(0)/lut4(0)/lut(1)"names
+r
+%inst_line_buf/r_mipi_tx_x_1P[10]_2~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_x_1P[10]_2~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/r_mipi_tx_b_1P[1]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_b_1P[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3737eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/r_mipi_tx_b_1P[2]~FFeftlogic":
+"inst_line_buf/r_mipi_tx_b_1P[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3738eft(0)/lut4(0)/lut(1)"names
+r
+%inst_line_buf/r_mipi_tx_data_4P[1]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[1]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[2]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[2]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[3]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[3]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[4]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[4]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[5]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[5]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[6]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[6]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[7]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[7]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[8]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[8]~FFeft(0)/ff(0)"EFX_FF
+r
+%inst_line_buf/r_mipi_tx_data_4P[9]~FFeftlogic"=
+%inst_line_buf/r_mipi_tx_data_4P[9]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[10]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[10]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[11]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[11]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[12]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[12]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[13]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[13]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[14]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[14]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[15]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[15]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[16]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[16]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[17]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[17]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[18]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[18]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[19]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[19]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[20]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[20]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[21]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[21]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[22]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[22]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[23]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[23]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[24]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[24]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[25]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[25]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[26]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[26]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[27]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[27]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[28]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[28]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[29]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[29]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[30]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[30]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[31]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[31]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[32]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[32]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[33]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[33]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[34]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[34]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[35]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[35]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[36]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[36]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[37]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[37]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[38]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[38]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[39]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[39]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[40]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[40]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[41]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[41]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[42]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[42]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[43]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[43]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[44]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[44]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[45]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[45]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[46]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[46]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[47]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[47]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[48]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[48]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[49]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[49]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[50]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[50]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[51]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[51]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[52]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[52]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[53]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[53]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[54]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[54]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[55]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[55]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[56]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[56]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[57]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[57]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[58]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[58]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[59]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[59]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[60]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[60]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[61]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[61]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[62]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[62]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[63]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[63]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[64]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[64]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[65]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[65]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[66]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[66]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[67]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[67]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[68]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[68]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[69]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[69]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[70]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[70]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[71]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[71]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[72]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[72]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[73]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[73]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[74]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[74]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[75]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[75]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[76]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[76]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[77]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[77]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[78]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[78]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[79]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[79]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[80]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[80]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[81]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[81]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[82]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[82]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[83]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[83]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[84]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[84]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[85]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[85]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[86]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[86]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[87]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[87]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[88]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[88]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[89]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[89]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[90]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[90]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[91]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[91]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[92]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[92]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[93]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[93]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[94]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[94]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[95]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[95]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[96]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[96]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[97]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[97]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[98]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[98]~FFeft(0)/ff(0)"EFX_FF
+t
+&inst_line_buf/r_mipi_tx_data_4P[99]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_4P[99]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[100]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[100]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[101]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[101]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[102]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[102]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[103]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[103]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[104]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[104]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[105]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[105]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[106]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[106]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[107]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[107]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[108]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[108]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[109]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[109]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[110]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[110]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[111]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[111]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[112]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[112]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[113]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[113]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[114]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[114]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[115]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[115]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[116]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[116]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[117]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[117]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[118]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[118]~FFeft(0)/ff(0)"EFX_FF
+v
+'inst_line_buf/r_mipi_tx_data_4P[119]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_4P[119]~FFeft(0)/ff(0)"EFX_FF
+ó
+"inst_line_buf/w_mipi_tx_data[1]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3739eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[2]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3740eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[3]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3741eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[4]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3742eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[5]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3743eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[6]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3744eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[7]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3745eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[8]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3746eft(0)/lut4(0)/lut(1)"names
+ó
+"inst_line_buf/w_mipi_tx_data[9]~FFeftlogic":
+"inst_line_buf/w_mipi_tx_data[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3747eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[10]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3748eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[11]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3749eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[12]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3750eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[13]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3751eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[14]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3752eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[15]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3753eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[16]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[16]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3754eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[17]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[17]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3755eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[18]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[18]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3756eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[19]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[19]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3757eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[20]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[20]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3758eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[21]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[21]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3759eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[22]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[22]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3760eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[23]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[23]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3761eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[24]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[24]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3762eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[25]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[25]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3763eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[26]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[26]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3764eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[27]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[27]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3765eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[28]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[28]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3766eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[29]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[29]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3767eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[30]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[30]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3768eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[31]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[31]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3769eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[32]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[32]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3770eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[33]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[33]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3771eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[34]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[34]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3772eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[35]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[35]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3773eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[36]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[36]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3774eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[37]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[37]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3775eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[38]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[38]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3776eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[39]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[39]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3777eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[40]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[40]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3778eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[41]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[41]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3779eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[42]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[42]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3780eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[43]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[43]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3781eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[44]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[44]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3782eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[45]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[45]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3783eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[46]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[46]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3784eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[47]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[47]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3785eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[48]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[48]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3786eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[49]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[49]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3787eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[50]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[50]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3788eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[51]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[51]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3789eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[52]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[52]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3790eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[53]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[53]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3791eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[54]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[54]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3792eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[55]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[55]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3793eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[56]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[56]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3794eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[57]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[57]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3795eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[58]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[58]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3796eft(0)/lut4(0)/lut(1)"names
+ô
+#inst_line_buf/w_mipi_tx_data[59]~FFeftlogic";
+#inst_line_buf/w_mipi_tx_data[59]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3797eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[60]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[60]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3798eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[61]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[61]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3799eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[62]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[62]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3800eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[63]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[63]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3801eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[64]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[64]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3802eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[65]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[65]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3803eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[66]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[66]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3804eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[67]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[67]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3805eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[68]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[68]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3806eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[69]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[69]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3807eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[70]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[70]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3808eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[71]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[71]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3809eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[72]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[72]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3810eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[73]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[73]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3811eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[74]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[74]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3812eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[75]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[75]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3813eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[76]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[76]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3814eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[77]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[77]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3815eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[78]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[78]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3816eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[79]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[79]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3817eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[80]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[80]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3818eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[81]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[81]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3819eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[82]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[82]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3820eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[83]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[83]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3821eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[84]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[84]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3822eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[85]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[85]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3823eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[86]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[86]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3824eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[87]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[87]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3825eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[88]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[88]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3826eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[89]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[89]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3827eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[90]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[90]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3828eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[91]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[91]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3829eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[92]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[92]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3830eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[93]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[93]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3831eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[94]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[94]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3832eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[95]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[95]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3833eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[96]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[96]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3834eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[97]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[97]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3835eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[98]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[98]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3836eft(0)/lut4(0)/lut(1)"names
+ü
+&inst_line_buf/r_mipi_tx_data_5P[99]~FFeftlogic">
+&inst_line_buf/r_mipi_tx_data_5P[99]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3837eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[100]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[100]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3838eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[101]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[101]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3839eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[102]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[102]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3840eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[103]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[103]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3841eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[104]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[104]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3842eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[105]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[105]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3843eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[106]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[106]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3844eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[107]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[107]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3845eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[108]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[108]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3846eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[109]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[109]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3847eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[110]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[110]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3848eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[111]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[111]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3849eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[112]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[112]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3850eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[113]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[113]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3851eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[114]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[114]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3852eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[115]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[115]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3853eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[116]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[116]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3854eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[117]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[117]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3855eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[118]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[118]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3856eft(0)/lut4(0)/lut(1)"names
+°
+'inst_line_buf/r_mipi_tx_data_5P[119]~FFeftlogic"?
+'inst_line_buf/r_mipi_tx_data_5P[119]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3857eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[1]~FFeftlogic"(
+r_raddr_1P[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3898eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[2]~FFeftlogic"(
+r_raddr_1P[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3899eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[3]~FFeftlogic"(
+r_raddr_1P[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3900eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[4]~FFeftlogic"(
+r_raddr_1P[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3902eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[5]~FFeftlogic"(
+r_raddr_1P[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3903eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[6]~FFeftlogic"(
+r_raddr_1P[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3905eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[7]~FFeftlogic"(
+r_raddr_1P[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3906eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[8]~FFeftlogic"(
+r_raddr_1P[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3908eft(0)/lut4(0)/lut(1)"names
+s
+r_raddr_1P[9]~FFeftlogic"(
+r_raddr_1P[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3909eft(0)/lut4(0)/lut(1)"names
+u
+r_raddr_1P[10]~FFeftlogic")
+r_raddr_1P[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3910eft(0)/lut4(0)/lut(1)"names
+u
+r_raddr_1P[11]~FFeftlogic")
+r_raddr_1P[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3912eft(0)/lut4(0)/lut(1)"names
+u
+r_raddr_1P[12]~FFeftlogic")
+r_raddr_1P[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3913eft(0)/lut4(0)/lut(1)"names
+â
+inst_dly/w_mipi_tx_vsync~FFeftlogic"3
+inst_dly/w_mipi_tx_vsync~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3915eft(0)/lut4(0)/lut(1)"names
+F
+inst_dly/n24~FFeftlogic"'
+inst_dly/n24~FFeft(0)/ff(0)"EFX_FF
+6
+i_arstnioinpad" 
+i_arstnio(0)/inpad(0)"input
+:
+	mipi_pclkioinpad""
+	mipi_pclkio(0)/inpad(0)"input
+S
+mipi_inst1_DPHY_RSTNiooutpad"/
+mipi_inst1_DPHY_RSTNio(0)/outpad(1)"output
+I
+mipi_inst1_RSTNiooutpad"*
+mipi_inst1_RSTNio(0)/outpad(1)"output
+S
+mipi_inst1_VC_ENA[3]iooutpad"/
+mipi_inst1_VC_ENA[3]io(0)/outpad(1)"output
+S
+mipi_inst1_VC_ENA[2]iooutpad"/
+mipi_inst1_VC_ENA[2]io(0)/outpad(1)"output
+S
+mipi_inst1_VC_ENA[1]iooutpad"/
+mipi_inst1_VC_ENA[1]io(0)/outpad(1)"output
+S
+mipi_inst1_VC_ENA[0]iooutpad"/
+mipi_inst1_VC_ENA[0]io(0)/outpad(1)"output
+Q
+mipi_inst1_LANES[1]iooutpad".
+mipi_inst1_LANES[1]io(0)/outpad(1)"output
+Q
+mipi_inst1_LANES[0]iooutpad".
+mipi_inst1_LANES[0]io(0)/outpad(1)"output
+K
+mipi_inst1_CLEARiooutpad"+
+mipi_inst1_CLEARio(0)/outpad(1)"output
+N
+mipi_inst1_HSYNC[0]ioinpad",
+mipi_inst1_HSYNC[0]io(0)/inpad(0)"input
+N
+mipi_inst1_VSYNC[0]ioinpad",
+mipi_inst1_VSYNC[0]io(0)/inpad(0)"input
+H
+mipi_inst1_VALIDioinpad")
+mipi_inst1_VALIDio(0)/inpad(0)"input
+N
+mipi_inst1_DATA[39]ioinpad",
+mipi_inst1_DATA[39]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[38]ioinpad",
+mipi_inst1_DATA[38]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[37]ioinpad",
+mipi_inst1_DATA[37]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[36]ioinpad",
+mipi_inst1_DATA[36]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[35]ioinpad",
+mipi_inst1_DATA[35]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[34]ioinpad",
+mipi_inst1_DATA[34]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[33]ioinpad",
+mipi_inst1_DATA[33]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[32]ioinpad",
+mipi_inst1_DATA[32]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[31]ioinpad",
+mipi_inst1_DATA[31]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[30]ioinpad",
+mipi_inst1_DATA[30]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[29]ioinpad",
+mipi_inst1_DATA[29]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[28]ioinpad",
+mipi_inst1_DATA[28]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[27]ioinpad",
+mipi_inst1_DATA[27]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[26]ioinpad",
+mipi_inst1_DATA[26]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[25]ioinpad",
+mipi_inst1_DATA[25]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[24]ioinpad",
+mipi_inst1_DATA[24]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[23]ioinpad",
+mipi_inst1_DATA[23]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[22]ioinpad",
+mipi_inst1_DATA[22]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[21]ioinpad",
+mipi_inst1_DATA[21]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[20]ioinpad",
+mipi_inst1_DATA[20]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[19]ioinpad",
+mipi_inst1_DATA[19]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[18]ioinpad",
+mipi_inst1_DATA[18]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[17]ioinpad",
+mipi_inst1_DATA[17]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[16]ioinpad",
+mipi_inst1_DATA[16]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[15]ioinpad",
+mipi_inst1_DATA[15]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[14]ioinpad",
+mipi_inst1_DATA[14]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[13]ioinpad",
+mipi_inst1_DATA[13]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[12]ioinpad",
+mipi_inst1_DATA[12]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[11]ioinpad",
+mipi_inst1_DATA[11]io(0)/inpad(0)"input
+N
+mipi_inst1_DATA[10]ioinpad",
+mipi_inst1_DATA[10]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[9]ioinpad"+
+mipi_inst1_DATA[9]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[8]ioinpad"+
+mipi_inst1_DATA[8]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[7]ioinpad"+
+mipi_inst1_DATA[7]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[6]ioinpad"+
+mipi_inst1_DATA[6]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[5]ioinpad"+
+mipi_inst1_DATA[5]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[4]ioinpad"+
+mipi_inst1_DATA[4]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[3]ioinpad"+
+mipi_inst1_DATA[3]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[2]ioinpad"+
+mipi_inst1_DATA[2]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[1]ioinpad"+
+mipi_inst1_DATA[1]io(0)/inpad(0)"input
+L
+mipi_inst1_DATA[0]ioinpad"+
+mipi_inst1_DATA[0]io(0)/inpad(0)"input
+J
+mipi_inst1_ERR[9]ioinpad"*
+mipi_inst1_ERR[9]io(0)/inpad(0)"input
+S
+mipi_inst2_DPHY_RSTNiooutpad"/
+mipi_inst2_DPHY_RSTNio(0)/outpad(1)"output
+I
+mipi_inst2_RSTNiooutpad"*
+mipi_inst2_RSTNio(0)/outpad(1)"output
+K
+mipi_inst2_VALIDiooutpad"+
+mipi_inst2_VALIDio(0)/outpad(1)"output
+K
+mipi_inst2_HSYNCiooutpad"+
+mipi_inst2_HSYNCio(0)/outpad(1)"output
+K
+mipi_inst2_VSYNCiooutpad"+
+mipi_inst2_VSYNCio(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[63]iooutpad".
+mipi_inst2_DATA[63]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[62]iooutpad".
+mipi_inst2_DATA[62]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[61]iooutpad".
+mipi_inst2_DATA[61]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[60]iooutpad".
+mipi_inst2_DATA[60]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[59]iooutpad".
+mipi_inst2_DATA[59]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[58]iooutpad".
+mipi_inst2_DATA[58]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[57]iooutpad".
+mipi_inst2_DATA[57]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[56]iooutpad".
+mipi_inst2_DATA[56]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[55]iooutpad".
+mipi_inst2_DATA[55]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[54]iooutpad".
+mipi_inst2_DATA[54]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[53]iooutpad".
+mipi_inst2_DATA[53]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[52]iooutpad".
+mipi_inst2_DATA[52]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[51]iooutpad".
+mipi_inst2_DATA[51]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[50]iooutpad".
+mipi_inst2_DATA[50]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[49]iooutpad".
+mipi_inst2_DATA[49]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[48]iooutpad".
+mipi_inst2_DATA[48]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[47]iooutpad".
+mipi_inst2_DATA[47]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[46]iooutpad".
+mipi_inst2_DATA[46]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[45]iooutpad".
+mipi_inst2_DATA[45]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[44]iooutpad".
+mipi_inst2_DATA[44]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[43]iooutpad".
+mipi_inst2_DATA[43]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[42]iooutpad".
+mipi_inst2_DATA[42]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[41]iooutpad".
+mipi_inst2_DATA[41]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[40]iooutpad".
+mipi_inst2_DATA[40]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[39]iooutpad".
+mipi_inst2_DATA[39]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[38]iooutpad".
+mipi_inst2_DATA[38]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[37]iooutpad".
+mipi_inst2_DATA[37]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[36]iooutpad".
+mipi_inst2_DATA[36]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[35]iooutpad".
+mipi_inst2_DATA[35]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[34]iooutpad".
+mipi_inst2_DATA[34]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[33]iooutpad".
+mipi_inst2_DATA[33]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[32]iooutpad".
+mipi_inst2_DATA[32]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[31]iooutpad".
+mipi_inst2_DATA[31]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[30]iooutpad".
+mipi_inst2_DATA[30]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[29]iooutpad".
+mipi_inst2_DATA[29]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[28]iooutpad".
+mipi_inst2_DATA[28]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[27]iooutpad".
+mipi_inst2_DATA[27]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[26]iooutpad".
+mipi_inst2_DATA[26]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[25]iooutpad".
+mipi_inst2_DATA[25]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[24]iooutpad".
+mipi_inst2_DATA[24]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[23]iooutpad".
+mipi_inst2_DATA[23]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[22]iooutpad".
+mipi_inst2_DATA[22]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[21]iooutpad".
+mipi_inst2_DATA[21]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[20]iooutpad".
+mipi_inst2_DATA[20]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[19]iooutpad".
+mipi_inst2_DATA[19]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[18]iooutpad".
+mipi_inst2_DATA[18]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[17]iooutpad".
+mipi_inst2_DATA[17]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[16]iooutpad".
+mipi_inst2_DATA[16]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[15]iooutpad".
+mipi_inst2_DATA[15]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[14]iooutpad".
+mipi_inst2_DATA[14]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[13]iooutpad".
+mipi_inst2_DATA[13]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[12]iooutpad".
+mipi_inst2_DATA[12]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[11]iooutpad".
+mipi_inst2_DATA[11]io(0)/outpad(1)"output
+Q
+mipi_inst2_DATA[10]iooutpad".
+mipi_inst2_DATA[10]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[9]iooutpad"-
+mipi_inst2_DATA[9]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[8]iooutpad"-
+mipi_inst2_DATA[8]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[7]iooutpad"-
+mipi_inst2_DATA[7]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[6]iooutpad"-
+mipi_inst2_DATA[6]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[5]iooutpad"-
+mipi_inst2_DATA[5]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[4]iooutpad"-
+mipi_inst2_DATA[4]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[3]iooutpad"-
+mipi_inst2_DATA[3]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[2]iooutpad"-
+mipi_inst2_DATA[2]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[1]iooutpad"-
+mipi_inst2_DATA[1]io(0)/outpad(1)"output
+O
+mipi_inst2_DATA[0]iooutpad"-
+mipi_inst2_DATA[0]io(0)/outpad(1)"output
+O
+mipi_inst2_TYPE[5]iooutpad"-
+mipi_inst2_TYPE[5]io(0)/outpad(1)"output
+O
+mipi_inst2_TYPE[4]iooutpad"-
+mipi_inst2_TYPE[4]io(0)/outpad(1)"output
+O
+mipi_inst2_TYPE[3]iooutpad"-
+mipi_inst2_TYPE[3]io(0)/outpad(1)"output
+O
+mipi_inst2_TYPE[2]iooutpad"-
+mipi_inst2_TYPE[2]io(0)/outpad(1)"output
+O
+mipi_inst2_TYPE[1]iooutpad"-
+mipi_inst2_TYPE[1]io(0)/outpad(1)"output
+O
+mipi_inst2_TYPE[0]iooutpad"-
+mipi_inst2_TYPE[0]io(0)/outpad(1)"output
+Q
+mipi_inst2_LANES[1]iooutpad".
+mipi_inst2_LANES[1]io(0)/outpad(1)"output
+Q
+mipi_inst2_LANES[0]iooutpad".
+mipi_inst2_LANES[0]io(0)/outpad(1)"output
+U
+mipi_inst2_FRAME_MODEiooutpad"0
+mipi_inst2_FRAME_MODEio(0)/outpad(1)"output
+Q
+mipi_inst2_HRES[15]iooutpad".
+mipi_inst2_HRES[15]io(0)/outpad(1)"output
+Q
+mipi_inst2_HRES[14]iooutpad".
+mipi_inst2_HRES[14]io(0)/outpad(1)"output
+Q
+mipi_inst2_HRES[13]iooutpad".
+mipi_inst2_HRES[13]io(0)/outpad(1)"output
+Q
+mipi_inst2_HRES[12]iooutpad".
+mipi_inst2_HRES[12]io(0)/outpad(1)"output
+Q
+mipi_inst2_HRES[11]iooutpad".
+mipi_inst2_HRES[11]io(0)/outpad(1)"output
+Q
+mipi_inst2_HRES[10]iooutpad".
+mipi_inst2_HRES[10]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[9]iooutpad"-
+mipi_inst2_HRES[9]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[8]iooutpad"-
+mipi_inst2_HRES[8]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[7]iooutpad"-
+mipi_inst2_HRES[7]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[6]iooutpad"-
+mipi_inst2_HRES[6]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[5]iooutpad"-
+mipi_inst2_HRES[5]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[4]iooutpad"-
+mipi_inst2_HRES[4]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[3]iooutpad"-
+mipi_inst2_HRES[3]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[2]iooutpad"-
+mipi_inst2_HRES[2]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[1]iooutpad"-
+mipi_inst2_HRES[1]io(0)/outpad(1)"output
+O
+mipi_inst2_HRES[0]iooutpad"-
+mipi_inst2_HRES[0]io(0)/outpad(1)"output
+K
+mipi_inst2_VC[1]iooutpad"+
+mipi_inst2_VC[1]io(0)/outpad(1)"output
+K
+mipi_inst2_VC[0]iooutpad"+
+mipi_inst2_VC[0]io(0)/outpad(1)"output
+[
+mipi_inst2_ULPS_ENTER[3]iooutpad"3
+mipi_inst2_ULPS_ENTER[3]io(0)/outpad(1)"output
+[
+mipi_inst2_ULPS_ENTER[2]iooutpad"3
+mipi_inst2_ULPS_ENTER[2]io(0)/outpad(1)"output
+[
+mipi_inst2_ULPS_ENTER[1]iooutpad"3
+mipi_inst2_ULPS_ENTER[1]io(0)/outpad(1)"output
+[
+mipi_inst2_ULPS_ENTER[0]iooutpad"3
+mipi_inst2_ULPS_ENTER[0]io(0)/outpad(1)"output
+Y
+mipi_inst2_ULPS_EXIT[3]iooutpad"2
+mipi_inst2_ULPS_EXIT[3]io(0)/outpad(1)"output
+Y
+mipi_inst2_ULPS_EXIT[2]iooutpad"2
+mipi_inst2_ULPS_EXIT[2]io(0)/outpad(1)"output
+Y
+mipi_inst2_ULPS_EXIT[1]iooutpad"2
+mipi_inst2_ULPS_EXIT[1]io(0)/outpad(1)"output
+Y
+mipi_inst2_ULPS_EXIT[0]iooutpad"2
+mipi_inst2_ULPS_EXIT[0]io(0)/outpad(1)"output
+]
+mipi_inst2_ULPS_CLK_ENTERiooutpad"4
+mipi_inst2_ULPS_CLK_ENTERio(0)/outpad(1)"output
+[
+mipi_inst2_ULPS_CLK_EXITiooutpad"3
+mipi_inst2_ULPS_CLK_EXITio(0)/outpad(1)"output
+=
+	rx_statusiooutpad"$
+	rx_statusio(0)/outpad(1)"output
+9
+standbyiooutpad""
+standbyio(0)/outpad(1)"output
+?
+
+rx_status2iooutpad"%
+
+rx_status2io(0)/outpad(1)"output
+?
+
+rx_status3iooutpad"%
+
+rx_status3io(0)/outpad(1)"output
+0
+key1ioinpad"
+key1io(0)/inpad(0)"input
+0
+key2ioinpad"
+key2io(0)/inpad(0)"input
+6
+GNDefllogic"#
+GNDefl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3516efllogic")
+	LUT__3516efl(0)/lut4(0)/lut(1)"names
+S
+	CLKBUF__0
+gbuf_block
+gbuf_block".
+	CLKBUF__0gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+y
+$AUX_ADD_CO__inst_line_buf/add_64/i10efl
+arithmetic"@
+$AUX_ADD_CO__inst_line_buf/add_64/i10efl(0)/adder(1)"EFX_ADD
+y
+$AUX_ADD_CO__inst_line_buf/add_88/i10efl
+arithmetic"@
+$AUX_ADD_CO__inst_line_buf/add_88/i10efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_97/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_97/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_94/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_94/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_82/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_82/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_73/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_73/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_70/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_70/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_61/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_61/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_58/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_58/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_55/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_55/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_49/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_49/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_46/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_46/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_43/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_43/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_37/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_37/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_31/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_31/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_22/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_22/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_25/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_25/add_2/i1efl(0)/adder(1)"EFX_ADD
+É
+)AUX_ADD_CI__inst_line_buf/sub_19/add_2/i1efl
+arithmetic"E
+)AUX_ADD_CI__inst_line_buf/sub_19/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_70/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_70/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_70/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_70/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i5efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i1efl
+arithmetic"3
+inst_line_buf/add_64/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i2efl(0)/adder(1)"EFX_ADD
+o
+inst_line_buf/sub_109/add_2/i11efl
+arithmetic";
+inst_line_buf/sub_109/add_2/i11efl(0)/adder(1)"EFX_ADD
+o
+inst_line_buf/sub_109/add_2/i10efl
+arithmetic";
+inst_line_buf/sub_109/add_2/i10efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i9efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i9efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i8efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i8efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i7efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i7efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i6efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i6efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i5efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i5efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i4efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i4efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i3efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i3efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_109/add_2/i2efl
+arithmetic":
+inst_line_buf/sub_109/add_2/i2efl(0)/adder(1)"EFX_ADD
+o
+inst_line_buf/sub_106/add_2/i11efl
+arithmetic";
+inst_line_buf/sub_106/add_2/i11efl(0)/adder(1)"EFX_ADD
+o
+inst_line_buf/sub_106/add_2/i10efl
+arithmetic";
+inst_line_buf/sub_106/add_2/i10efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_55/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_55/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_55/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_55/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_49/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_49/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_49/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_49/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_46/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_46/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_46/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_46/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_43/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_43/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_43/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_43/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i7efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i9efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i9efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i8efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i6efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i7efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i7efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i6efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i5efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i5efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i5efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i4efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i4efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i3efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i3efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_106/add_2/i2efl
+arithmetic":
+inst_line_buf/sub_106/add_2/i2efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i3efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i1efl
+arithmetic"3
+inst_line_buf/add_66/i1efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i1efl
+arithmetic"3
+inst_line_buf/add_88/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_97/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_97/add_2/i11efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i1efl
+arithmetic"3
+inst_line_buf/add_90/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i1efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_97/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_97/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_37/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_37/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_43/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_43/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_46/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_46/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_49/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_49/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_55/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_55/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_58/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_58/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_61/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_61/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_70/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_70/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i1efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i1efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_34/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_34/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_31/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_31/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_31/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_31/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_31/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_31/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_22/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_22/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_22/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_22/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_22/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_22/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_25/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_25/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_25/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_25/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_25/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_25/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_19/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_19/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_19/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_19/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_19/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_19/add_2/i2efl(0)/adder(1)"EFX_ADD
+a
+inst_line_buf/add_90/i11efl
+arithmetic"4
+inst_line_buf/add_90/i11efl(0)/adder(1)"EFX_ADD
+a
+inst_line_buf/add_90/i10efl
+arithmetic"4
+inst_line_buf/add_90/i10efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i9efl
+arithmetic"3
+inst_line_buf/add_90/i9efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i8efl
+arithmetic"3
+inst_line_buf/add_90/i8efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i7efl
+arithmetic"3
+inst_line_buf/add_90/i7efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i6efl
+arithmetic"3
+inst_line_buf/add_90/i6efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i5efl
+arithmetic"3
+inst_line_buf/add_90/i5efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i4efl
+arithmetic"3
+inst_line_buf/add_90/i4efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i3efl
+arithmetic"3
+inst_line_buf/add_90/i3efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_90/i2efl
+arithmetic"3
+inst_line_buf/add_90/i2efl(0)/adder(1)"EFX_ADD
+a
+inst_line_buf/add_88/i10efl
+arithmetic"4
+inst_line_buf/add_88/i10efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i9efl
+arithmetic"3
+inst_line_buf/add_88/i9efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i8efl
+arithmetic"3
+inst_line_buf/add_88/i8efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i7efl
+arithmetic"3
+inst_line_buf/add_88/i7efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i6efl
+arithmetic"3
+inst_line_buf/add_88/i6efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i5efl
+arithmetic"3
+inst_line_buf/add_88/i5efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i4efl
+arithmetic"3
+inst_line_buf/add_88/i4efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i3efl
+arithmetic"3
+inst_line_buf/add_88/i3efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_88/i2efl
+arithmetic"3
+inst_line_buf/add_88/i2efl(0)/adder(1)"EFX_ADD
+a
+inst_line_buf/add_66/i11efl
+arithmetic"4
+inst_line_buf/add_66/i11efl(0)/adder(1)"EFX_ADD
+a
+inst_line_buf/add_66/i10efl
+arithmetic"4
+inst_line_buf/add_66/i10efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i9efl
+arithmetic"3
+inst_line_buf/add_66/i9efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i8efl
+arithmetic"3
+inst_line_buf/add_66/i8efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i7efl
+arithmetic"3
+inst_line_buf/add_66/i7efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i6efl
+arithmetic"3
+inst_line_buf/add_66/i6efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i5efl
+arithmetic"3
+inst_line_buf/add_66/i5efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i4efl
+arithmetic"3
+inst_line_buf/add_66/i4efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i3efl
+arithmetic"3
+inst_line_buf/add_66/i3efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_66/i2efl
+arithmetic"3
+inst_line_buf/add_66/i2efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_97/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_97/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_94/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_94/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_94/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_94/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i4efl(0)/adder(1)"EFX_ADD
+a
+inst_line_buf/add_64/i10efl
+arithmetic"4
+inst_line_buf/add_64/i10efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i9efl
+arithmetic"3
+inst_line_buf/add_64/i9efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i8efl
+arithmetic"3
+inst_line_buf/add_64/i8efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i7efl
+arithmetic"3
+inst_line_buf/add_64/i7efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i6efl
+arithmetic"3
+inst_line_buf/add_64/i6efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i5efl
+arithmetic"3
+inst_line_buf/add_64/i5efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i4efl
+arithmetic"3
+inst_line_buf/add_64/i4efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i3efl
+arithmetic"3
+inst_line_buf/add_64/i3efl(0)/adder(1)"EFX_ADD
+_
+inst_line_buf/add_64/i2efl
+arithmetic"3
+inst_line_buf/add_64/i2efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_94/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_94/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_85/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_85/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_85/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_85/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i3efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_85/add_2/i2efl
+arithmetic"9
+inst_line_buf/sub_85/add_2/i2efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_82/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_82/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_82/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_82/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i6efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i5efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i5efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i4efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i4efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_82/add_2/i3efl
+arithmetic"9
+inst_line_buf/sub_82/add_2/i3efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_73/add_2/i11efl
+arithmetic":
+inst_line_buf/sub_73/add_2/i11efl(0)/adder(1)"EFX_ADD
+m
+inst_line_buf/sub_73/add_2/i10efl
+arithmetic":
+inst_line_buf/sub_73/add_2/i10efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i9efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i9efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i8efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i8efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i7efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i7efl(0)/adder(1)"EFX_ADD
+k
+inst_line_buf/sub_73/add_2/i6efl
+arithmetic"9
+inst_line_buf/sub_73/add_2/i6efl(0)/adder(1)"EFX_ADD
+•
+0inst_line_buf/inst_simple_dual_port_ram/ram__D$2memorybram"c
+0inst_line_buf/inst_simple_dual_port_ram/ram__D$2#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+ß
+1inst_line_buf/inst_simple_dual_port_ram/ram__D$12memorybram"d
+1inst_line_buf/inst_simple_dual_port_ram/ram__D$12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+g
+inst_dly/ram__D$3memorybram"D
+inst_dly/ram__D$3#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$b12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$b12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$c12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$c12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$d12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$d12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$e12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$e12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$f12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$f12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$g12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$g12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$h12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$h12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$i12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$i12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$j12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$j12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$k12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$k12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$l12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$l12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$m12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$m12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$n12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$n12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$o12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$o12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$p12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$p12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$q12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$q12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+©
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$r12memorybram"e
+2inst_line_buf/inst_simple_dual_port_ram/ram__D$r12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+ß
+1inst_line_buf/inst_simple_dual_port_ram/ram__D$s1memorybram"d
+1inst_line_buf/inst_simple_dual_port_ram/ram__D$s1#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+g
+inst_dly/ram__D$0memorybram"D
+inst_dly/ram__D$0#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+B
+	LUT__3517efllogic")
+	LUT__3517efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3518efllogic")
+	LUT__3518efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3519efllogic")
+	LUT__3519efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3520efllogic")
+	LUT__3520efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3521efllogic")
+	LUT__3521efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3522efllogic")
+	LUT__3522efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3523efllogic")
+	LUT__3523efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3524efllogic")
+	LUT__3524efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3525efllogic")
+	LUT__3525efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3527efllogic")
+	LUT__3527efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3528efllogic")
+	LUT__3528efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3529efllogic")
+	LUT__3529efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3530efllogic")
+	LUT__3530efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3531efllogic")
+	LUT__3531efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3532efllogic")
+	LUT__3532efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3533efllogic")
+	LUT__3533efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3534efllogic")
+	LUT__3534efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3535efllogic")
+	LUT__3535efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3536efllogic")
+	LUT__3536efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3537efllogic")
+	LUT__3537efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3538efllogic")
+	LUT__3538efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3539efllogic")
+	LUT__3539efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3540efllogic")
+	LUT__3540efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3541efllogic")
+	LUT__3541efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3542efllogic")
+	LUT__3542efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3543efllogic")
+	LUT__3543efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3544efllogic")
+	LUT__3544efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3545efllogic")
+	LUT__3545efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3546efllogic")
+	LUT__3546efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3550efllogic")
+	LUT__3550efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3553efllogic")
+	LUT__3553efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3556efllogic")
+	LUT__3556efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3560efllogic")
+	LUT__3560efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3561efllogic")
+	LUT__3561efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3564efllogic")
+	LUT__3564efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3568efllogic")
+	LUT__3568efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3569efllogic")
+	LUT__3569efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3570efllogic")
+	LUT__3570efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3571efllogic")
+	LUT__3571efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3573efllogic")
+	LUT__3573efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3576efllogic")
+	LUT__3576efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3579efllogic")
+	LUT__3579efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3582efllogic")
+	LUT__3582efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3586efllogic")
+	LUT__3586efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3588efllogic")
+	LUT__3588efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3590efllogic")
+	LUT__3590efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3592efllogic")
+	LUT__3592efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3597efllogic")
+	LUT__3597efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3598efllogic")
+	LUT__3598efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3599efllogic")
+	LUT__3599efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3600efllogic")
+	LUT__3600efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3601efllogic")
+	LUT__3601efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3602efllogic")
+	LUT__3602efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3604efllogic")
+	LUT__3604efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3606efllogic")
+	LUT__3606efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3607efllogic")
+	LUT__3607efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3608efllogic")
+	LUT__3608efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3609efllogic")
+	LUT__3609efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3610efllogic")
+	LUT__3610efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3611efllogic")
+	LUT__3611efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3613efllogic")
+	LUT__3613efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3614efllogic")
+	LUT__3614efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3615efllogic")
+	LUT__3615efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3617efllogic")
+	LUT__3617efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3619efllogic")
+	LUT__3619efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3621efllogic")
+	LUT__3621efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3622efllogic")
+	LUT__3622efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3623efllogic")
+	LUT__3623efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3624efllogic")
+	LUT__3624efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3625efllogic")
+	LUT__3625efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3635efllogic")
+	LUT__3635efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3636efllogic")
+	LUT__3636efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3637efllogic")
+	LUT__3637efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3639efllogic")
+	LUT__3639efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3640efllogic")
+	LUT__3640efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3642efllogic")
+	LUT__3642efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3643efllogic")
+	LUT__3643efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3645efllogic")
+	LUT__3645efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3646efllogic")
+	LUT__3646efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3648efllogic")
+	LUT__3648efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3649efllogic")
+	LUT__3649efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3651efllogic")
+	LUT__3651efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3652efllogic")
+	LUT__3652efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3654efllogic")
+	LUT__3654efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3655efllogic")
+	LUT__3655efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3657efllogic")
+	LUT__3657efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3658efllogic")
+	LUT__3658efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3660efllogic")
+	LUT__3660efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3661efllogic")
+	LUT__3661efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3663efllogic")
+	LUT__3663efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3664efllogic")
+	LUT__3664efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3676efllogic")
+	LUT__3676efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3677efllogic")
+	LUT__3677efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3678efllogic")
+	LUT__3678efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3680efllogic")
+	LUT__3680efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3681efllogic")
+	LUT__3681efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3683efllogic")
+	LUT__3683efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3684efllogic")
+	LUT__3684efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3686efllogic")
+	LUT__3686efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3687efllogic")
+	LUT__3687efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3689efllogic")
+	LUT__3689efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3690efllogic")
+	LUT__3690efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3692efllogic")
+	LUT__3692efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3693efllogic")
+	LUT__3693efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3695efllogic")
+	LUT__3695efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3696efllogic")
+	LUT__3696efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3698efllogic")
+	LUT__3698efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3699efllogic")
+	LUT__3699efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3701efllogic")
+	LUT__3701efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3702efllogic")
+	LUT__3702efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3704efllogic")
+	LUT__3704efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3705efllogic")
+	LUT__3705efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3708efllogic")
+	LUT__3708efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3711efllogic")
+	LUT__3711efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3714efllogic")
+	LUT__3714efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3717efllogic")
+	LUT__3717efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3721efllogic")
+	LUT__3721efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3723efllogic")
+	LUT__3723efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3726efllogic")
+	LUT__3726efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3728efllogic")
+	LUT__3728efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3729efllogic")
+	LUT__3729efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3731efllogic")
+	LUT__3731efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3733efllogic")
+	LUT__3733efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3735efllogic")
+	LUT__3735efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3858efllogic")
+	LUT__3858efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3859efllogic")
+	LUT__3859efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3860efllogic")
+	LUT__3860efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3861efllogic")
+	LUT__3861efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3862efllogic")
+	LUT__3862efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3863efllogic")
+	LUT__3863efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3864efllogic")
+	LUT__3864efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3865efllogic")
+	LUT__3865efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3866efllogic")
+	LUT__3866efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3867efllogic")
+	LUT__3867efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3868efllogic")
+	LUT__3868efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3869efllogic")
+	LUT__3869efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3870efllogic")
+	LUT__3870efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3871efllogic")
+	LUT__3871efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3872efllogic")
+	LUT__3872efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3873efllogic")
+	LUT__3873efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3874efllogic")
+	LUT__3874efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3875efllogic")
+	LUT__3875efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3876efllogic")
+	LUT__3876efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3877efllogic")
+	LUT__3877efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3878efllogic")
+	LUT__3878efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3879efllogic")
+	LUT__3879efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3880efllogic")
+	LUT__3880efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3881efllogic")
+	LUT__3881efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3882efllogic")
+	LUT__3882efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3883efllogic")
+	LUT__3883efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3884efllogic")
+	LUT__3884efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3885efllogic")
+	LUT__3885efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3886efllogic")
+	LUT__3886efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3887efllogic")
+	LUT__3887efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3888efllogic")
+	LUT__3888efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3889efllogic")
+	LUT__3889efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3890efllogic")
+	LUT__3890efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3891efllogic")
+	LUT__3891efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3892efllogic")
+	LUT__3892efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3893efllogic")
+	LUT__3893efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3894efllogic")
+	LUT__3894efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3895efllogic")
+	LUT__3895efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3896efllogic")
+	LUT__3896efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3897efllogic")
+	LUT__3897efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3901efllogic")
+	LUT__3901efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3904efllogic")
+	LUT__3904efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3907efllogic")
+	LUT__3907efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3911efllogic")
+	LUT__3911efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3914efllogic")
+	LUT__3914efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3916efllogic")
+	LUT__3916efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3917efllogic")
+	LUT__3917efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3918efllogic")
+	LUT__3918efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3919efllogic")
+	LUT__3919efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3920efllogic")
+	LUT__3920efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3515efllogic")
+	LUT__3515efl(0)/lut4(0)/lut(1)"names
+@
+mipi_cal_clkioinpad"%
+mipi_cal_clkio(0)/inpad(0)"input
+g
+mipi_cal_clk~CLKBUF
+gbuf_block
+gbuf_block"8
+mipi_cal_clk~CLKBUFgbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+L
+mipi_inst2_ESC_CLKioinpad"+
+mipi_inst2_ESC_CLKio(0)/inpad(0)"input
+s
+mipi_inst2_ESC_CLK~CLKBUF
+gbuf_block
+gbuf_block">
+mipi_inst2_ESC_CLK~CLKBUFgbuf_block(0)/gbuf(0)"
+EFX_GBUFCE

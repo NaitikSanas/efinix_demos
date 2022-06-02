@@ -1,0 +1,32 @@
+2022-05-28 15:18:44,449 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,488 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-05-28 15:18:44,504 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,565 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,614 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-05-28 15:18:44,631 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,704 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,756 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-05-28 15:18:44,772 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,839 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:44,907 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 5: 11111
+2022-05-28 15:18:45,003 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:45,070 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-05-28 15:18:45,086 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:45,160 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-05-28 15:18:45,228 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 5: 11111
+2022-06-01 18:18:48,973 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,008 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-06-01 18:18:49,025 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,078 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,113 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-06-01 18:18:49,128 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,181 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,218 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-06-01 18:18:49,234 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,284 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,334 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 5: 11111
+2022-06-01 18:18:49,402 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,442 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 4: 0011
+2022-06-01 18:18:49,458 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,508 INFO: efx_dbg.jtag.jcf (609): read_dr(): read_dr(32): 32: 00000000 00100010 00001010 01111001
+2022-06-01 18:18:49,558 INFO: efx_dbg.jtag.jcf (557): write_ir(): write_ir: 5: 11111

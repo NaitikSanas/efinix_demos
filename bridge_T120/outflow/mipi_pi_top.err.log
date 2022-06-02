@@ -1,0 +1,212 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 27, 2022 09:12:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 11:44:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 15:14:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 16:07:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 16:10:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 16:46:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 17:01:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 17:04:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 17:35:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 17:57:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 18:15:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 28, 2022 18:28:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 30, 2022 14:45:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:121)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:121)
+[EFX-0010 VERI-ERROR] module 'mipi_pi_top' is ignored due to previous errors (VERI-1072) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:267)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 30, 2022 14:46:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 30, 2022 16:10:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 30, 2022 18:51:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 30, 2022 19:00:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 09:29:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 09:35:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 09:38:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 09:57:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 10:07:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 10:11:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 10:46:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 11:34:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 12:03:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:238)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:242)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:242)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:246)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:248)
+[EFX-0010 VERI-ERROR] 'r_waddr_1P' is not a type (VERI-1281) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:244)
+[EFX-0010 VERI-ERROR] 'r_waddr_1P' is not a constant (VERI-1188) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:245)
+[EFX-0010 VERI-ERROR] 'r_rden_1P' is not a type (VERI-1281) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:246)
+[EFX-0010 VERI-ERROR] 'r_rden_1P' is not a constant (VERI-1188) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:247)
+[EFX-0010 VERI-ERROR] 'r_raddr_1P' is not a type (VERI-1281) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:248)
+[EFX-0010 VERI-ERROR] module 'mipi_pi_top' is ignored due to previous errors (VERI-1072) (C:/Users\sanas\OneDrive\Documents\bridge_T120\mipi_pi_top.v:272)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 12:06:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 31, 2022 18:08:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 01, 2022 15:29:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 02, 2022 09:40:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 02, 2022 10:11:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 02, 2022 12:15:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 02, 2022 14:29:16
+///////////////////////////////////
+
